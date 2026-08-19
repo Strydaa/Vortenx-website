@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { routing } from '@/i18n/routing';
 import { siteConfig } from '@/lib/site-config';
 import { PageHero } from '@/components/ui/page-hero';
+import { AuraBackground } from '@/components/ui/aura-background';
 import { Section } from '@/components/ui/section';
 import { Reveal } from '@/components/motion/reveal';
 import { ContactForm } from '@/components/contact/contact-form';
@@ -55,6 +56,8 @@ function ContactContent() {
         eyebrow={t('hero.eyebrow')}
         title={t('hero.title')}
         lead={t('hero.lead')}
+        tone="onDark"
+        background={<AuraBackground />}
       />
 
       <Section rule={false} className="pt-0">

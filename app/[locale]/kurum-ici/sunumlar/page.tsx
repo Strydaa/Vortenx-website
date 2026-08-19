@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 
 import { routing } from '@/i18n/routing';
 import { PageHero } from '@/components/ui/page-hero';
+import { AuraBackground } from '@/components/ui/aura-background';
 import { Section, SectionHeader } from '@/components/ui/section';
 import { Reveal } from '@/components/motion/reveal';
 import { ButtonLink } from '@/components/ui/button';
@@ -55,6 +56,8 @@ function PresentationsContent() {
         eyebrow={t('hero.eyebrow')}
         title={t('hero.title')}
         lead={t('hero.lead')}
+        tone="onDark"
+        background={<AuraBackground />}
       >
         <ButtonLink href="/kurum-ici" variant="ghost">
           ← {t('hero.back')}

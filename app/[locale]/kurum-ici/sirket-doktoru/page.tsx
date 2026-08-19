@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 
 import { routing } from '@/i18n/routing';
 import { PageHero } from '@/components/ui/page-hero';
+import { AuraBackground } from '@/components/ui/aura-background';
 import { Section, SectionHeader } from '@/components/ui/section';
 import { ProcessSteps } from '@/components/sections/process-steps';
 import { Reveal } from '@/components/motion/reveal';
@@ -56,6 +57,8 @@ function CompanyDoctorContent() {
         eyebrow={t('hero.eyebrow')}
         title={t('hero.title')}
         lead={t('hero.lead')}
+        tone="onDark"
+        background={<AuraBackground />}
       >
         <div className="flex flex-wrap items-center gap-4">
           <Magnetic>

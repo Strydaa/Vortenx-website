@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { AuraBackground } from '@/components/ui/aura-background';
 
 import { routing } from '@/i18n/routing';
 import { fontVariables } from '@/lib/fonts';
@@ -91,6 +92,9 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} suppressHydrationWarning className={fontVariables}>
       <body className="grain antialiased">
+        {/* Site geneli düşük yoğunluklu atmosfer katmanı. Animasyonlu hero'ların
+            arkasında (-z-10, opak) kaybolur; sadece düz içerik bölümlerinde görünür. */}
+        <AuraBackground ambient className="fixed inset-0 -z-20" />
         <script dangerouslySetInnerHTML={{ __html: INTRO_SESSION_SCRIPT }} />
         <ThemeProvider>
           <NextIntlClientProvider>
