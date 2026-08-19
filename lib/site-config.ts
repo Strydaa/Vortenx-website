@@ -8,8 +8,8 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000',
 
   email: 'merhaba@vortenxflow.ai',
-  phone: '+90 000 000 00 00',
-  whatsapp: '+900000000000',
+  phone: '+90 501 048 80 80',
+  whatsapp: '+905010488080',
 
   // Görüşme takvimi. Calendly linkin varsa buraya yapıştır, buton otomatik aktifleşir.
   calendly: '',
