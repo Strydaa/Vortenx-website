@@ -3,6 +3,7 @@ import type { ReactNode } from 'react';
 import { notFound } from 'next/navigation';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import { routing } from '@/i18n/routing';
 import { fontVariables } from '@/lib/fonts';
@@ -104,6 +105,7 @@ export default async function LocaleLayout({
             </LenisProvider>
           </NextIntlClientProvider>
         </ThemeProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
