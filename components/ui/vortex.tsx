@@ -224,16 +224,15 @@ export function Vortex({
       if (out || life + 1 > ttl) initParticle(i);
     };
 
-    /** Tuvali kendi üstüne bulanık çizerek parlama. Karenin pahalı kısmı. */
+    /*
+     * Tuvali kendi üstüne bulanık çizerek parlama. Karenin pahalı kısmı —
+     * canvas 2D `filter: blur()` CSS blur gibi GPU hızlandırmalı değil,
+     * yazılımda çalışıyor. Tek geçiş, iki geçişin yarı maliyetiyle görsel
+     * olarak neredeyse ayırt edilemez bir sonuç veriyor.
+     */
     const renderGlow = () => {
       ctx.save();
-      ctx.filter = 'blur(8px) brightness(200%)';
-      ctx.globalCompositeOperation = 'lighter';
-      ctx.drawImage(canvas, 0, 0);
-      ctx.restore();
-
-      ctx.save();
-      ctx.filter = 'blur(4px) brightness(200%)';
+      ctx.filter = 'blur(6px) brightness(200%)';
       ctx.globalCompositeOperation = 'lighter';
       ctx.drawImage(canvas, 0, 0);
       ctx.restore();
@@ -277,10 +276,16 @@ export function Vortex({
     );
     io.observe(canvas);
 
+    // Akan bir parçacık dokusu 30fps'te 60fps'ten ayırt edilemiyor;
+    // her ikinci karede çizip CPU maliyetini yarıya indiriyoruz.
+    const FRAME_INTERVAL = 1000 / 30;
+    let lastDraw = 0;
     let raf = 0;
-    const loop = () => {
+    const loop = (now: number) => {
       raf = requestAnimationFrame(loop);
       if (!onScreen || document.hidden) return;
+      if (now - lastDraw < FRAME_INTERVAL) return;
+      lastDraw = now;
       draw();
     };
     raf = requestAnimationFrame(loop);

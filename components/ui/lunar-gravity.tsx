@@ -1,6 +1,6 @@
 'use client';
 
-import { Suspense, useMemo, useRef, useState } from 'react';
+import { Suspense, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, useTexture } from '@react-three/drei';
 import * as THREE from 'three';
@@ -473,6 +473,29 @@ export function LunarGravity({ className, particleCount }: Props) {
     () =>
       particleCount ?? (window.innerWidth < 768 ? 18_000 : 60_000),
   );
+  const [running, setRunning] = useState(true);
+  const wrap = useRef<HTMLDivElement>(null);
+
+  // Hero ekran dışına kayınca veya sekme arka plandayken sahneyi durdur —
+  // 60.000 parçacıklı halka + shader'daki asteroit çarpışma döngüsü ucuz değil.
+  useLayoutEffect(() => {
+    const el = wrap.current;
+    if (!el) return;
+
+    const io = new IntersectionObserver(
+      ([entry]) => setRunning(entry.isIntersecting && !document.hidden),
+      { threshold: 0 },
+    );
+    io.observe(el);
+
+    const onVisibility = () => setRunning(!document.hidden);
+    document.addEventListener('visibilitychange', onVisibility);
+
+    return () => {
+      document.removeEventListener('visibilitychange', onVisibility);
+      io.disconnect();
+    };
+  }, []);
 
   const state = useRef({
     /** Açılmanın başladığı sahne zamanı; ilk karede sabitleniyor. */
@@ -515,10 +538,11 @@ export function LunarGravity({ className, particleCount }: Props) {
   if (!supported) return null;
 
   return (
-    <div className={cn('cursor-grab active:cursor-grabbing', className)}>
+    <div ref={wrap} className={cn('cursor-grab active:cursor-grabbing', className)}>
       <Canvas
         camera={{ position: [0, 4, 10], fov: 45 }}
         dpr={[1, 1.5]}
+        frameloop={running ? 'always' : 'never'}
         gl={{ antialias: true, alpha: true }}
       >
         <ambientLight intensity={0.12} />
