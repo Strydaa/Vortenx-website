@@ -1,14 +1,14 @@
-import Anthropic from '@anthropic-ai/sdk';
+import { GoogleGenAI } from '@google/genai';
 import { z } from 'zod';
 
 export const runtime = 'nodejs';
 export const maxDuration = 60;
 
 /**
- * Model seçimi. Daha ucuz bir modele geçmek istersen tek yer burası:
- * 'claude-sonnet-5' veya 'claude-haiku-4-5-20251001' de kullanılabilir.
+ * Model seçimi. Ücretsiz kotaya uygun, hızlı bir model; tek yer burası:
+ * 'gemini-2.5-flash-lite' daha da ucuz/hızlı bir alternatif.
  */
-const MODEL = 'claude-opus-5';
+const MODEL = 'gemini-2.5-flash';
 
 const bodySchema = z.object({
   locale: z.enum(['tr', 'en']),
@@ -83,7 +83,7 @@ function rateLimited(ip: string) {
 }
 
 export async function POST(req: Request) {
-  const apiKey = process.env.ANTHROPIC_API_KEY;
+  const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
     return Response.json({ error: 'not_configured' }, { status: 503 });
   }
@@ -104,26 +104,31 @@ export async function POST(req: Request) {
     return Response.json({ error: 'invalid_request' }, { status: 400 });
   }
 
-  const client = new Anthropic({ apiKey });
+  const client = new GoogleGenAI({ apiKey });
+
+  // Gemini 'assistant' rolünü tanımıyor, kendi geçmişini 'model' rolüyle bekliyor.
+  const contents = parsed.messages.map((m) => ({
+    role: m.role === 'assistant' ? ('model' as const) : ('user' as const),
+    parts: [{ text: m.content }],
+  }));
 
   const stream = new ReadableStream<Uint8Array>({
     async start(controller) {
       const encoder = new TextEncoder();
       try {
-        const messageStream = client.messages.stream({
+        const responseStream = await client.models.generateContentStream({
           model: MODEL,
-          max_tokens: 4000,
-          // Düşük effort + açık thinking: hızlı ve ucuz, ama etiket sızıntısı yok.
-          output_config: { effort: 'low' },
-          system: systemPrompt(parsed.locale),
-          messages: parsed.messages,
+          contents,
+          config: {
+            maxOutputTokens: 4000,
+            systemInstruction: systemPrompt(parsed.locale),
+          },
         });
 
-        messageStream.on('text', (delta) => {
-          controller.enqueue(encoder.encode(delta));
-        });
+        for await (const chunk of responseStream) {
+          if (chunk.text) controller.enqueue(encoder.encode(chunk.text));
+        }
 
-        await messageStream.finalMessage();
         controller.close();
       } catch (error) {
         console.error('[chat]', error);

@@ -2,7 +2,7 @@
 
 Otomasyon, AI sistemleri ve web kurulumu satan bir ajans sitesi. Türkçe ve İngilizce tek sitede, header'daki `TR / EN` butonuyla geçiş yapılır.
 
-**Teknoloji:** Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · next-intl · Motion (Framer Motion) · Lenis · next-themes · Resend · Anthropic SDK
+**Teknoloji:** Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · next-intl · Motion (Framer Motion) · Lenis · next-themes · Resend · Google Gemini SDK
 
 ---
 
@@ -34,7 +34,7 @@ npm run dev                    # http://localhost:3000
 | `RESEND_API_KEY` | İletişim formunun mail göndermesi | [resend.com](https://resend.com) → API Keys (ücretsiz 3.000 mail/ay) |
 | `CONTACT_TO_EMAIL` | Form taleplerinin düşeceği adres | Kendi e-postan |
 | `CONTACT_FROM_EMAIL` | Gönderen adresi | Domain doğrulayana kadar `Vortenxflow <onboarding@resend.dev>` |
-| `ANTHROPIC_API_KEY` | Sitedeki AI sohbet botu | [console.anthropic.com](https://console.anthropic.com) |
+| `GEMINI_API_KEY` | Sitedeki AI sohbet botu (ücretsiz kota) | [aistudio.google.com/apikey](https://aistudio.google.com/apikey) |
 | `NEXT_PUBLIC_SITE_URL` | Canonical / sitemap / OG adresleri | Canlıda `https://alanadin.com` |
 
 **Anahtarsız da çalışır.** Anahtar yoksa site tamamen açılır; sadece form ve sohbet botu "henüz yapılandırılmadı" mesajı gösterir. Hiçbir yer çökmez.
@@ -92,7 +92,7 @@ app/
     not-found.tsx
   api/
     contact/route.ts     # form → Resend
-    chat/route.ts        # sohbet botu → Anthropic (streaming)
+    chat/route.ts        # sohbet botu → Gemini (streaming)
   globals.css            # tasarım sistemi (renkler, tipografi, animasyonlar)
   sitemap.ts  robots.ts
 
@@ -133,7 +133,7 @@ Renkler, tipografi ölçeği ve animasyon zamanlaması `app/globals.css` içinde
 
 ## Sohbet Botu
 
-`app/api/chat/route.ts` — Claude ile streaming yanıt. System prompt içinde Vortenxflow'un hizmetleri, süreci ve kuralları var: fiyat vermez, uydurma müşteri/vaka anlatmaz, konu dışına çıkmaz.
+`app/api/chat/route.ts` — Gemini ile streaming yanıt. System prompt içinde Vortenxflow'un hizmetleri, süreci ve kuralları var: fiyat vermez, uydurma müşteri/vaka anlatmaz, konu dışına çıkmaz.
 
 **Modeli değiştirmek** (maliyet için): dosyanın başındaki tek satır —
 
