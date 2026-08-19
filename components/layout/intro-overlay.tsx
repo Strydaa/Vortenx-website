@@ -107,10 +107,10 @@ export function IntroOverlay() {
               stroke="currentColor"
               strokeWidth="1.5"
             />
-            <path d="M6 17V7l12 10V7" stroke="#ff5426" strokeWidth="2" strokeLinecap="square" />
+            <path d="M6 7L12 17L18 7" stroke="#ff5426" strokeWidth="2" strokeLinecap="square" />
           </svg>
           <span className="font-display text-2xl font-extrabold tracking-[-0.04em] md:text-3xl">
-            NextFlow
+            Vortenxflow
           </span>
         </div>
 

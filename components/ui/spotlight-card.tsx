@@ -21,9 +21,13 @@ import { cn } from '@/lib/utils';
  *     kaydırmayı engelliyordu — teklif kartları uzun, mobilde bu ölümcül.
  *  4. Köşe yarıçapı 0'a çekildi (`--radius`). Blueprint Terminal keskin köşe
  *     kullanıyor; `rounded-2xl` sitedeki tek yuvarlak eleman olurdu.
- *  5. Varsayılan ton marka vermilyonu. Orijinalde ton imlecin yatay konumuna
- *     göre kayıyordu (mavi → mor → yeşil); `glowColor` prop'uyla o paletler
- *     duruyor, `signal` sadece varsayılan.
+ *  5. Varsayılan ton (`glowColor` verilmezse) artık satır içi yazılmıyor —
+ *     `globals.css`'teki `[data-glow]`/`:root.dark [data-glow]` üzerinden
+ *     temaya göre geliyor (açık: sarı, koyu: turuncu). Satır içi stil CSS'in
+ *     tema override'ını her zaman ezeceği için, tema bağımlılığı gerektiren
+ *     bu varsayılan JS'te değil CSS'te tanımlı. `glowColor` açıkça bir renk
+ *     ile geçilirse (mavi/mor/yeşil/kırmızı/turuncu) eskisi gibi satır içi
+ *     override yazılır — sabit renk isteniyorsa tema bağımsız kalması doğru.
  *  6. Tipler: stil nesnesi `CSSProperties & Record<string, …>` olarak
  *     tiplendi — orijinalde `baseStyles.width` ataması TypeScript'te derlenmez
  *     (nesne o alanla oluşturulmamış), `--base` gibi özel değişkenler de
@@ -37,8 +41,6 @@ import { cn } from '@/lib/utils';
  */
 
 const GLOW_COLORS = {
-  /** Marka vermilyonu → kehribar. Dar aralık: renk paletten kaçmıyor. */
-  signal: { base: 14, spread: 26 },
   blue: { base: 220, spread: 200 },
   purple: { base: 280, spread: 300 },
   green: { base: 120, spread: 200 },
@@ -46,7 +48,8 @@ const GLOW_COLORS = {
   orange: { base: 30, spread: 200 },
 };
 
-export type GlowColor = keyof typeof GLOW_COLORS;
+/** `signal`: sabit bir JS değeri değil, temaya göre CSS'ten gelen varsayılan. */
+export type GlowColor = keyof typeof GLOW_COLORS | 'signal';
 
 const SIZE_CLASSES = {
   sm: 'w-48 h-64',
@@ -75,14 +78,31 @@ function subscribePointer() {
       root.style.setProperty('--glow-xp', '0.5');
     }
 
+    // Ham pointermove karede yüzlerce kez ateşleyebiliyor (yüksek poll-rate
+    // fare/trackpad); her olayda blur'lu [data-glow] katmanını yeniden
+    // boyatmamak için yazım karede bire düşürülüyor.
+    let pending: PointerEvent | null = null;
+    let raf = 0;
+
+    const flush = () => {
+      raf = 0;
+      if (!pending) return;
+      root.style.setProperty('--glow-x', pending.clientX.toFixed(1));
+      root.style.setProperty('--glow-y', pending.clientY.toFixed(1));
+      root.style.setProperty('--glow-xp', (pending.clientX / window.innerWidth).toFixed(3));
+      pending = null;
+    };
+
     const sync = (e: PointerEvent) => {
-      root.style.setProperty('--glow-x', e.clientX.toFixed(1));
-      root.style.setProperty('--glow-y', e.clientY.toFixed(1));
-      root.style.setProperty('--glow-xp', (e.clientX / window.innerWidth).toFixed(3));
+      pending = e;
+      if (!raf) raf = requestAnimationFrame(flush);
     };
 
     document.addEventListener('pointermove', sync, { passive: true });
-    detach = () => document.removeEventListener('pointermove', sync);
+    detach = () => {
+      document.removeEventListener('pointermove', sync);
+      if (raf) cancelAnimationFrame(raf);
+    };
   }
 
   return () => {
@@ -118,12 +138,12 @@ export function GlowCard({
 }: GlowCardProps) {
   useEffect(() => subscribePointer(), []);
 
-  const { base, spread } = GLOW_COLORS[glowColor];
-
-  const style: CSSProperties & Record<string, string | number> = {
-    '--base': base,
-    '--spread': spread,
-  };
+  const style: CSSProperties & Record<string, string | number> = {};
+  if (glowColor !== 'signal') {
+    const { base, spread } = GLOW_COLORS[glowColor];
+    style['--base'] = base;
+    style['--spread'] = spread;
+  }
   if (width !== undefined) {
     style.width = typeof width === 'number' ? `${width}px` : width;
   }

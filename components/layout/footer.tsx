@@ -29,7 +29,7 @@ export function Footer() {
             className="font-display text-[clamp(2.5rem,7vw,5.5rem)] font-extrabold tracking-[-0.05em] text-ink/[0.07]"
             aria-hidden
           >
-            NEXTFLOW · OTOMASYON · AI SYSTEMS · WEB · NEXTFLOW · AUTOMATION ·&nbsp;
+            VORTENXFLOW · OTOMASYON · AI SYSTEMS · WEB · VORTENXFLOW · AUTOMATION ·&nbsp;
           </span>
         </Marquee>
       </div>
@@ -38,7 +38,7 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-4">
             <div className="font-display text-xl font-extrabold tracking-[-0.04em]">
-              NextFlow
+              Vortenxflow
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
               {t('tagline')}
@@ -92,7 +92,7 @@ export function Footer() {
 
         <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-rule pt-8 sm:flex-row sm:items-center">
           <p className="label">
-            © {year} NextFlow. {t('rights')}
+            © {year} Vortenxflow. {t('rights')}
           </p>
           <div className="label flex items-center gap-6">
             <a

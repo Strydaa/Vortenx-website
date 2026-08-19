@@ -50,7 +50,7 @@ function esc(value: string) {
 export async function POST(req: Request) {
   const apiKey = process.env.RESEND_API_KEY;
   const to = process.env.CONTACT_TO_EMAIL;
-  const from = process.env.CONTACT_FROM_EMAIL ?? 'NextFlow <onboarding@resend.dev>';
+  const from = process.env.CONTACT_FROM_EMAIL ?? 'Vortenxflow <onboarding@resend.dev>';
 
   if (!apiKey || !to) {
     return Response.json({ error: 'not_configured' }, { status: 503 });
@@ -129,8 +129,8 @@ export async function POST(req: Request) {
       from,
       to: data.email,
       subject: tr
-        ? 'Talebinizi aldık — NextFlow'
-        : 'We received your message — NextFlow',
+        ? 'Talebinizi aldık — Vortenxflow'
+        : 'We received your message — Vortenxflow',
       html: `
         <div style="font-family:ui-sans-serif,system-ui,sans-serif;max-width:600px;font-size:14px;line-height:1.7">
           <p>${tr ? `Merhaba ${esc(data.name)},` : `Hi ${esc(data.name)},`}</p>
@@ -145,7 +145,7 @@ export async function POST(req: Request) {
           <div style="white-space:pre-wrap;border-left:3px solid #ddd;padding-left:14px;color:#666">${esc(
             data.message,
           )}</div>
-          <p style="margin-top:24px">— NextFlow<br><span style="color:#666">${
+          <p style="margin-top:24px">— Vortenxflow<br><span style="color:#666">${
             siteConfig.email
           }</span></p>
         </div>`,

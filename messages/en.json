@@ -1,55 +1,55 @@
 {
   "meta": {
     "home": {
-      "title": "NextFlow — We build automation and AI systems",
+      "title": "Vortenxflow — We build automation and AI systems",
       "description": "We build the AI agents and automation systems that grow your company. Strategy and execution from one team. Live in 4–10 weeks."
     },
     "advisory": {
-      "title": "Advisory — NextFlow",
+      "title": "Advisory — Vortenxflow",
       "description": "3-month fixed-scope strategy packages. Process inventory, AI value analysis and an actionable roadmap."
     },
     "systems": {
-      "title": "Systems — NextFlow",
+      "title": "Systems — Vortenxflow",
       "description": "Production-ready AI agents and automation systems. Six ready-made packages plus fully custom builds."
     },
     "programs": {
-      "title": "Programs — NextFlow",
+      "title": "Programs — Vortenxflow",
       "description": "Cohort programs that ship real systems. Four to six weeks, working alongside your team."
     },
     "kurumIci": {
-      "title": "In-House — NextFlow",
+      "title": "In-House — Vortenxflow",
       "description": "In-house AI training and transformation consulting. AI Literacy and Company Doctor."
     },
     "aiLiteracy": {
-      "title": "AI Literacy — NextFlow",
+      "title": "AI Literacy — Vortenxflow",
       "description": "A seven-module curriculum, role-specific playbooks and a GDPR / EU AI Act compliance module."
     },
     "companyDoctor": {
-      "title": "Company Doctor — NextFlow",
+      "title": "Company Doctor — Vortenxflow",
       "description": "Diagnosis, prescription, treatment, follow-up. A four-stage program for company-wide AI transformation."
     },
     "presentations": {
-      "title": "Presentations — NextFlow",
+      "title": "Presentations — Vortenxflow",
       "description": "Slide decks ready to present in a meeting and share afterwards."
     },
     "industries": {
-      "title": "Industries — NextFlow",
+      "title": "Industries — Vortenxflow",
       "description": "Automation applied across nine industries: e-commerce, healthcare, finance, manufacturing, logistics and more."
     },
     "cases": {
-      "title": "Cases — NextFlow",
+      "title": "Cases — Vortenxflow",
       "description": "Systems we shipped and the results we measured."
     },
     "about": {
-      "title": "Culture — NextFlow",
+      "title": "Culture — Vortenxflow",
       "description": "How we work, what we believe and who we work with."
     },
     "blog": {
-      "title": "Blog — NextFlow",
+      "title": "Blog — Vortenxflow",
       "description": "Notes on automation, AI agents and operational efficiency."
     },
     "contact": {
-      "title": "Contact — NextFlow",
+      "title": "Contact — Vortenxflow",
       "description": "The first assessment call is free. 30 minutes."
     }
   },
@@ -88,7 +88,7 @@
       "items": [
         { "value": 60, "suffix": "+", "label": "Projects delivered" },
         { "value": 4, "suffix": "–10 weeks", "label": "Typical time to ship" },
-        { "value": 2, "suffix": "", "label": "Offices · Istanbul + Amsterdam" },
+        { "value": 1, "suffix": "", "label": "Office · Istanbul" },
         { "value": 12, "suffix": " yrs", "label": "Combined engineering experience" }
       ]
     },
@@ -202,9 +202,9 @@
     "comparison": {
       "index": "04",
       "eyebrow": "Comparison",
-      "title": "Why NextFlow?",
+      "title": "Why Vortenxflow?",
       "description": "There are other ways to solve this. Here is exactly where the difference sits.",
-      "columns": ["NextFlow", "Freelancer", "Large agency", "In-house", "DIY"],
+      "columns": ["Vortenxflow", "Freelancer", "Large agency", "In-house", "DIY"],
       "rows": [
         { "criterion": "Access to senior advisors", "values": [true, false, true, false, false] },
         { "criterion": "Implementation team", "values": [true, true, true, true, false] },
@@ -257,7 +257,7 @@
       "title": "The person who sells it\nis the person who runs it.",
       "quote": "I run every project myself — I pick the team, own the timeline, and sit in every working session. Nothing gets handed off.",
       "name": "[Founder Name]",
-      "role": "Founder · NextFlow",
+      "role": "Founder · Vortenxflow",
       "bio": "Fill this in with your own details: past experience, projects delivered, areas of expertise."
     },
 
@@ -311,14 +311,14 @@
       "index": "01",
       "eyebrow": "Packages",
       "title": "Three core packages.",
-      "description": "Prices are placeholders — swap them for your own pricing.",
+      "description": "All prices are in USD.",
       "durationLabel": "Duration",
       "includesLabel": "Scope",
       "items": [
         {
           "code": "A",
           "name": "AI Adoption Roadmap",
-          "price": "$ [amount]",
+          "price": "$8,000+",
           "duration": "12 weeks · 6 workshops · 12 check-ins",
           "body": "A company-wide programme defining where AI goes live and in what order.",
           "includes": [
@@ -334,7 +334,7 @@
         {
           "code": "B",
           "name": "Automation Strategy",
-          "price": "$ [amount]",
+          "price": "$6,500+",
           "duration": "12 weeks · 4 workshops · 10 check-ins",
           "body": "Getting operational processes ready for automation, and prioritising them.",
           "includes": [
@@ -349,7 +349,7 @@
         {
           "code": "C",
           "name": "Data & Cloud Architecture",
-          "price": "$ [amount]",
+          "price": "$9,000+",
           "duration": "12 weeks · 6 workshops · 12 check-ins",
           "body": "Consolidating scattered data, planning the migration, and setting up governance.",
           "includes": [
@@ -368,9 +368,9 @@
       "eyebrow": "Short format",
       "title": "If you'd rather start smaller.",
       "items": [
-        { "name": "Strategy Workshop", "price": "$ [amount]", "duration": "1 day", "body": "One intensive day with your team; you leave with the top 3 opportunities." },
-        { "name": "Rapid Diagnostic", "price": "$ [amount]", "duration": "2 weeks", "body": "A snapshot of where you are, plus a list of quick wins." },
-        { "name": "Mentorship Retainer", "price": "$ [amount]/mo", "duration": "3-month minimum", "body": "Regular monthly sessions; we make the calls together." }
+        { "name": "Strategy Workshop", "price": "$2,000+", "duration": "1 day", "body": "One intensive day with your team; you leave with the top 3 opportunities." },
+        { "name": "Rapid Diagnostic", "price": "$3,500+", "duration": "2 weeks", "body": "A snapshot of where you are, plus a list of quick wins." },
+        { "name": "Mentorship Retainer", "price": "$2,500/mo", "duration": "3-month minimum", "body": "Regular monthly sessions; we make the calls together." }
       ]
     },
     "philosophy": {
@@ -404,49 +404,49 @@
       "index": "01",
       "eyebrow": "Packages",
       "title": "6 ready-made packages,\nplus fully custom builds.",
-      "description": "Prices are placeholders — swap them for your own pricing.",
+      "description": "All prices are in USD.",
       "fromLabel": "From",
       "featuresLabel": "Included",
       "items": [
         {
           "name": "Customer Support Agent",
           "duration": "4–6 weeks",
-          "price": "$ [amount]",
+          "price": "$4,500+",
           "body": "An AI worker that answers customer messages 24/7 across email, live chat and WhatsApp.",
           "features": ["Web chat / email / WhatsApp", "RAG on your own docs", "Human handoff", "Multi-language replies", "Sentiment analysis", "Dashboard reporting"]
         },
         {
           "name": "Sales Outreach Agent",
           "duration": "5–7 weeks",
-          "price": "$ [amount]",
+          "price": "$5,500+",
           "body": "We define the target list together; the agent enriches it daily, writes personalised outreach and books meetings on your calendar.",
           "features": ["Data enrichment", "ICP analysis", "Email sequences", "Calendar integration", "CRM sync", "A/B testing"]
         },
         {
           "name": "Content Engine Agent",
           "duration": "4–6 weeks",
-          "price": "$ [amount]",
+          "price": "$4,500+",
           "body": "A content team trained on your brand voice and tone. Produces blog posts, social content, email campaigns and video scripts; auto-publishes after an approval flow.",
           "features": ["Brand voice training", "Multi-platform formats", "Visual and video generation", "Scheduling", "SEO analysis"]
         },
         {
           "name": "Operations & Accounting Agent",
           "duration": "6–8 weeks",
-          "price": "$ [amount]",
+          "price": "$6,000+",
           "body": "An AI worker that handles back-office operations: invoices, orders, expenses, inventory.",
           "features": ["Invoice OCR", "Expense approval flow", "Inventory sync", "ERP integration", "Reporting", "Audit trail"]
         },
         {
           "name": "Workflow Automation Agent",
           "duration": "4–6 weeks",
-          "price": "$ [amount]",
+          "price": "$4,000+",
           "body": "We automate the repetitive work flowing between your internal tools. Slack, Notion, Airtable, Google Workspace, HubSpot, Shopify — 300+ tools supported.",
           "features": ["300+ integrations", "Flow library", "Prompt-based flow creation", "Approval steps", "Error tracking"]
         },
         {
           "name": "Custom AI Build",
           "duration": "8–16 weeks",
-          "price": "$ [amount]",
+          "price": "$8,000+",
           "body": "For needs that don't fit the ready-made packages. Industry-specific agents, enterprise system integration, RAG on company documents, fine-tuned models — built from scratch.",
           "features": ["Industry-specific solution", "System integration", "RAG infrastructure", "Model training", "Custom dashboards"],
           "featured": true
@@ -459,9 +459,9 @@
       "title": "Monthly operations and maintenance.",
       "description": "We don't disappear once the system goes live. Three levels:",
       "items": [
-        { "name": "Basic", "price": "$ [amount]/mo", "features": ["Bug fixes", "Quarterly health check", "Email support"] },
-        { "name": "Standard", "price": "$ [amount]/mo", "features": ["Everything in Basic", "10 dev hours per month", "Weekly check-in", "Prompt updates"], "featured": true },
-        { "name": "Priority", "price": "$ [amount]/mo", "features": ["Everything in Standard", "4-hour response SLA", "Architecture reviews", "Priority support"] }
+        { "name": "Basic", "price": "Get a quote", "features": ["Bug fixes", "Quarterly health check", "Email support"] },
+        { "name": "Standard", "price": "Get a quote", "features": ["Everything in Basic", "10 dev hours per month", "Weekly check-in", "Prompt updates"], "featured": true },
+        { "name": "Priority", "price": "Get a quote", "features": ["Everything in Standard", "4-hour response SLA", "Architecture reviews", "Priority support"] }
       ]
     },
     "faq": {
@@ -532,7 +532,7 @@
     "hero": {
       "eyebrow": "Culture",
       "title": "Small team,\nlarge responsibility.",
-      "lead": "NextFlow is an implementation team working on automation, AI systems and web builds. The person who sells it is the person who builds it."
+      "lead": "Vortenxflow is an implementation team working on automation, AI systems and web builds. The person who sells it is the person who builds it."
     },
     "values": {
       "index": "01",
@@ -549,7 +549,7 @@
       "index": "02",
       "eyebrow": "Founder",
       "name": "[Founder Name]",
-      "role": "Founder · NextFlow",
+      "role": "Founder · Vortenxflow",
       "quote": "I run every project myself — I pick the team, own the timeline, and sit in every working session.",
       "bio": "Fill this in with your own details: past experience, projects delivered, areas of expertise, awards and previous companies if any.",
       "highlights": ["[Highlight 1]", "[Highlight 2]", "[Highlight 3]"]
@@ -676,7 +676,7 @@
       "index": "02",
       "eyebrow": "Open cohorts",
       "title": "Five programs.",
-      "description": "Prices are placeholders — replace them with your own. Seats per cohort are limited.",
+      "description": "All prices are in USD. Seats per cohort are limited.",
       "featuresLabel": "What you ship",
       "fromLabel": "Per seat",
       "items": [
@@ -684,7 +684,7 @@
           "name": "In-House AI Agent",
           "tool": "Claude Code",
           "duration": "6 weeks · 2 sessions a week",
-          "price": "₺ [amount]",
+          "price": "$1,800/seat",
           "body": "A production-grade internal AI agent your team uses every day. By the end of the program it runs on your own infrastructure.",
           "features": [
             "Use-case selection",
@@ -699,7 +699,7 @@
           "name": "3× Faster Development",
           "tool": "Claude Code",
           "duration": "4 weeks · 2 sessions a week",
-          "price": "₺ [amount]",
+          "price": "$1,800/seat",
           "body": "Claude Code adoption across the whole engineering team, together with a setup that automates your code standards.",
           "features": [
             "Per-repository setup",
@@ -714,7 +714,7 @@
           "name": "Sales Pipeline Automation",
           "tool": "n8n",
           "duration": "4 weeks · 2 sessions a week",
-          "price": "₺ [amount]",
+          "price": "$1,500/seat",
           "body": "A pipeline that enriches leads automatically, writes personalised outbound with AI and syncs everything into your CRM.",
           "features": [
             "Lead sources and enrichment",
@@ -729,7 +729,7 @@
           "name": "AI Customer Support Agent",
           "tool": "n8n",
           "duration": "4 weeks · 2 sessions a week",
-          "price": "₺ [amount]",
+          "price": "$1,500/seat",
           "body": "Support automation trained on your own documents, escalating level by level and handing off to a human when it cannot resolve.",
           "features": [
             "Document collection and RAG",
@@ -744,7 +744,7 @@
           "name": "AI Content Engine",
           "tool": "n8n",
           "duration": "4 weeks · 2 sessions a week",
-          "price": "₺ [amount]",
+          "price": "$1,500/seat",
           "body": "A multi-channel production and distribution flow that turns one idea into blog, LinkedIn, X and Instagram content.",
           "features": [
             "Brand voice definition",
@@ -1011,7 +1011,7 @@
       "slidesLabel": "slides",
       "soonLabel": "Soon",
       "items": [
-        { "code": "01", "title": "General Introduction", "body": "Who we are, why NextFlow, the two service lines, applications and package structure.", "slides": 13 },
+        { "code": "01", "title": "General Introduction", "body": "Who we are, why Vortenxflow, the two service lines, applications and package structure.", "slides": 13 },
         { "code": "02", "title": "Digital Transformation Program", "body": "The premium transformation program: mentoring, corporate setup and full production.", "slides": 11 },
         { "code": "03", "title": "AI Literacy", "body": "Formats, the seven-module curriculum, outputs and scenario examples.", "slides": 7 },
         { "code": "04", "title": "Company Doctor", "body": "The four-stage transformation framework, scope, outputs and the trainer pair.", "slides": 7 },
@@ -1115,18 +1115,18 @@
   },
 
   "intro": {
-    "label": "NextFlow intro screen",
+    "label": "Vortenxflow intro screen",
     "skip": "Skip"
   },
 
   "chat": {
-    "open": "Ask NextFlow",
+    "open": "Ask Vortenxflow",
     "close": "Close chat",
-    "title": "NextFlow Assistant",
+    "title": "Vortenxflow Assistant",
     "subtitle": "Ask about services and process",
     "placeholder": "Type your question…",
     "send": "Send",
-    "greeting": "Hi. I can answer questions about NextFlow's services, process and pricing. What are you trying to do?",
+    "greeting": "Hi. I can answer questions about Vortenxflow's services, process and pricing. What are you trying to do?",
     "notConfigured": "The chat assistant isn't configured yet. Please use the contact form for your questions.",
     "error": "Something went wrong. Please try again.",
     "disclaimer": "AI-generated. Not a binding quote."

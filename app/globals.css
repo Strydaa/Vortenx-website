@@ -6,7 +6,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 /* ============================================================
-   NextFlow — "Blueprint Terminal"
+   Vortenxflow — "Blueprint Terminal"
    Sıcak kemik kağıt / mürekkep siyahı, sinyal vermilyonu vurgu,
    kılcal grid çizgileri, mono etiketler, grain dokusu.
    ============================================================ */
@@ -279,6 +279,9 @@
     --bg-spot-opacity: 0.13;
     --border-spot-opacity: 0.9;
     --border-light-opacity: 0.2;
+    /* Açık temada sarı. Koyu tema override'ı hemen altta. */
+    --base: 48;
+    --spread: 14;
 
     --border-size: calc(var(--border) * 1px);
     --spotlight-size: calc(var(--size) * 1px);
@@ -310,6 +313,9 @@
     --bg-spot-opacity: 0.16;
     --border-spot-opacity: 1;
     --border-light-opacity: 0.6;
+    /* Koyu temada turuncu. */
+    --base: 30;
+    --spread: 14;
   }
 
   [data-glow]::before,

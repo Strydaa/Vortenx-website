@@ -1,55 +1,55 @@
 {
   "meta": {
     "home": {
-      "title": "NextFlow — Otomasyon ve AI sistemleri kuruyoruz",
+      "title": "Vortenxflow — Otomasyon ve AI sistemleri kuruyoruz",
       "description": "Şirketinizi büyüten AI ajanlarını ve otomasyon sistemlerini kuruyoruz. Strateji ve uygulama, tek ekipten. 4-10 haftada canlıya."
     },
     "advisory": {
-      "title": "Danışmanlık — NextFlow",
+      "title": "Danışmanlık — Vortenxflow",
       "description": "3 aylık sabit kapsamlı strateji paketleri. Süreç envanteri, AI değer analizi ve uygulanabilir yol haritası."
     },
     "systems": {
-      "title": "Sistemler — NextFlow",
+      "title": "Sistemler — Vortenxflow",
       "description": "Üretime hazır AI ajanları ve otomasyon sistemleri. 6 hazır paket ve tamamen özel kurulumlar."
     },
     "programs": {
-      "title": "Programlar — NextFlow",
+      "title": "Programlar — Vortenxflow",
       "description": "Gerçek sistemleri canlıya alan kohort programları. 4-6 hafta, ekibinizle birlikte."
     },
     "kurumIci": {
-      "title": "Kurum İçi — NextFlow",
+      "title": "Kurum İçi — Vortenxflow",
       "description": "Kurum içi yapay zeka eğitimleri ve dönüşüm danışmanlığı. AI Okur Yazarlığı ve Şirket Doktoru."
     },
     "aiLiteracy": {
-      "title": "Yapay Zeka Okur Yazarlığı — NextFlow",
+      "title": "Yapay Zeka Okur Yazarlığı — Vortenxflow",
       "description": "Yedi modüllük müfredat, role özel oyun kitapları ve KVKK / EU AI Act uyum bloğu."
     },
     "companyDoctor": {
-      "title": "Şirket Doktoru — NextFlow",
+      "title": "Şirket Doktoru — Vortenxflow",
       "description": "Teşhis, reçete, tedavi, takip. Şirket geneli AI dönüşümü için dört aşamalı program."
     },
     "presentations": {
-      "title": "Sunumlar — NextFlow",
+      "title": "Sunumlar — Vortenxflow",
       "description": "Toplantıda göstermek ve paylaşmak için hazır sunum desteleri."
     },
     "industries": {
-      "title": "Endüstriler — NextFlow",
+      "title": "Endüstriler — Vortenxflow",
       "description": "Dokuz sektör için otomasyon uygulamaları: e-ticaret, sağlık, finans, üretim, lojistik ve daha fazlası."
     },
     "cases": {
-      "title": "Projeler — NextFlow",
+      "title": "Projeler — Vortenxflow",
       "description": "Kurduğumuz sistemler ve ölçülen sonuçlar."
     },
     "about": {
-      "title": "Kültür — NextFlow",
+      "title": "Kültür — Vortenxflow",
       "description": "Nasıl çalıştığımız, neye inandığımız ve kimlerle çalıştığımız."
     },
     "blog": {
-      "title": "Blog — NextFlow",
+      "title": "Blog — Vortenxflow",
       "description": "Otomasyon, AI ajanları ve operasyon verimliliği üzerine yazılar."
     },
     "contact": {
-      "title": "İletişim — NextFlow",
+      "title": "İletişim — Vortenxflow",
       "description": "İlk değerlendirme görüşmesi ücretsiz. 30 dakika."
     }
   },
@@ -88,7 +88,7 @@
       "items": [
         { "value": 60, "suffix": "+", "label": "Tamamlanmış proje" },
         { "value": 4, "suffix": "–10 hafta", "label": "Ortalama teslim süresi" },
-        { "value": 2, "suffix": "", "label": "Ofis · İstanbul + Amsterdam" },
+        { "value": 1, "suffix": "", "label": "Ofis · İstanbul" },
         { "value": 12, "suffix": " yıl", "label": "Birikmiş mühendislik deneyimi" }
       ]
     },
@@ -202,9 +202,9 @@
     "comparison": {
       "index": "04",
       "eyebrow": "Karşılaştırma",
-      "title": "Neden NextFlow?",
+      "title": "Neden Vortenxflow?",
       "description": "Aynı işi başka şekillerde de çözebilirsiniz. Farkın nerede olduğunu açıkça yazalım.",
-      "columns": ["NextFlow", "Freelancer", "Büyük ajans", "İç ekip", "Kendin yap"],
+      "columns": ["Vortenxflow", "Freelancer", "Büyük ajans", "İç ekip", "Kendin yap"],
       "rows": [
         { "criterion": "Kıdemli danışman erişimi", "values": [true, false, true, false, false] },
         { "criterion": "Uygulama ekibi", "values": [true, true, true, true, false] },
@@ -257,7 +257,7 @@
       "title": "Projeyi satan kişi,\nprojeyi yürüten kişi.",
       "quote": "Her projeyi kendim yürütüyorum — ekibi seçerim, takvimi sahiplenirim, her çalışma seansında bizzat bulunurum. Devredilen proje yok.",
       "name": "[Kurucu Adı]",
-      "role": "Kurucu · NextFlow",
+      "role": "Kurucu · Vortenxflow",
       "bio": "Bu alanı kendi bilgilerinizle doldurun: geçmiş deneyim, teslim edilen proje sayısı, uzmanlık alanları."
     },
 
@@ -311,14 +311,14 @@
       "index": "01",
       "eyebrow": "Paketler",
       "title": "Üç ana paket.",
-      "description": "Fiyatlar örnek yer tutucudur — kendi fiyatlandırmanızla değiştirin.",
+      "description": "Tüm fiyatlar USD cinsindendir.",
       "durationLabel": "Süre",
       "includesLabel": "Kapsam",
       "items": [
         {
           "code": "A",
           "name": "AI Adaptasyon Yol Haritası",
-          "price": "₺ [tutar]",
+          "price": "$8,000+",
           "duration": "12 hafta · 6 atölye · 12 kontrol toplantısı",
           "body": "Şirket genelinde AI'ın nerede ve hangi sırayla devreye alınacağını belirleyen kapsamlı program.",
           "includes": [
@@ -334,7 +334,7 @@
         {
           "code": "B",
           "name": "Otomasyon Stratejisi",
-          "price": "₺ [tutar]",
+          "price": "$6,500+",
           "duration": "12 hafta · 4 atölye · 10 kontrol toplantısı",
           "body": "Operasyonel süreçlerin otomasyona hazırlanması ve önceliklendirilmesi.",
           "includes": [
@@ -349,7 +349,7 @@
         {
           "code": "C",
           "name": "Veri & Bulut Mimarisi",
-          "price": "₺ [tutar]",
+          "price": "$9,000+",
           "duration": "12 hafta · 6 atölye · 12 kontrol toplantısı",
           "body": "Dağınık verinin toplanması, taşınması ve yönetim modelinin kurulması.",
           "includes": [
@@ -368,9 +368,9 @@
       "eyebrow": "Kısa format",
       "title": "Daha küçük başlamak isterseniz.",
       "items": [
-        { "name": "Strateji Atölyesi", "price": "₺ [tutar]", "duration": "1 gün", "body": "Ekibinizle tek günlük yoğun oturum; çıkışta öncelikli 3 fırsat." },
-        { "name": "Hızlı Teşhis", "price": "₺ [tutar]", "duration": "2 hafta", "body": "Mevcut durumun fotoğrafı ve hızlı kazanım listesi." },
-        { "name": "Mentorluk Aboneliği", "price": "₺ [tutar]/ay", "duration": "En az 3 ay", "body": "Aylık düzenli görüşme; kararları birlikte alıyoruz." }
+        { "name": "Strateji Atölyesi", "price": "$2,000+", "duration": "1 gün", "body": "Ekibinizle tek günlük yoğun oturum; çıkışta öncelikli 3 fırsat." },
+        { "name": "Hızlı Teşhis", "price": "$3,500+", "duration": "2 hafta", "body": "Mevcut durumun fotoğrafı ve hızlı kazanım listesi." },
+        { "name": "Mentorluk Aboneliği", "price": "$2,500/ay", "duration": "En az 3 ay", "body": "Aylık düzenli görüşme; kararları birlikte alıyoruz." }
       ]
     },
     "philosophy": {
@@ -404,49 +404,49 @@
       "index": "01",
       "eyebrow": "Paketler",
       "title": "6 hazır paket,\nartı tamamen özel kurulum.",
-      "description": "Fiyatlar örnek yer tutucudur — kendi fiyatlandırmanızla değiştirin.",
+      "description": "Tüm fiyatlar USD cinsindendir.",
       "fromLabel": "Başlangıç",
       "featuresLabel": "İçerik",
       "items": [
         {
           "name": "Müşteri Destek Ajanı",
           "duration": "4-6 hafta",
-          "price": "₺ [tutar]",
+          "price": "$4,500+",
           "body": "E-posta, canlı sohbet ve WhatsApp üzerinden müşteri mesajlarını 7/24 yanıtlayan AI çalışanı.",
           "features": ["Web sohbeti / e-posta / WhatsApp", "Kendi dokümanlarınızla RAG", "İnsana devretme", "Çok dilli yanıt", "Duygu analizi", "Panel raporlama"]
         },
         {
           "name": "Satış Erişim Ajanı",
           "duration": "5-7 hafta",
-          "price": "₺ [tutar]",
+          "price": "$5,500+",
           "body": "Hedef müşteri listesini birlikte tanımlıyoruz; ajan listeyi günlük zenginleştiriyor, kişiselleştirilmiş mesaj yazıyor ve takviminize toplantı koyuyor.",
           "features": ["Veri zenginleştirme", "ICP analizi", "E-posta serileri", "Takvim entegrasyonu", "CRM senkronizasyonu", "A/B testi"]
         },
         {
           "name": "İçerik Motoru Ajanı",
           "duration": "4-6 hafta",
-          "price": "₺ [tutar]",
+          "price": "$4,500+",
           "body": "Marka sesiniz ve tonunuzla eğitilmiş içerik ekibi. Blog, sosyal medya, e-posta kampanyası ve video senaryosu üretir; onay akışından sonra otomatik yayınlar.",
           "features": ["Marka sesi eğitimi", "Çok platformlu format", "Görsel ve video üretimi", "Yayın planlama", "SEO analizi"]
         },
         {
           "name": "Operasyon & Muhasebe Ajanı",
           "duration": "6-8 hafta",
-          "price": "₺ [tutar]",
+          "price": "$6,000+",
           "body": "Arka ofis işlerini yürüten AI çalışanı: faturalar, siparişler, masraflar, stok.",
           "features": ["Fatura OCR", "Masraf onay akışı", "Stok senkronizasyonu", "ERP entegrasyonu", "Raporlama", "Denetim izi"]
         },
         {
           "name": "İş Akışı Otomasyon Ajanı",
           "duration": "4-6 hafta",
-          "price": "₺ [tutar]",
+          "price": "$4,000+",
           "body": "İç araçlarınız arasında akan tekrar eden işleri otomatikleştiriyoruz. Slack, Notion, Airtable, Google Workspace, HubSpot, Shopify — 300+ araç destekleniyor.",
           "features": ["300+ entegrasyon", "Hazır akış kütüphanesi", "Komutla akış oluşturma", "Onay adımları", "Hata takibi"]
         },
         {
           "name": "Özel AI Kurulumu",
           "duration": "8-16 hafta",
-          "price": "₺ [tutar]",
+          "price": "$8,000+",
           "body": "Hazır paketlere sığmayan ihtiyaçlar için. Sektöre özel ajanlar, kurumsal sistem entegrasyonu, şirket dokümanları üzerinde RAG, ince ayarlı modeller — sıfırdan kurulur.",
           "features": ["Sektöre özel çözüm", "Sistem entegrasyonu", "RAG altyapısı", "Model eğitimi", "Özel paneller"],
           "featured": true
@@ -459,9 +459,9 @@
       "title": "Aylık operasyon ve bakım.",
       "description": "Sistem canlıya alındıktan sonra yalnız bırakmıyoruz. Üç bakım seviyesi:",
       "items": [
-        { "name": "Temel", "price": "₺ [tutar]/ay", "features": ["Hata düzeltmeleri", "Çeyreklik sağlık kontrolü", "E-posta desteği"] },
-        { "name": "Standart", "price": "₺ [tutar]/ay", "features": ["Temel paketin tamamı", "Aylık 10 saat geliştirme", "Haftalık kontrol toplantısı", "Prompt güncellemeleri"], "featured": true },
-        { "name": "Öncelikli", "price": "₺ [tutar]/ay", "features": ["Standart paketin tamamı", "4 saat yanıt garantisi (SLA)", "Mimari gözden geçirme", "Öncelikli destek"] }
+        { "name": "Temel", "price": "Teklif alın", "features": ["Hata düzeltmeleri", "Çeyreklik sağlık kontrolü", "E-posta desteği"] },
+        { "name": "Standart", "price": "Teklif alın", "features": ["Temel paketin tamamı", "Aylık 10 saat geliştirme", "Haftalık kontrol toplantısı", "Prompt güncellemeleri"], "featured": true },
+        { "name": "Öncelikli", "price": "Teklif alın", "features": ["Standart paketin tamamı", "4 saat yanıt garantisi (SLA)", "Mimari gözden geçirme", "Öncelikli destek"] }
       ]
     },
     "faq": {
@@ -532,7 +532,7 @@
     "hero": {
       "eyebrow": "Kültür",
       "title": "Küçük ekip,\nbüyük sorumluluk.",
-      "lead": "NextFlow; otomasyon, AI sistemleri ve web kurulumu üzerine çalışan bir uygulama ekibidir. Satan kişi ile yapan kişi aynıdır."
+      "lead": "Vortenxflow; otomasyon, AI sistemleri ve web kurulumu üzerine çalışan bir uygulama ekibidir. Satan kişi ile yapan kişi aynıdır."
     },
     "values": {
       "index": "01",
@@ -549,7 +549,7 @@
       "index": "02",
       "eyebrow": "Kurucu",
       "name": "[Kurucu Adı]",
-      "role": "Kurucu · NextFlow",
+      "role": "Kurucu · Vortenxflow",
       "quote": "Her projeyi kendim yürütüyorum — ekibi seçerim, takvimi sahiplenirim, her çalışma seansında bizzat bulunurum.",
       "bio": "Bu alanı kendi bilgilerinizle doldurun: geçmiş deneyim, teslim edilen proje sayısı, uzmanlık alanları, varsa ödüller ve önceki şirketler.",
       "highlights": ["[Öne çıkan başarı 1]", "[Öne çıkan başarı 2]", "[Öne çıkan başarı 3]"]
@@ -676,7 +676,7 @@
       "index": "02",
       "eyebrow": "Açık kohortlar",
       "title": "Beş program.",
-      "description": "Fiyatlar örnek yer tutucudur — kendi fiyatlandırmanızla değiştirin. Kontenjan kohort başına sınırlıdır.",
+      "description": "Tüm fiyatlar USD cinsindendir. Kontenjan kohort başına sınırlıdır.",
       "featuresLabel": "Program çıktısı",
       "fromLabel": "Kişi başı",
       "items": [
@@ -684,7 +684,7 @@
           "name": "Kurum İçi AI Ajanı",
           "tool": "Claude Code",
           "duration": "6 hafta · haftada 2 oturum",
-          "price": "₺ [tutar]",
+          "price": "$1,800/koltuk",
           "body": "Ekibinizin her gün kullandığı, üretim seviyesinde bir iç AI ajanı kurulur. Program sonunda ajan sizin altyapınızda çalışır durumda olur.",
           "features": [
             "Kullanım senaryosu seçimi",
@@ -699,7 +699,7 @@
           "name": "3× Hızlı Geliştirme",
           "tool": "Claude Code",
           "duration": "4 hafta · haftada 2 oturum",
-          "price": "₺ [tutar]",
+          "price": "$1,800/koltuk",
           "body": "Yazılım ekibinin tamamına Claude Code adaptasyonu; kod standartlarını otomatikleştiren kurulumla birlikte.",
           "features": [
             "Depo bazlı kurulum",
@@ -714,7 +714,7 @@
           "name": "Satış Pipeline Otomasyonu",
           "tool": "n8n",
           "duration": "4 hafta · haftada 2 oturum",
-          "price": "₺ [tutar]",
+          "price": "$1,500/koltuk",
           "body": "Lead'leri otomatik zenginleştiren, AI ile kişiselleştirilmiş çıkış mesajları yazan ve CRM'e işleyen bir hat kurulur.",
           "features": [
             "Lead kaynakları ve zenginleştirme",
@@ -729,7 +729,7 @@
           "name": "AI Müşteri Destek Ajanı",
           "tool": "n8n",
           "duration": "4 hafta · haftada 2 oturum",
-          "price": "₺ [tutar]",
+          "price": "$1,500/koltuk",
           "body": "Kendi dokümanlarınızla eğitilmiş, seviye seviye yükselen bir destek otomasyonu. Çözemediğini insana devreder.",
           "features": [
             "Doküman toplama ve RAG",
@@ -744,7 +744,7 @@
           "name": "AI İçerik Motoru",
           "tool": "n8n",
           "duration": "4 hafta · haftada 2 oturum",
-          "price": "₺ [tutar]",
+          "price": "$1,500/koltuk",
           "body": "Tek fikirden blog, LinkedIn, X ve Instagram içeriğine uzanan çok kanallı üretim ve dağıtım akışı.",
           "features": [
             "Marka sesi tanımı",
@@ -1011,7 +1011,7 @@
       "slidesLabel": "slayt",
       "soonLabel": "Yakında",
       "items": [
-        { "code": "01", "title": "Genel Tanıtım", "body": "Biz kimiz, neden NextFlow, iki hizmet hattı, uygulama alanları ve paket yapısı.", "slides": 13 },
+        { "code": "01", "title": "Genel Tanıtım", "body": "Biz kimiz, neden Vortenxflow, iki hizmet hattı, uygulama alanları ve paket yapısı.", "slides": 13 },
         { "code": "02", "title": "Dijital Dönüşüm Programı", "body": "Üst segment dönüşüm programı: mentorluk, kurumsal kurgu ve tam prodüksiyon.", "slides": 11 },
         { "code": "03", "title": "Yapay Zeka Okur Yazarlığı", "body": "Formatlar, yedi modüllük müfredat, çıktılar ve senaryo örnekleri.", "slides": 7 },
         { "code": "04", "title": "Şirket Doktoru", "body": "Dört aşamalı dönüşüm çerçevesi, kapsam, çıktılar ve eğitmen kadrosu.", "slides": 7 },
@@ -1115,18 +1115,18 @@
   },
 
   "intro": {
-    "label": "NextFlow açılış ekranı",
+    "label": "Vortenxflow açılış ekranı",
     "skip": "Atla"
   },
 
   "chat": {
-    "open": "NextFlow'a sorun",
+    "open": "Vortenxflow'a sorun",
     "close": "Sohbeti kapat",
-    "title": "NextFlow Asistanı",
+    "title": "Vortenxflow Asistanı",
     "subtitle": "Hizmetler ve süreç hakkında sorun",
     "placeholder": "Sorunuzu yazın…",
     "send": "Gönder",
-    "greeting": "Merhaba. NextFlow'un hizmetleri, süreci ve fiyatlandırması hakkında sorularınızı yanıtlayabilirim. Ne yapmak istiyorsunuz?",
+    "greeting": "Merhaba. Vortenxflow'un hizmetleri, süreci ve fiyatlandırması hakkında sorularınızı yanıtlayabilirim. Ne yapmak istiyorsunuz?",
     "notConfigured": "Sohbet asistanı henüz yapılandırılmamış. Sorularınız için iletişim formunu kullanabilirsiniz.",
     "error": "Bir sorun oluştu. Lütfen tekrar deneyin.",
     "disclaimer": "AI tarafından üretilir. Teklif niteliği taşımaz."

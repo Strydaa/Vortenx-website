@@ -78,10 +78,10 @@ export function Header() {
             scrolled ? 'h-14' : 'h-20',
           )}
         >
-          <Link href="/" className="group flex items-center gap-2.5" aria-label="NextFlow">
+          <Link href="/" className="group flex items-center gap-2.5" aria-label="Vortenxflow">
             <Logomark />
             <span className="font-display text-[1.05rem] font-extrabold tracking-[-0.04em]">
-              NextFlow
+              Vortenxflow
             </span>
           </Link>
 
@@ -212,7 +212,7 @@ function Logomark() {
     >
       <rect x="0.75" y="0.75" width="22.5" height="22.5" stroke="currentColor" strokeWidth="1.5" />
       <path
-        d="M6 17V7l12 10V7"
+        d="M6 7L12 17L18 7"
         stroke="var(--signal)"
         strokeWidth="2"
         strokeLinecap="square"

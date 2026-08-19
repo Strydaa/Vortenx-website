@@ -3,11 +3,11 @@
  * Sitedeki metinler için messages/tr.json ve messages/en.json dosyalarına bak.
  */
 export const siteConfig = {
-  name: 'NextFlow',
-  domain: 'nextflow.ai',
+  name: 'Vortenxflow',
+  domain: 'vortenxflow.ai',
   url: process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000',
 
-  email: 'merhaba@nextflow.ai',
+  email: 'merhaba@vortenxflow.ai',
   phone: '+90 000 000 00 00',
   whatsapp: '+900000000000',
 
@@ -16,22 +16,19 @@ export const siteConfig = {
 
   /**
    * Danışmanlık sayfasındaki 3B panelin Spline sahnesi.
-   * DİKKAT: Şu anki değer Spline'ın herkese açık demo sahnesi — NextFlow'a ait değil.
+   * DİKKAT: Şu anki değer Spline'ın herkese açık demo sahnesi — Vortenxflow'a ait değil.
    * spline.design'da kendi sahneni yapıp "Export → Code Export" ile aldığın
    * .splinecode URL'sini buraya yapıştır. Boş bırakırsan panel hiç çizilmez.
    */
   splineScene: 'https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode',
 
-  offices: [
-    { city: 'İstanbul', coords: '41.0082° N, 28.9784° E' },
-    { city: 'Amsterdam', coords: '52.3676° N, 4.9041° E' },
-  ],
+  offices: [{ city: 'İstanbul', coords: '41.0082° N, 28.9784° E' }],
 
   social: {
-    linkedin: 'https://linkedin.com/company/nextflow',
-    x: 'https://x.com/nextflow',
-    github: 'https://github.com/nextflow',
-    instagram: 'https://instagram.com/nextflow',
+    linkedin: 'https://linkedin.com/company/vortenxflow',
+    x: 'https://x.com/vortenxflow',
+    github: 'https://github.com/vortenxflow',
+    instagram: 'https://instagram.com/vortenxflow',
   },
 } as const;
 

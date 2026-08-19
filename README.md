@@ -1,4 +1,4 @@
-# NextFlow — Çift Dilli Funnel Web Sitesi
+# Vortenxflow — Çift Dilli Funnel Web Sitesi
 
 Otomasyon, AI sistemleri ve web kurulumu satan bir ajans sitesi. Türkçe ve İngilizce tek sitede, header'daki `TR / EN` butonuyla geçiş yapılır.
 
@@ -33,7 +33,7 @@ npm run dev                    # http://localhost:3000
 |---|---|---|
 | `RESEND_API_KEY` | İletişim formunun mail göndermesi | [resend.com](https://resend.com) → API Keys (ücretsiz 3.000 mail/ay) |
 | `CONTACT_TO_EMAIL` | Form taleplerinin düşeceği adres | Kendi e-postan |
-| `CONTACT_FROM_EMAIL` | Gönderen adresi | Domain doğrulayana kadar `NextFlow <onboarding@resend.dev>` |
+| `CONTACT_FROM_EMAIL` | Gönderen adresi | Domain doğrulayana kadar `Vortenxflow <onboarding@resend.dev>` |
 | `ANTHROPIC_API_KEY` | Sitedeki AI sohbet botu | [console.anthropic.com](https://console.anthropic.com) |
 | `NEXT_PUBLIC_SITE_URL` | Canonical / sitemap / OG adresleri | Canlıda `https://alanadin.com` |
 
@@ -75,9 +75,9 @@ Site şu an gerçekçi ama **uydurma** verilerle dolu. Yayına almadan önce şu
 | Müşteri logo şeridindeki isimler | `components/sections/logo-marquee.tsx` |
 | E-posta, telefon, sosyal medya, ofisler | `lib/site-config.ts` |
 | Kurucu fotoğrafı (şu an "NF" monogramı) | `app/[locale]/about/page.tsx`, `components/sections/founder-card.tsx` |
-| Danışmanlık sayfasındaki 3B sahne — şu anki değer **Spline'ın public demo robotu**, NextFlow'a ait değil | `lib/site-config.ts` → `splineScene` |
+| Danışmanlık sayfasındaki 3B sahne — şu anki değer **Spline'ın public demo robotu**, Vortenxflow'a ait değil | `lib/site-config.ts` → `splineScene` |
 
-Bu rakamlar NextFlow adına gerçek olmayan iddialar; kendi verilerinle değiştirilmeden yayına alınmamalı.
+Bu rakamlar Vortenxflow adına gerçek olmayan iddialar; kendi verilerinle değiştirilmeden yayına alınmamalı.
 
 ---
 
@@ -133,7 +133,7 @@ Renkler, tipografi ölçeği ve animasyon zamanlaması `app/globals.css` içinde
 
 ## Sohbet Botu
 
-`app/api/chat/route.ts` — Claude ile streaming yanıt. System prompt içinde NextFlow'un hizmetleri, süreci ve kuralları var: fiyat vermez, uydurma müşteri/vaka anlatmaz, konu dışına çıkmaz.
+`app/api/chat/route.ts` — Claude ile streaming yanıt. System prompt içinde Vortenxflow'un hizmetleri, süreci ve kuralları var: fiyat vermez, uydurma müşteri/vaka anlatmaz, konu dışına çıkmaz.
 
 **Modeli değiştirmek** (maliyet için): dosyanın başındaki tek satır —
 
@@ -153,7 +153,7 @@ Koruma: IP başına dakikada 8 istek, mesaj başına 2000 karakter, konuşma ba�
 4. `NEXT_PUBLIC_SITE_URL`'i gerçek alan adın yap
 5. Deploy
 
-Resend'de kendi alan adını doğrulayıp `CONTACT_FROM_EMAIL`'i `NextFlow <merhaba@alanadin.com>` yapmayı unutma — `onboarding@resend.dev` sadece test içindir.
+Resend'de kendi alan adını doğrulayıp `CONTACT_FROM_EMAIL`'i `Vortenxflow <merhaba@alanadin.com>` yapmayı unutma — `onboarding@resend.dev` sadece test içindir.
 
 ---
 
