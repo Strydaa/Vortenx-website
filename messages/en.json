@@ -1,0 +1,1140 @@
+{
+  "meta": {
+    "home": {
+      "title": "NextFlow — We build automation and AI systems",
+      "description": "We build the AI agents and automation systems that grow your company. Strategy and execution from one team. Live in 4–10 weeks."
+    },
+    "advisory": {
+      "title": "Advisory — NextFlow",
+      "description": "3-month fixed-scope strategy packages. Process inventory, AI value analysis and an actionable roadmap."
+    },
+    "systems": {
+      "title": "Systems — NextFlow",
+      "description": "Production-ready AI agents and automation systems. Six ready-made packages plus fully custom builds."
+    },
+    "programs": {
+      "title": "Programs — NextFlow",
+      "description": "Cohort programs that ship real systems. Four to six weeks, working alongside your team."
+    },
+    "kurumIci": {
+      "title": "In-House — NextFlow",
+      "description": "In-house AI training and transformation consulting. AI Literacy and Company Doctor."
+    },
+    "aiLiteracy": {
+      "title": "AI Literacy — NextFlow",
+      "description": "A seven-module curriculum, role-specific playbooks and a GDPR / EU AI Act compliance module."
+    },
+    "companyDoctor": {
+      "title": "Company Doctor — NextFlow",
+      "description": "Diagnosis, prescription, treatment, follow-up. A four-stage program for company-wide AI transformation."
+    },
+    "presentations": {
+      "title": "Presentations — NextFlow",
+      "description": "Slide decks ready to present in a meeting and share afterwards."
+    },
+    "industries": {
+      "title": "Industries — NextFlow",
+      "description": "Automation applied across nine industries: e-commerce, healthcare, finance, manufacturing, logistics and more."
+    },
+    "cases": {
+      "title": "Cases — NextFlow",
+      "description": "Systems we shipped and the results we measured."
+    },
+    "about": {
+      "title": "Culture — NextFlow",
+      "description": "How we work, what we believe and who we work with."
+    },
+    "blog": {
+      "title": "Blog — NextFlow",
+      "description": "Notes on automation, AI agents and operational efficiency."
+    },
+    "contact": {
+      "title": "Contact — NextFlow",
+      "description": "The first assessment call is free. 30 minutes."
+    }
+  },
+
+  "nav": {
+    "advisory": "Advisory",
+    "systems": "Systems",
+    "programs": "Programs",
+    "kurumIci": "In-House",
+    "cases": "Cases",
+    "industries": "Industries",
+    "blog": "Blog",
+    "about": "Culture",
+    "contact": "Contact",
+    "cta": "Let's talk",
+    "menu": "Menu",
+    "close": "Close",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Toggle theme",
+    "switchLanguage": "Switch language"
+  },
+
+  "home": {
+    "hero": {
+      "status": "Taking on new projects",
+      "title": "We grow\nyour company.",
+      "lead": "We integrate AI into your operations, build the systems that scale you, and get your team up to speed. Strategy and execution from one team.",
+      "ctaPrimary": "Send your brief",
+      "ctaSecondary": "See the packages",
+      "scroll": "Scroll"
+    },
+
+    "stats": {
+      "eyebrow": "By the numbers",
+      "items": [
+        { "value": 60, "suffix": "+", "label": "Projects delivered" },
+        { "value": 4, "suffix": "–10 weeks", "label": "Typical time to ship" },
+        { "value": 2, "suffix": "", "label": "Offices · Istanbul + Amsterdam" },
+        { "value": 12, "suffix": " yrs", "label": "Combined engineering experience" }
+      ]
+    },
+
+    "logos": {
+      "eyebrow": "Teams we work with"
+    },
+
+    "tracks": {
+      "index": "01",
+      "eyebrow": "Two service lines",
+      "title": "Clarity first, then the build.",
+      "description": "Where you start depends on where you are. We can also run both in parallel.",
+      "items": [
+        {
+          "tag": "Advisory",
+          "title": "Roadmap, decision support, board-ready deck",
+          "body": "We inventory your processes, pinpoint where AI creates real value, and hand over an actionable roadmap.",
+          "meta": "3-month fixed scope",
+          "href": "/advisory",
+          "cta": "Explore Advisory",
+          "points": ["Process inventory", "AI opportunity map", "Pilot PRDs", "Board presentation"]
+        },
+        {
+          "tag": "Systems",
+          "title": "Live AI agents and shipped systems",
+          "body": "Battle-tested agent packages and custom builds. We go live in 4–10 weeks, then run monthly operations and maintenance.",
+          "meta": "Shipped in 4–10 weeks",
+          "href": "/systems",
+          "cta": "Explore Systems",
+          "points": ["6 ready packages", "Custom AI builds", "GDPR compliant", "Monthly maintenance"]
+        }
+      ]
+    },
+
+    "services": {
+      "index": "02",
+      "eyebrow": "What we do",
+      "title": "Eight disciplines,\none team.",
+      "description": "From automation to website builds — we ship systems that connect to each other.",
+      "items": [
+        {
+          "title": "AI Automation",
+          "body": "We automate repetitive work end to end, leaving approval steps wherever a human should stay in the loop."
+        },
+        {
+          "title": "Chatbots & Voice Agents",
+          "body": "Support agents that run 24/7, trained on your own documentation. Web, WhatsApp, phone."
+        },
+        {
+          "title": "Workflow Automation",
+          "body": "Slack, Notion, Airtable, HubSpot, Shopify — we connect the work flowing across 300+ tools."
+        },
+        {
+          "title": "Custom AI Builds",
+          "body": "Built from scratch when the ready-made packages don't fit. Industry-specific agents, RAG systems."
+        },
+        {
+          "title": "B2B Sales Automation",
+          "body": "An agent that enriches your target list, writes personalised outreach and books meetings on your calendar."
+        },
+        {
+          "title": "Content Engine",
+          "body": "A content system trained on your brand voice. Blog posts, social, email campaigns, video scripts."
+        },
+        {
+          "title": "Corporate Websites",
+          "body": "Fast, multilingual, SEO-solid company sites. This site is an example of that work."
+        },
+        {
+          "title": "E-commerce & Webshop",
+          "body": "Stores where orders, inventory and customer comms flow automatically. Shopify and custom builds."
+        }
+      ]
+    },
+
+    "cases": {
+      "index": "03",
+      "eyebrow": "Cases",
+      "title": "Shipped, measured,\nscaled.",
+      "description": "The numbers below are placeholders — set up to be swapped for your own projects.",
+      "cta": "All cases",
+      "items": [
+        {
+          "client": "Sample Client A",
+          "sector": "E-commerce",
+          "metric": "38%",
+          "metricLabel": "Drop in order handling time",
+          "body": "We merged order, return and shipping tracking into a single flow; the support team stopped doing it by hand.",
+          "tags": ["Workflow", "Support agent"]
+        },
+        {
+          "client": "Sample Client B",
+          "sector": "Manufacturing",
+          "metric": "3×",
+          "metricLabel": "Faster quote preparation",
+          "body": "We wired quoting into the ERP; costing that used to take hours now takes minutes.",
+          "tags": ["ERP integration", "Custom AI"]
+        },
+        {
+          "client": "Sample Client C",
+          "sector": "Services",
+          "metric": "24/7",
+          "metricLabel": "Uninterrupted customer response",
+          "body": "We shipped a multilingual support agent; 71% of after-hours requests resolve without a human handoff.",
+          "tags": ["Chatbot", "RAG"]
+        }
+      ]
+    },
+
+    "comparison": {
+      "index": "04",
+      "eyebrow": "Comparison",
+      "title": "Why NextFlow?",
+      "description": "There are other ways to solve this. Here is exactly where the difference sits.",
+      "columns": ["NextFlow", "Freelancer", "Large agency", "In-house", "DIY"],
+      "rows": [
+        { "criterion": "Access to senior advisors", "values": [true, false, true, false, false] },
+        { "criterion": "Implementation team", "values": [true, true, true, true, false] },
+        { "criterion": "Fixed scope and price", "values": [true, false, false, false, true] },
+        { "criterion": "Live within 4–10 weeks", "values": [true, true, false, false, false] },
+        { "criterion": "Post-launch maintenance", "values": [true, false, true, true, false] },
+        { "criterion": "You own the code and infra", "values": [true, true, false, true, true] },
+        { "criterion": "GDPR / KVKK compliance", "values": [true, false, true, true, false] }
+      ],
+      "yes": "Yes",
+      "no": "No"
+    },
+
+    "process": {
+      "index": "05",
+      "eyebrow": "How we work",
+      "title": "Four steps,\nno surprises.",
+      "description": "Every step has a defined output. We write down what lands when, before we start.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Discovery & Analysis",
+          "body": "We map your processes and surface the bottlenecks and the work worth automating.",
+          "meta": "1–2 weeks"
+        },
+        {
+          "step": "02",
+          "title": "Strategy & Design",
+          "body": "We define what each system does, which tools it runs on, and the order we build them in.",
+          "meta": "1–2 weeks"
+        },
+        {
+          "step": "03",
+          "title": "Implementation",
+          "body": "We build it, test it against your real data, and hand it over to your team.",
+          "meta": "2–6 weeks"
+        },
+        {
+          "step": "04",
+          "title": "Optimisation & Growth",
+          "body": "We measure in production, improve, and pick the next automation opportunity together.",
+          "meta": "Ongoing"
+        }
+      ]
+    },
+
+    "founder": {
+      "index": "06",
+      "eyebrow": "Who runs it",
+      "title": "The person who sells it\nis the person who runs it.",
+      "quote": "I run every project myself — I pick the team, own the timeline, and sit in every working session. Nothing gets handed off.",
+      "name": "[Founder Name]",
+      "role": "Founder · NextFlow",
+      "bio": "Fill this in with your own details: past experience, projects delivered, areas of expertise."
+    },
+
+    "blog": {
+      "index": "07",
+      "eyebrow": "Writing",
+      "title": "We write down\nwhat we learn.",
+      "cta": "All posts",
+      "readTime": "min read"
+    },
+
+    "cta": {
+      "eyebrow": "Next step",
+      "title": "Where should you start?",
+      "description": "The first assessment call is free. 30 minutes, and it isn't a sales pitch.",
+      "options": [
+        {
+          "tag": "If it isn't clear yet",
+          "title": "Start with Advisory",
+          "body": "If you aren't sure what to automate, let's draw the map first.",
+          "href": "/advisory",
+          "cta": "Advisory"
+        },
+        {
+          "tag": "If you know what you want",
+          "title": "Go straight to the build",
+          "body": "If the need is clear, look at the ready-made packages or let's scope a custom build.",
+          "href": "/systems",
+          "cta": "Systems"
+        }
+      ],
+      "contactPrompt": "Or just write to us —",
+      "contactCta": "contact form"
+    }
+  },
+
+  "advisory": {
+    "hero": {
+      "eyebrow": "Advisory",
+      "title": "Get clarity on what to do\nbefore you start building.",
+      "lead": "3-month fixed-scope strategy packages. We inventory your processes, identify where AI creates real value, and deliver an actionable roadmap with a board-ready presentation.",
+      "cta": "Book a call"
+    },
+    "spline": {
+      "eyebrow": "Interactive",
+      "title": "Systems you can see, not abstractions.",
+      "body": "We model every system before we build it: where each piece of data comes from, which step gets automated, where a human steps in. You see the thing working before you sign off on the roadmap.",
+      "loading": "Loading scene"
+    },
+    "packages": {
+      "index": "01",
+      "eyebrow": "Packages",
+      "title": "Three core packages.",
+      "description": "Prices are placeholders — swap them for your own pricing.",
+      "durationLabel": "Duration",
+      "includesLabel": "Scope",
+      "items": [
+        {
+          "code": "A",
+          "name": "AI Adoption Roadmap",
+          "price": "$ [amount]",
+          "duration": "12 weeks · 6 workshops · 12 check-ins",
+          "body": "A company-wide programme defining where AI goes live and in what order.",
+          "includes": [
+            "Current process inventory",
+            "AI value analysis",
+            "Vendor and tooling recommendations",
+            "3 pilot PRDs",
+            "18-month roadmap",
+            "Board presentation"
+          ],
+          "featured": true
+        },
+        {
+          "code": "B",
+          "name": "Automation Strategy",
+          "price": "$ [amount]",
+          "duration": "12 weeks · 4 workshops · 10 check-ins",
+          "body": "Getting operational processes ready for automation, and prioritising them.",
+          "includes": [
+            "Process mapping",
+            "ROI calculation",
+            "Tool selection",
+            "Workflow architecture",
+            "Team training"
+          ],
+          "featured": false
+        },
+        {
+          "code": "C",
+          "name": "Data & Cloud Architecture",
+          "price": "$ [amount]",
+          "duration": "12 weeks · 6 workshops · 12 check-ins",
+          "body": "Consolidating scattered data, planning the migration, and setting up governance.",
+          "includes": [
+            "Data inventory analysis",
+            "Migration readiness report",
+            "Architecture recommendations",
+            "Governance model",
+            "Cost analysis"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    "short": {
+      "index": "02",
+      "eyebrow": "Short format",
+      "title": "If you'd rather start smaller.",
+      "items": [
+        { "name": "Strategy Workshop", "price": "$ [amount]", "duration": "1 day", "body": "One intensive day with your team; you leave with the top 3 opportunities." },
+        { "name": "Rapid Diagnostic", "price": "$ [amount]", "duration": "2 weeks", "body": "A snapshot of where you are, plus a list of quick wins." },
+        { "name": "Mentorship Retainer", "price": "$ [amount]/mo", "duration": "3-month minimum", "body": "Regular monthly sessions; we make the calls together." }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Pricing",
+      "title": "Fixed scope, fixed price.",
+      "body": "No hourly billing on the Advisory side. The scope is written up front and the price doesn't move. If the scope changes, we write a new scope — no surprise invoices."
+    },
+    "faq": {
+      "index": "03",
+      "eyebrow": "FAQ",
+      "title": "Common questions",
+      "items": [
+        { "q": "We're a small company — is this for us?", "a": "The short-format services (workshop, rapid diagnostic) exist exactly for that. The 3-month packages usually make sense for teams of 20+." },
+        { "q": "Do you guarantee outcomes?", "a": "We guarantee deliverables: everything written into the scope lands in your hands. We don't guarantee business outcomes — execution depends on your operation. If we run the execution too, we share responsibility for the result." },
+        { "q": "Will our data stay confidential?", "a": "We sign a mutual NDA before work starts. Your data is never handed to any model for training." },
+        { "q": "Can you also do the implementation?", "a": "Yes. We can build the pilots from the advisory output on the Systems side. Advisory isn't a prerequisite — you can start with the build directly." },
+        { "q": "What are the payment terms?", "a": "40% up front, 30% at the midpoint, 30% on delivery. Monthly retainers are billed in advance." }
+      ]
+    }
+  },
+
+  "systems": {
+    "hero": {
+      "eyebrow": "Systems",
+      "title": "Production-ready AI agents\nand automation systems.",
+      "lead": "Battle-tested agent packages plus fully custom builds. We go live in 4–10 weeks, then handle monthly operations and maintenance. Turkish-language ready and KVKK/GDPR compliant.",
+      "cta": "Send your brief",
+      "builtOn": "Built on"
+    },
+    "packages": {
+      "index": "01",
+      "eyebrow": "Packages",
+      "title": "6 ready-made packages,\nplus fully custom builds.",
+      "description": "Prices are placeholders — swap them for your own pricing.",
+      "fromLabel": "From",
+      "featuresLabel": "Included",
+      "items": [
+        {
+          "name": "Customer Support Agent",
+          "duration": "4–6 weeks",
+          "price": "$ [amount]",
+          "body": "An AI worker that answers customer messages 24/7 across email, live chat and WhatsApp.",
+          "features": ["Web chat / email / WhatsApp", "RAG on your own docs", "Human handoff", "Multi-language replies", "Sentiment analysis", "Dashboard reporting"]
+        },
+        {
+          "name": "Sales Outreach Agent",
+          "duration": "5–7 weeks",
+          "price": "$ [amount]",
+          "body": "We define the target list together; the agent enriches it daily, writes personalised outreach and books meetings on your calendar.",
+          "features": ["Data enrichment", "ICP analysis", "Email sequences", "Calendar integration", "CRM sync", "A/B testing"]
+        },
+        {
+          "name": "Content Engine Agent",
+          "duration": "4–6 weeks",
+          "price": "$ [amount]",
+          "body": "A content team trained on your brand voice and tone. Produces blog posts, social content, email campaigns and video scripts; auto-publishes after an approval flow.",
+          "features": ["Brand voice training", "Multi-platform formats", "Visual and video generation", "Scheduling", "SEO analysis"]
+        },
+        {
+          "name": "Operations & Accounting Agent",
+          "duration": "6–8 weeks",
+          "price": "$ [amount]",
+          "body": "An AI worker that handles back-office operations: invoices, orders, expenses, inventory.",
+          "features": ["Invoice OCR", "Expense approval flow", "Inventory sync", "ERP integration", "Reporting", "Audit trail"]
+        },
+        {
+          "name": "Workflow Automation Agent",
+          "duration": "4–6 weeks",
+          "price": "$ [amount]",
+          "body": "We automate the repetitive work flowing between your internal tools. Slack, Notion, Airtable, Google Workspace, HubSpot, Shopify — 300+ tools supported.",
+          "features": ["300+ integrations", "Flow library", "Prompt-based flow creation", "Approval steps", "Error tracking"]
+        },
+        {
+          "name": "Custom AI Build",
+          "duration": "8–16 weeks",
+          "price": "$ [amount]",
+          "body": "For needs that don't fit the ready-made packages. Industry-specific agents, enterprise system integration, RAG on company documents, fine-tuned models — built from scratch.",
+          "features": ["Industry-specific solution", "System integration", "RAG infrastructure", "Model training", "Custom dashboards"],
+          "featured": true
+        }
+      ]
+    },
+    "retainers": {
+      "index": "02",
+      "eyebrow": "Post-delivery",
+      "title": "Monthly operations and maintenance.",
+      "description": "We don't disappear once the system goes live. Three levels:",
+      "items": [
+        { "name": "Basic", "price": "$ [amount]/mo", "features": ["Bug fixes", "Quarterly health check", "Email support"] },
+        { "name": "Standard", "price": "$ [amount]/mo", "features": ["Everything in Basic", "10 dev hours per month", "Weekly check-in", "Prompt updates"], "featured": true },
+        { "name": "Priority", "price": "$ [amount]/mo", "features": ["Everything in Standard", "4-hour response SLA", "Architecture reviews", "Priority support"] }
+      ]
+    },
+    "faq": {
+      "index": "03",
+      "eyebrow": "FAQ",
+      "title": "Common questions",
+      "items": [
+        { "q": "Why are prices given as ranges?", "a": "Price depends on the number of systems being integrated, data volume and depth of customisation. After a discovery call we issue a fixed-price quote." },
+        { "q": "Ready-made package or custom build?", "a": "If a ready-made package covers 80% of your need, start there — it's faster and cheaper. If your processes are non-standard, a custom build makes more sense." },
+        { "q": "Who owns the code?", "a": "You do. On delivery, all code, prompts and infrastructure definitions transfer to your own accounts. You aren't locked to us." },
+        { "q": "Is there infrastructure lock-in?", "a": "No. Systems run in your own cloud account. If you stop working with us, the system keeps running." },
+        { "q": "KVKK and GDPR compliance?", "a": "We sign a data processing agreement, host personal data in the European region, and apply masking where required." },
+        { "q": "How long does post-delivery support last?", "a": "There is a free 30-day fix period after delivery. After that, one of the monthly maintenance tiers kicks in — it isn't mandatory." }
+      ]
+    }
+  },
+
+  "cases": {
+    "hero": {
+      "eyebrow": "Cases",
+      "title": "Systems we shipped.",
+      "lead": "The cases below are placeholders. Add your own from messages/en.json."
+    },
+    "sectorLabel": "Sector",
+    "resultLabel": "Result",
+    "durationLabel": "Duration",
+    "stackLabel": "Build",
+    "items": [
+      {
+        "client": "Sample Client A",
+        "sector": "E-commerce",
+        "metric": "38%",
+        "metricLabel": "Drop in order handling time",
+        "duration": "6 weeks",
+        "body": "Orders, returns and shipping tracking ran across three separate dashboards. We merged all three into one flow and automated customer notifications. The support team got back roughly 4 hours of manual work a day.",
+        "stack": ["Workflow automation", "Support agent", "Shopify"],
+        "tags": ["Workflow", "Support agent"]
+      },
+      {
+        "client": "Sample Client B",
+        "sector": "Manufacturing",
+        "metric": "3×",
+        "metricLabel": "Faster quote preparation",
+        "duration": "10 weeks",
+        "body": "Quoting ran disconnected from the ERP, with costing done by hand for every quote. We wired the process into the ERP and added a layer that proposes pricing from historical data.",
+        "stack": ["Custom AI build", "ERP integration", "RAG"],
+        "tags": ["ERP integration", "Custom AI"]
+      },
+      {
+        "client": "Sample Client C",
+        "sector": "Services",
+        "metric": "24/7",
+        "metricLabel": "Uninterrupted customer response",
+        "duration": "5 weeks",
+        "body": "After-hours requests were rolling over to the next day. We shipped a multilingual support agent trained on their own documentation. 71% of incoming requests now resolve without a human handoff.",
+        "stack": ["Chatbot", "RAG", "WhatsApp"],
+        "tags": ["Chatbot", "RAG"]
+      }
+    ],
+    "cta": {
+      "title": "Make the next one yours.",
+      "body": "The first assessment call is free. 30 minutes.",
+      "cta": "Let's talk"
+    }
+  },
+
+  "about": {
+    "hero": {
+      "eyebrow": "Culture",
+      "title": "Small team,\nlarge responsibility.",
+      "lead": "NextFlow is an implementation team working on automation, AI systems and web builds. The person who sells it is the person who builds it."
+    },
+    "values": {
+      "index": "01",
+      "eyebrow": "How we work",
+      "title": "Four principles.",
+      "items": [
+        { "title": "Scope is written up front", "body": "What we deliver, when, and at what price — all written before work starts. Out-of-scope work is a new scope." },
+        { "title": "Nothing gets handed off", "body": "The person you talked to stays on the project. You don't get passed to a team you've never met after signing." },
+        { "title": "You own the code and infra", "body": "Everything we build runs in your accounts. When you stop working with us, the system keeps running." },
+        { "title": "We say when it won't work", "body": "If AI can't solve a problem, we say so up front. We don't take on projects that would sell well but wouldn't work." }
+      ]
+    },
+    "founder": {
+      "index": "02",
+      "eyebrow": "Founder",
+      "name": "[Founder Name]",
+      "role": "Founder · NextFlow",
+      "quote": "I run every project myself — I pick the team, own the timeline, and sit in every working session.",
+      "bio": "Fill this in with your own details: past experience, projects delivered, areas of expertise, awards and previous companies if any.",
+      "highlights": ["[Highlight 1]", "[Highlight 2]", "[Highlight 3]"]
+    },
+    "offices": {
+      "index": "03",
+      "eyebrow": "Where",
+      "title": "Two offices, one team.",
+      "body": "We work remotely, but we're across the table when it matters."
+    },
+    "cta": {
+      "title": "Let's work together.",
+      "body": "The first assessment call is free. 30 minutes, and it isn't a sales pitch.",
+      "cta": "Get in touch"
+    }
+  },
+
+  "blog": {
+    "hero": {
+      "eyebrow": "Blog",
+      "title": "We write down\nwhat we learn.",
+      "lead": "Notes on automation, AI agents and operational efficiency."
+    },
+    "readTime": "min read",
+    "soon": "Soon",
+    "items": [
+      {
+        "title": "Order automation in e-commerce: where to start",
+        "excerpt": "The right order to automate orders, returns and shipping — plus three improvements you can make in week one.",
+        "category": "E-commerce",
+        "readTime": 7,
+        "date": "2026-05-14"
+      },
+      {
+        "title": "AI agent or classic automation?",
+        "excerpt": "Not every problem wants AI. When is a simple workflow enough, and when do you genuinely need an agent?",
+        "category": "Strategy",
+        "readTime": 6,
+        "date": "2026-04-22"
+      },
+      {
+        "title": "Why data silos hold companies back",
+        "excerpt": "Scattered data is the biggest obstacle to automation. What breaking the silos costs, and what it returns.",
+        "category": "Data",
+        "readTime": 8,
+        "date": "2026-03-30"
+      }
+    ]
+  },
+
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "First call is free.\n30 minutes.",
+      "lead": "Tell us what you want to do and we'll reply within one business day. Not a sales pitch — let's talk about what's possible and what isn't."
+    },
+    "form": {
+      "name": "Your name",
+      "namePlaceholder": "Full name",
+      "email": "Email",
+      "emailPlaceholder": "you@company.com",
+      "company": "Company",
+      "companyPlaceholder": "Company name",
+      "budget": "Budget range",
+      "budgetPlaceholder": "Select",
+      "budgetOptions": ["Not defined yet", "Under $5,000", "$5,000 – $15,000", "$15,000 – $40,000", "Over $40,000"],
+      "topic": "What you're interested in",
+      "topicOptions": ["Advisory", "AI agent build", "Workflow automation", "Website / e-commerce", "Other"],
+      "message": "Your message",
+      "messagePlaceholder": "Which process do you want to improve? How does it run today?",
+      "submit": "Send",
+      "submitting": "Sending…",
+      "successTitle": "Your message landed.",
+      "successBody": "We'll get back to you within one business day. If it's urgent, feel free to call.",
+      "errorTitle": "Couldn't send.",
+      "errorBody": "Something went wrong. Please try again or email us directly.",
+      "notConfiguredTitle": "The form isn't connected yet.",
+      "notConfiguredBody": "The site owner hasn't configured the email service. Please email us directly.",
+      "required": "This field is required",
+      "invalidEmail": "Enter a valid email address",
+      "tooShort": "Add a little more detail (at least 20 characters)",
+      "rateLimited": "Too many attempts. Please try again in a few minutes."
+    },
+    "direct": {
+      "eyebrow": "Direct",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "officesLabel": "Offices",
+      "socialLabel": "Social"
+    }
+  },
+
+  "programs": {
+    "hero": {
+      "eyebrow": "Programs",
+      "title": "Programs that ship\nreal systems.",
+      "lead": "Not a slide deck you watch. We work alongside your team for four to six weeks, and when the program ends a working system stays in your company.",
+      "cta": "Ask about seats"
+    },
+    "tracks": {
+      "index": "01",
+      "eyebrow": "Three tracks",
+      "title": "Which program for whom?",
+      "description": "Programs are split by role. Several people from the same company can join different tracks.",
+      "items": [
+        {
+          "code": "A",
+          "title": "Developer productivity",
+          "body": "Speeding up your engineering team's daily work with AI. The Claude Code programs sit in this track."
+        },
+        {
+          "code": "B",
+          "title": "Sales and support operations",
+          "body": "Handing repetitive operational work to agents. n8n-based sales and support programs."
+        },
+        {
+          "code": "C",
+          "title": "Marketing content engine",
+          "body": "Bringing content production and distribution into one flow. The multi-channel content program."
+        }
+      ]
+    },
+    "packages": {
+      "index": "02",
+      "eyebrow": "Open cohorts",
+      "title": "Five programs.",
+      "description": "Prices are placeholders — replace them with your own. Seats per cohort are limited.",
+      "featuresLabel": "What you ship",
+      "fromLabel": "Per seat",
+      "items": [
+        {
+          "name": "In-House AI Agent",
+          "tool": "Claude Code",
+          "duration": "6 weeks · 2 sessions a week",
+          "price": "₺ [amount]",
+          "body": "A production-grade internal AI agent your team uses every day. By the end of the program it runs on your own infrastructure.",
+          "features": [
+            "Use-case selection",
+            "RAG over company documents",
+            "Tool and permission definitions",
+            "Production rollout and monitoring",
+            "Handover training"
+          ],
+          "featured": true
+        },
+        {
+          "name": "3× Faster Development",
+          "tool": "Claude Code",
+          "duration": "4 weeks · 2 sessions a week",
+          "price": "₺ [amount]",
+          "body": "Claude Code adoption across the whole engineering team, together with a setup that automates your code standards.",
+          "features": [
+            "Per-repository setup",
+            "Automated code standards",
+            "Test and review flows",
+            "Team usage rules",
+            "Productivity measurement"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Sales Pipeline Automation",
+          "tool": "n8n",
+          "duration": "4 weeks · 2 sessions a week",
+          "price": "₺ [amount]",
+          "body": "A pipeline that enriches leads automatically, writes personalised outbound with AI and syncs everything into your CRM.",
+          "features": [
+            "Lead sources and enrichment",
+            "ICP filtering",
+            "Personalised message generation",
+            "CRM sync",
+            "Measurement dashboard"
+          ],
+          "featured": false
+        },
+        {
+          "name": "AI Customer Support Agent",
+          "tool": "n8n",
+          "duration": "4 weeks · 2 sessions a week",
+          "price": "₺ [amount]",
+          "body": "Support automation trained on your own documents, escalating level by level and handing off to a human when it cannot resolve.",
+          "features": [
+            "Document collection and RAG",
+            "Tiered response flow",
+            "Escalation rules",
+            "Channel integration",
+            "Quality tracking"
+          ],
+          "featured": false
+        },
+        {
+          "name": "AI Content Engine",
+          "tool": "n8n",
+          "duration": "4 weeks · 2 sessions a week",
+          "price": "₺ [amount]",
+          "body": "A multi-channel production and distribution flow that turns one idea into blog, LinkedIn, X and Instagram content.",
+          "features": [
+            "Brand voice definition",
+            "Multi-channel format generation",
+            "Approval flow",
+            "Publishing schedule",
+            "Performance report"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    "format": {
+      "index": "03",
+      "eyebrow": "How it runs",
+      "title": "Two sessions a week,\nbuilding on the days between.",
+      "description": "Every session is live and recorded. Between sessions you work with your own data and get support in a shared channel when you get stuck.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Preparation",
+          "body": "Access, tool accounts and the use case are settled before the program starts.",
+          "meta": "Before the program"
+        },
+        {
+          "step": "02",
+          "title": "Live sessions",
+          "body": "Two sessions a week; we build on screen share and you keep the recordings.",
+          "meta": "Throughout"
+        },
+        {
+          "step": "03",
+          "title": "Build days",
+          "body": "Between sessions you move forward with your own data; questions are answered in the shared channel.",
+          "meta": "Weekly"
+        },
+        {
+          "step": "04",
+          "title": "Going live",
+          "body": "In the final week the system goes to production and is handed to the team.",
+          "meta": "Final week"
+        }
+      ]
+    },
+    "faq": {
+      "index": "04",
+      "eyebrow": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "Do I need a technical background?",
+          "a": "The Claude Code programs assume software development experience. In the n8n programs you don't write code — knowing your business processes is enough."
+        },
+        {
+          "q": "How many people can join?",
+          "a": "Pricing is per seat. Several people from the same company can join; beyond five we open a private cohort."
+        },
+        {
+          "q": "What if I miss a session?",
+          "a": "Every session is recorded and you keep access indefinitely. Build questions are answered in the shared channel."
+        },
+        {
+          "q": "What do I keep at the end?",
+          "a": "The working system itself, all flow definitions and prompts. Everything runs in your own accounts."
+        },
+        {
+          "q": "Are tool licences included?",
+          "a": "No. Claude, n8n and any integrated services are billed to you. We send the list of required accounts in writing before the program starts."
+        }
+      ]
+    }
+  },
+
+  "kurumIci": {
+    "hero": {
+      "eyebrow": "In-House",
+      "title": "We get your team\nready for AI.",
+      "lead": "In-house training and transformation consulting. We don't stop at introducing the tool — we stay until it lands in the team's daily work.",
+      "cta": "Book a discovery call"
+    },
+    "stats": {
+      "eyebrow": "Why it matters",
+      "items": [
+        { "value": 74, "suffix": "%", "label": "Cite lack of expertise as the first barrier to AI" },
+        { "value": 25, "suffix": " people", "label": "Group cap for a full-day workshop" },
+        { "value": 7, "suffix": " modules", "label": "Curriculum adapted per role" },
+        { "value": 2, "suffix": "-3 days", "label": "Core team cohort length" }
+      ]
+    },
+    "flagship": {
+      "index": "01",
+      "eyebrow": "Two flagship programs",
+      "title": "Literacy first,\ntransformation next.",
+      "description": "One makes the team confident with AI, the other transforms the company. Take them in sequence or together.",
+      "items": [
+        {
+          "tag": "Program A",
+          "title": "AI Literacy",
+          "body": "For everyone from branch managers to core departments. Seven modules, role-specific playbooks and a compliance module.",
+          "meta": "2-3 day cohort",
+          "href": "/kurum-ici/ai-okur-yazarligi",
+          "cta": "See the program",
+          "points": ["7-module curriculum", "Role-specific playbook", "Digital certificate", "GDPR / EU AI Act module"]
+        },
+        {
+          "tag": "Program B",
+          "title": "Company Doctor",
+          "body": "Four-stage consulting for company-wide AI transformation: diagnosis, prescription, treatment and follow-up.",
+          "meta": "Retainer model",
+          "href": "/kurum-ici/sirket-doktoru",
+          "cta": "See the program",
+          "points": ["Transformation roadmap", "Governance policies", "Pilot agent build", "Monthly KPI dashboard"]
+        }
+      ]
+    },
+    "curriculum": {
+      "index": "02",
+      "eyebrow": "Curriculum",
+      "title": "Seven modules,\nadapted per company.",
+      "description": "Modules work standalone. We pick, order and re-example them based on the team's level and your industry.",
+      "items": [
+        { "step": "01", "title": "Foundations and mindset", "body": "What AI does and doesn't do, and where it actually creates value.", "meta": "Everyone" },
+        { "step": "02", "title": "Effective prompts and context", "body": "Writing prompts that work, supplying context and reviewing output.", "meta": "Everyone" },
+        { "step": "03", "title": "Daily workflows", "body": "Practical use in email, documents, meeting notes and reporting.", "meta": "Everyone" },
+        { "step": "04", "title": "Department-specific applications", "body": "Separate scenarios for sales, marketing, finance, HR and operations.", "meta": "By role" },
+        { "step": "05", "title": "Security, ethics and compliance", "body": "Data classification, GDPR and EU AI Act obligations, hard limits.", "meta": "Mandatory" },
+        { "step": "06", "title": "Tool landscape", "body": "Which tool for which job; criteria for choosing tools in-house.", "meta": "Everyone" },
+        { "step": "07", "title": "Build workshop", "body": "We automate one of your real processes live.", "meta": "Produces output" }
+      ]
+    },
+    "formats": {
+      "index": "03",
+      "eyebrow": "Format and length",
+      "title": "Where you start depends\non the size of the team.",
+      "description": "Pricing is set after a needs assessment. On-site, online or hybrid.",
+      "formatLabel": "Format",
+      "durationLabel": "Length",
+      "audienceLabel": "Audience",
+      "presentationsCta": "Browse the decks",
+      "items": [
+        { "name": "Discovery call", "duration": "45 minutes", "audience": "Free assessment" },
+        { "name": "C-level briefing", "duration": "2-3 hours", "audience": "Senior management" },
+        { "name": "Literacy workshop", "duration": "1 day", "audience": "Departments" },
+        { "name": "Literacy cohort", "duration": "2-3 days", "audience": "Core teams" },
+        { "name": "Company Doctor diagnosis", "duration": "3-4 weeks", "audience": "Company-wide" },
+        { "name": "Company Doctor retainer", "duration": "Monthly", "audience": "Ongoing transformation" }
+      ]
+    },
+    "faq": {
+      "index": "04",
+      "eyebrow": "FAQ",
+      "title": "Common questions",
+      "items": [
+        { "q": "On-site or online?", "a": "Either, or hybrid. We cap full-day workshops at 25 people; larger organisations are split into multiple groups." },
+        { "q": "Is our data safe?", "a": "If real company data will be used in training we run a data classification first. GDPR and EU AI Act obligations are covered separately in module five." },
+        { "q": "What happens after the training?", "a": "All materials, playbooks and the automations built in the workshop stay with you. If you want, we continue with a monthly retainer." },
+        { "q": "Do you issue certificates?", "a": "Participants who complete the cohort get a digital certificate. It records attendance; it is not a proficiency exam." },
+        { "q": "Why isn't the price on the page?", "a": "Group count, format and length vary a lot per company. After the discovery call we send a fixed written quote — no hidden line items." }
+      ]
+    }
+  },
+
+  "aiLiteracy": {
+    "hero": {
+      "eyebrow": "In-House · Program A",
+      "title": "AI Literacy.",
+      "lead": "A seven-module program that makes the team use AI confidently, efficiently and within the rules. The output isn't a deck — it's playbooks the team uses and automations that run.",
+      "cta": "Ask about cohort dates",
+      "back": "In-House"
+    },
+    "outcomes": {
+      "index": "01",
+      "eyebrow": "Outcomes",
+      "title": "What stays behind\nwhen the program ends?",
+      "items": [
+        { "title": "Role-specific playbooks", "body": "A usage guide per department, written with examples from their own work." },
+        { "title": "Working automations", "body": "Real flows built in the workshop and usable the next morning." },
+        { "title": "Usage policy", "body": "An internal AI usage document stating what is allowed and what is not." },
+        { "title": "Digital certificate", "body": "An attendance certificate for every participant who completes the cohort." }
+      ]
+    },
+    "modules": {
+      "index": "02",
+      "eyebrow": "Curriculum",
+      "title": "Seven modules.",
+      "description": "Modules are selected and ordered by the company's level. Module five is mandatory everywhere.",
+      "items": [
+        { "step": "01", "title": "Foundations and mindset", "body": "How language models work, where they fail, and where they genuinely help. Setting expectations.", "meta": "2 hours" },
+        { "step": "02", "title": "Effective prompts and context", "body": "Prompting patterns, supplying context, and the review-and-correct loop.", "meta": "3 hours" },
+        { "step": "03", "title": "Daily workflows", "body": "Practical use in email, document summaries, meeting notes, deck drafts and reporting.", "meta": "3 hours" },
+        { "step": "04", "title": "Department-specific applications", "body": "Separate scenario sets for sales, marketing, finance, HR and operations.", "meta": "4 hours" },
+        { "step": "05", "title": "Security, ethics and compliance", "body": "Data classification, GDPR and EU AI Act obligations, corporate hard limits.", "meta": "2 hours · mandatory" },
+        { "step": "06", "title": "Tool landscape", "body": "Which tool for which job, enterprise licence models and selection criteria.", "meta": "2 hours" },
+        { "step": "07", "title": "Build workshop", "body": "Closing session where participants automate one of their own processes live.", "meta": "4 hours" }
+      ]
+    },
+    "compliance": {
+      "eyebrow": "Compliance",
+      "title": "GDPR and the EU AI Act\nare part of the curriculum.",
+      "body": "Module five is not optional. Which data may go to a model, which uses count as high risk and which records the company must keep are all left in writing. The training ends with a draft internal AI usage policy."
+    },
+    "cta": {
+      "title": "Let's open a cohort for your team.",
+      "body": "The 45-minute discovery call is free. We recommend a format based on group size.",
+      "cta": "Get in touch"
+    }
+  },
+
+  "companyDoctor": {
+    "hero": {
+      "eyebrow": "In-House · Program B",
+      "title": "Company Doctor.",
+      "lead": "Four-stage consulting for company-wide AI transformation. We diagnose, prescribe, apply the treatment together and track the result monthly.",
+      "cta": "Book a diagnosis call",
+      "back": "In-House"
+    },
+    "phases": {
+      "index": "01",
+      "eyebrow": "Four stages",
+      "title": "Diagnosis, prescription,\ntreatment, follow-up.",
+      "description": "Every stage has a written output. You sign off on it before the next one starts.",
+      "items": [
+        { "step": "01", "title": "Diagnosis", "body": "Department interviews, process inventory and a data maturity assessment. A snapshot of the company's AI readiness.", "meta": "3-4 weeks" },
+        { "step": "02", "title": "Prescription", "body": "A prioritised transformation roadmap, governance and compliance policies, tool selection.", "meta": "2-3 weeks" },
+        { "step": "03", "title": "Treatment", "body": "Building the first pilot agents from the roadmap and training the teams involved.", "meta": "4-8 weeks" },
+        { "step": "04", "title": "Follow-up", "body": "Measurement through a monthly KPI dashboard, correction, and planning the next wave.", "meta": "Ongoing" }
+      ]
+    },
+    "deliverables": {
+      "index": "02",
+      "eyebrow": "Deliverables",
+      "title": "What you receive.",
+      "items": [
+        { "title": "AI transformation roadmap", "body": "Which process, in which order, with which expected gain. In a format you can present to the board." },
+        { "title": "Governance and compliance policies", "body": "Internal AI usage rules, data classification and a GDPR / EU AI Act obligation list." },
+        { "title": "Pilot agent build", "body": "The first automation from the roadmap goes live; code and infrastructure stay in your accounts." },
+        { "title": "Monthly KPI dashboard", "body": "A live dashboard showing how much time and cost the automations actually save." }
+      ]
+    },
+    "model": {
+      "eyebrow": "Engagement model",
+      "title": "A retainer,\nnot a project.",
+      "body": "Company Doctor isn't a one-off report. Diagnosis starts with a fixed scope; after that it continues as a monthly retainer. You can stop at the end of any month — the systems built and the written outputs stay with you."
+    },
+    "cta": {
+      "title": "Let's start with the diagnosis.",
+      "body": "The first 45-minute call is free. Let's talk about where the company actually stands.",
+      "cta": "Get in touch"
+    }
+  },
+
+  "presentations": {
+    "hero": {
+      "eyebrow": "In-House · Presentations",
+      "title": "Decks ready to\nshow in a meeting.",
+      "lead": "Open them fullscreen in the browser or download the PDF. Built for sharing in internal decision meetings.",
+      "back": "In-House"
+    },
+    "list": {
+      "index": "01",
+      "eyebrow": "Decks",
+      "title": "Five presentations.",
+      "description": "The files aren't uploaded yet — links activate once the decks are added.",
+      "slidesLabel": "slides",
+      "soonLabel": "Soon",
+      "items": [
+        { "code": "01", "title": "General Introduction", "body": "Who we are, why NextFlow, the two service lines, applications and package structure.", "slides": 13 },
+        { "code": "02", "title": "Digital Transformation Program", "body": "The premium transformation program: mentoring, corporate setup and full production.", "slides": 11 },
+        { "code": "03", "title": "AI Literacy", "body": "Formats, the seven-module curriculum, outputs and scenario examples.", "slides": 7 },
+        { "code": "04", "title": "Company Doctor", "body": "The four-stage transformation framework, scope, outputs and the trainer pair.", "slides": 7 },
+        { "code": "05", "title": "Packages & Method", "body": "The five-step method, packages, the premium multiplier and the customer journey.", "slides": 6 }
+      ]
+    },
+    "cta": {
+      "title": "We can build a deck for you.",
+      "body": "Write to us if you want one adapted to your industry and your team.",
+      "cta": "Get in touch"
+    }
+  },
+
+  "industries": {
+    "hero": {
+      "eyebrow": "Industries",
+      "title": "Every industry\njams somewhere else.",
+      "lead": "Where automation belongs depends on the industry. Below are the systems we build most often across nine sectors and the usual starting points.",
+      "cta": "Let's talk about yours"
+    },
+    "list": {
+      "index": "01",
+      "eyebrow": "Nine industries",
+      "title": "Where we work.",
+      "description": "If your industry isn't listed we can still talk — process similarity matters more than the label.",
+      "automationsLabel": "Typical automations",
+      "items": [
+        {
+          "code": "01",
+          "name": "E-commerce",
+          "body": "Bringing orders, returns and shipping into one flow, and automating customer notifications.",
+          "automations": ["Order and return flow", "Shipment tracking notices", "Product description generation", "Cart abandonment recovery"]
+        },
+        {
+          "code": "02",
+          "name": "Healthcare",
+          "body": "Automating appointment management and patient communication, taking admin off the clinical team.",
+          "automations": ["Booking and reminders", "Patient intake forms", "Report summarisation", "Call routing"]
+        },
+        {
+          "code": "03",
+          "name": "Finance",
+          "body": "Reading document-heavy processes and automating the control steps.",
+          "automations": ["Document OCR and validation", "Anomaly detection", "Customer onboarding flow", "Compliance reporting"]
+        },
+        {
+          "code": "04",
+          "name": "Manufacturing",
+          "body": "Speeding up quoting and ERP-bound processes, and supporting production planning.",
+          "automations": ["Quoting and cost calculation", "ERP integration", "Supplier communication", "Quality record digitisation"]
+        },
+        {
+          "code": "05",
+          "name": "Logistics",
+          "body": "Automating shipment tracking, document flow and customer notification.",
+          "automations": ["Shipment status notices", "Waybill and invoice matching", "Route updates", "Request handling bot"]
+        },
+        {
+          "code": "06",
+          "name": "Retail",
+          "body": "Synchronising stock and campaign flow between store and online channels.",
+          "automations": ["Stock synchronisation", "Campaign content generation", "Store reporting", "Customer feedback analysis"]
+        },
+        {
+          "code": "07",
+          "name": "Real estate",
+          "body": "Automating listing production, lead qualification and viewing coordination.",
+          "automations": ["Listing copy generation", "Lead qualification", "Viewing coordination", "Portfolio matching"]
+        },
+        {
+          "code": "08",
+          "name": "Education",
+          "body": "Automating enrolment, content preparation and student communication.",
+          "automations": ["Enrolment and notification flow", "Course material generation", "Q&A assistant", "Attendance tracking"]
+        },
+        {
+          "code": "09",
+          "name": "Human resources",
+          "body": "Automating the hiring funnel and internal knowledge requests.",
+          "automations": ["CV screening", "Interview scheduling", "Onboarding flow", "Internal HR assistant"]
+        }
+      ]
+    },
+    "cta": {
+      "title": "What would we build in your industry?",
+      "body": "The first assessment call is free. 30 minutes, not a sales pitch.",
+      "cta": "Let's talk"
+    }
+  },
+  "footer": {
+    "tagline": "We build automation and AI systems. Strategy and execution from one team.",
+    "servicesTitle": "Services",
+    "industriesTitle": "Industries",
+    "companyTitle": "Company",
+    "contactTitle": "Contact",
+    "socialTitle": "Social",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "backToTop": "Top"
+  },
+
+  "intro": {
+    "label": "NextFlow intro screen",
+    "skip": "Skip"
+  },
+
+  "chat": {
+    "open": "Ask NextFlow",
+    "close": "Close chat",
+    "title": "NextFlow Assistant",
+    "subtitle": "Ask about services and process",
+    "placeholder": "Type your question…",
+    "send": "Send",
+    "greeting": "Hi. I can answer questions about NextFlow's services, process and pricing. What are you trying to do?",
+    "notConfigured": "The chat assistant isn't configured yet. Please use the contact form for your questions.",
+    "error": "Something went wrong. Please try again.",
+    "disclaimer": "AI-generated. Not a binding quote."
+  },
+
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you're looking for may have moved, or may never have existed.",
+    "cta": "Back to home"
+  }
+}

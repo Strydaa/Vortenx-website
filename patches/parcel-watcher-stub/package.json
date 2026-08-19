@@ -1,0 +1,7 @@
+{
+  "name": "@parcel/watcher",
+  "version": "2.6.0",
+  "description": "Yerel stub — gerekçe index.js basindaki yorumda",
+  "main": "index.js",
+  "license": "MIT"
+}

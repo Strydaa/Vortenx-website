@@ -1,0 +1,1140 @@
+{
+  "meta": {
+    "home": {
+      "title": "NextFlow — Otomasyon ve AI sistemleri kuruyoruz",
+      "description": "Şirketinizi büyüten AI ajanlarını ve otomasyon sistemlerini kuruyoruz. Strateji ve uygulama, tek ekipten. 4-10 haftada canlıya."
+    },
+    "advisory": {
+      "title": "Danışmanlık — NextFlow",
+      "description": "3 aylık sabit kapsamlı strateji paketleri. Süreç envanteri, AI değer analizi ve uygulanabilir yol haritası."
+    },
+    "systems": {
+      "title": "Sistemler — NextFlow",
+      "description": "Üretime hazır AI ajanları ve otomasyon sistemleri. 6 hazır paket ve tamamen özel kurulumlar."
+    },
+    "programs": {
+      "title": "Programlar — NextFlow",
+      "description": "Gerçek sistemleri canlıya alan kohort programları. 4-6 hafta, ekibinizle birlikte."
+    },
+    "kurumIci": {
+      "title": "Kurum İçi — NextFlow",
+      "description": "Kurum içi yapay zeka eğitimleri ve dönüşüm danışmanlığı. AI Okur Yazarlığı ve Şirket Doktoru."
+    },
+    "aiLiteracy": {
+      "title": "Yapay Zeka Okur Yazarlığı — NextFlow",
+      "description": "Yedi modüllük müfredat, role özel oyun kitapları ve KVKK / EU AI Act uyum bloğu."
+    },
+    "companyDoctor": {
+      "title": "Şirket Doktoru — NextFlow",
+      "description": "Teşhis, reçete, tedavi, takip. Şirket geneli AI dönüşümü için dört aşamalı program."
+    },
+    "presentations": {
+      "title": "Sunumlar — NextFlow",
+      "description": "Toplantıda göstermek ve paylaşmak için hazır sunum desteleri."
+    },
+    "industries": {
+      "title": "Endüstriler — NextFlow",
+      "description": "Dokuz sektör için otomasyon uygulamaları: e-ticaret, sağlık, finans, üretim, lojistik ve daha fazlası."
+    },
+    "cases": {
+      "title": "Projeler — NextFlow",
+      "description": "Kurduğumuz sistemler ve ölçülen sonuçlar."
+    },
+    "about": {
+      "title": "Kültür — NextFlow",
+      "description": "Nasıl çalıştığımız, neye inandığımız ve kimlerle çalıştığımız."
+    },
+    "blog": {
+      "title": "Blog — NextFlow",
+      "description": "Otomasyon, AI ajanları ve operasyon verimliliği üzerine yazılar."
+    },
+    "contact": {
+      "title": "İletişim — NextFlow",
+      "description": "İlk değerlendirme görüşmesi ücretsiz. 30 dakika."
+    }
+  },
+
+  "nav": {
+    "advisory": "Danışmanlık",
+    "systems": "Sistemler",
+    "programs": "Programlar",
+    "kurumIci": "Kurum İçi",
+    "cases": "Projeler",
+    "industries": "Endüstriler",
+    "blog": "Blog",
+    "about": "Kültür",
+    "contact": "İletişim",
+    "cta": "Konuşalım",
+    "menu": "Menü",
+    "close": "Kapat",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "toggleTheme": "Temayı değiştir",
+    "switchLanguage": "Dili değiştir"
+  },
+
+  "home": {
+    "hero": {
+      "status": "Yeni proje alımına açık",
+      "title": "Şirketinizi\nbüyütüyoruz.",
+      "lead": "AI'ı iş süreçlerinize entegre ediyoruz, büyüten sistemleri kuruyoruz ve ekibinizi adapte ediyoruz. Strateji ve uygulama, tek ekipten.",
+      "ctaPrimary": "Talebinizi iletin",
+      "ctaSecondary": "Paketleri inceleyin",
+      "scroll": "Kaydırın"
+    },
+
+    "stats": {
+      "eyebrow": "Rakamlarla",
+      "items": [
+        { "value": 60, "suffix": "+", "label": "Tamamlanmış proje" },
+        { "value": 4, "suffix": "–10 hafta", "label": "Ortalama teslim süresi" },
+        { "value": 2, "suffix": "", "label": "Ofis · İstanbul + Amsterdam" },
+        { "value": 12, "suffix": " yıl", "label": "Birikmiş mühendislik deneyimi" }
+      ]
+    },
+
+    "logos": {
+      "eyebrow": "Birlikte çalıştığımız ekipler"
+    },
+
+    "tracks": {
+      "index": "01",
+      "eyebrow": "İki hizmet hattı",
+      "title": "Önce netlik, sonra kurulum.",
+      "description": "Nerede olduğunuza göre başlayacağınız yer değişir. İkisini birlikte de yürütebiliriz.",
+      "items": [
+        {
+          "tag": "Danışmanlık",
+          "title": "Yol haritası, karar desteği, üst yönetim sunumu",
+          "body": "Süreçlerinizi envanterliyoruz, AI'ın gerçekten değer ürettiği yerleri tespit ediyoruz ve uygulanabilir bir yol haritası teslim ediyoruz.",
+          "meta": "3 aylık sabit kapsam",
+          "href": "/advisory",
+          "cta": "Danışmanlığı inceleyin",
+          "points": ["Süreç envanteri", "AI fırsat haritası", "Pilot PRD'ler", "Yönetim sunumu"]
+        },
+        {
+          "tag": "Sistemler",
+          "title": "Canlı AI ajanları ve kurulu sistemler",
+          "body": "Test edilmiş ajan paketleri ve özel kurulumlar. 4-10 haftada canlıya alıyor, sonrasında aylık operasyon ve bakımını üstleniyoruz.",
+          "meta": "4-10 haftada teslim",
+          "href": "/systems",
+          "cta": "Paketleri inceleyin",
+          "points": ["Hazır 6 paket", "Özel AI kurulumu", "KVKK uyumlu", "Aylık bakım"]
+        }
+      ]
+    },
+
+    "services": {
+      "index": "02",
+      "eyebrow": "Ne yapıyoruz",
+      "title": "Sekiz uzmanlık alanı,\ntek ekip.",
+      "description": "Otomasyondan web sitesi kurulumuna kadar; birbirine bağlanan sistemler kuruyoruz.",
+      "items": [
+        {
+          "title": "AI Otomasyonu",
+          "body": "Tekrar eden işleri uçtan uca otomatikleştiriyoruz. İnsan onayı gereken yerlerde adım bırakıyoruz."
+        },
+        {
+          "title": "Chatbot & Sesli Ajanlar",
+          "body": "7/24 çalışan, kendi dokümanlarınızla eğitilmiş müşteri temsilcileri. Web, WhatsApp, telefon."
+        },
+        {
+          "title": "İş Akışı Otomasyonu",
+          "body": "Slack, Notion, Airtable, HubSpot, Shopify — 300+ araç arasında akan işleri bağlıyoruz."
+        },
+        {
+          "title": "Özel AI Çözümleri",
+          "body": "Hazır paketlere sığmayan ihtiyaçlar için sıfırdan kurulum. Sektöre özel ajanlar, RAG sistemleri."
+        },
+        {
+          "title": "B2B Satış Otomasyonu",
+          "body": "Hedef listesini zenginleştiren, kişiselleştirilmiş mesaj yazan ve takviminize toplantı koyan ajan."
+        },
+        {
+          "title": "İçerik Üretimi",
+          "body": "Marka sesinizle eğitilmiş içerik motoru. Blog, sosyal medya, e-posta, video senaryosu."
+        },
+        {
+          "title": "Kurumsal Web Sitesi",
+          "body": "Hızlı, çok dilli, SEO'su sağlam kurumsal siteler. Bu sitenin kendisi de o işin örneği."
+        },
+        {
+          "title": "E-ticaret & Webshop",
+          "body": "Sipariş, stok ve müşteri iletişimi otomatik akan mağazalar. Shopify ve özel kurulum."
+        }
+      ]
+    },
+
+    "cases": {
+      "index": "03",
+      "eyebrow": "Projeler",
+      "title": "Kurduk, ölçtük,\nbüyüttük.",
+      "description": "Aşağıdaki rakamlar örnek yer tutuculardır — kendi projelerinizle değiştirilmek üzere hazırlanmıştır.",
+      "cta": "Tüm projeler",
+      "items": [
+        {
+          "client": "Örnek Müşteri A",
+          "sector": "E-ticaret",
+          "metric": "%38",
+          "metricLabel": "Sipariş işleme süresinde düşüş",
+          "body": "Sipariş, iade ve kargo takibini tek akışta topladık; destek ekibi manuel işten kurtuldu.",
+          "tags": ["İş akışı", "Destek ajanı"]
+        },
+        {
+          "client": "Örnek Müşteri B",
+          "sector": "Üretim",
+          "metric": "3×",
+          "metricLabel": "Teklif hazırlama hızı",
+          "body": "Teklif hazırlama sürecini ERP'ye bağladık; saatler süren hesaplama dakikalara indi.",
+          "tags": ["ERP entegrasyonu", "Özel AI"]
+        },
+        {
+          "client": "Örnek Müşteri C",
+          "sector": "Hizmet",
+          "metric": "7/24",
+          "metricLabel": "Kesintisiz müşteri yanıtı",
+          "body": "Çok dilli destek ajanı kurduk; mesai dışı gelen taleplerin %71'i insana devredilmeden çözülüyor.",
+          "tags": ["Chatbot", "RAG"]
+        }
+      ]
+    },
+
+    "comparison": {
+      "index": "04",
+      "eyebrow": "Karşılaştırma",
+      "title": "Neden NextFlow?",
+      "description": "Aynı işi başka şekillerde de çözebilirsiniz. Farkın nerede olduğunu açıkça yazalım.",
+      "columns": ["NextFlow", "Freelancer", "Büyük ajans", "İç ekip", "Kendin yap"],
+      "rows": [
+        { "criterion": "Kıdemli danışman erişimi", "values": [true, false, true, false, false] },
+        { "criterion": "Uygulama ekibi", "values": [true, true, true, true, false] },
+        { "criterion": "Sabit kapsam ve fiyat", "values": [true, false, false, false, true] },
+        { "criterion": "4-10 hafta içinde canlı", "values": [true, true, false, false, false] },
+        { "criterion": "Teslim sonrası bakım", "values": [true, false, true, true, false] },
+        { "criterion": "Kod ve altyapı sizin", "values": [true, true, false, true, true] },
+        { "criterion": "KVKK / GDPR uyumu", "values": [true, false, true, true, false] }
+      ],
+      "yes": "Var",
+      "no": "Yok"
+    },
+
+    "process": {
+      "index": "05",
+      "eyebrow": "Nasıl çalışıyoruz",
+      "title": "Dört adım,\nsürpriz yok.",
+      "description": "Her adımın çıktısı belli. Ne zaman ne teslim edeceğimizi baştan yazıyoruz.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Keşif & Analiz",
+          "body": "Süreçlerinizi haritalıyoruz, darboğazları ve otomasyona uygun noktaları çıkarıyoruz.",
+          "meta": "1-2 hafta"
+        },
+        {
+          "step": "02",
+          "title": "Strateji & Tasarım",
+          "body": "Hangi sistemin ne yapacağını, hangi araçlarla ve hangi sırayla kurulacağını netleştiriyoruz.",
+          "meta": "1-2 hafta"
+        },
+        {
+          "step": "03",
+          "title": "Uygulama",
+          "body": "Sistemi kuruyoruz, gerçek verinizle test ediyoruz, ekibinize devrediyoruz.",
+          "meta": "2-6 hafta"
+        },
+        {
+          "step": "04",
+          "title": "Optimizasyon & Büyüme",
+          "body": "Canlıda ölçüyor, iyileştiriyor ve bir sonraki otomasyon fırsatını birlikte belirliyoruz.",
+          "meta": "Sürekli"
+        }
+      ]
+    },
+
+    "founder": {
+      "index": "06",
+      "eyebrow": "Kim yürütüyor",
+      "title": "Projeyi satan kişi,\nprojeyi yürüten kişi.",
+      "quote": "Her projeyi kendim yürütüyorum — ekibi seçerim, takvimi sahiplenirim, her çalışma seansında bizzat bulunurum. Devredilen proje yok.",
+      "name": "[Kurucu Adı]",
+      "role": "Kurucu · NextFlow",
+      "bio": "Bu alanı kendi bilgilerinizle doldurun: geçmiş deneyim, teslim edilen proje sayısı, uzmanlık alanları."
+    },
+
+    "blog": {
+      "index": "07",
+      "eyebrow": "Yazılar",
+      "title": "Ne öğrendiysek\nyazıyoruz.",
+      "cta": "Tüm yazılar",
+      "readTime": "dk okuma"
+    },
+
+    "cta": {
+      "eyebrow": "Sıradaki adım",
+      "title": "Nereden başlamalı?",
+      "description": "İlk değerlendirme görüşmesi ücretsiz. 30 dakika, satış konuşması değil.",
+      "options": [
+        {
+          "tag": "Henüz netleşmediyse",
+          "title": "Danışmanlıkla başlayın",
+          "body": "Neyi otomatikleştireceğinizden emin değilseniz önce haritayı çıkaralım.",
+          "href": "/advisory",
+          "cta": "Danışmanlık"
+        },
+        {
+          "tag": "Ne istediğinizi biliyorsanız",
+          "title": "Doğrudan kurulum",
+          "body": "İhtiyaç netse hazır paketlerden birine bakın ya da özel kurulum konuşalım.",
+          "href": "/systems",
+          "cta": "Sistemler"
+        }
+      ],
+      "contactPrompt": "Ya da doğrudan yazın —",
+      "contactCta": "iletişim formu"
+    }
+  },
+
+  "advisory": {
+    "hero": {
+      "eyebrow": "Danışmanlık",
+      "title": "Kurmaya başlamadan önce\nne yapacağınızı netleştirin.",
+      "lead": "3 aylık sabit kapsamlı strateji paketleri. Süreçlerinizi envanterliyoruz, AI'ın gerçek değer ürettiği noktaları belirliyoruz ve yönetime sunulabilir bir yol haritası teslim ediyoruz.",
+      "cta": "Görüşme ayarlayın"
+    },
+    "spline": {
+      "eyebrow": "Etkileşimli",
+      "title": "Soyut değil, gözle görülür sistemler.",
+      "body": "Kurduğumuz her sistemi teslimden önce modelliyoruz: hangi veri nereden geliyor, hangi adım otomatikleşiyor, insan nerede devreye giriyor. Yol haritasını imzalamadan önce çalışacak şeyi görüyorsunuz.",
+      "loading": "Sahne yükleniyor"
+    },
+    "packages": {
+      "index": "01",
+      "eyebrow": "Paketler",
+      "title": "Üç ana paket.",
+      "description": "Fiyatlar örnek yer tutucudur — kendi fiyatlandırmanızla değiştirin.",
+      "durationLabel": "Süre",
+      "includesLabel": "Kapsam",
+      "items": [
+        {
+          "code": "A",
+          "name": "AI Adaptasyon Yol Haritası",
+          "price": "₺ [tutar]",
+          "duration": "12 hafta · 6 atölye · 12 kontrol toplantısı",
+          "body": "Şirket genelinde AI'ın nerede ve hangi sırayla devreye alınacağını belirleyen kapsamlı program.",
+          "includes": [
+            "Mevcut süreç envanteri",
+            "AI değer analizi",
+            "Tedarikçi ve araç önerileri",
+            "3 adet pilot PRD",
+            "18 aylık yol haritası",
+            "Yönetim kurulu sunumu"
+          ],
+          "featured": true
+        },
+        {
+          "code": "B",
+          "name": "Otomasyon Stratejisi",
+          "price": "₺ [tutar]",
+          "duration": "12 hafta · 4 atölye · 10 kontrol toplantısı",
+          "body": "Operasyonel süreçlerin otomasyona hazırlanması ve önceliklendirilmesi.",
+          "includes": [
+            "Süreç haritalama",
+            "ROI hesabı",
+            "Araç seçimi",
+            "İş akışı mimarisi",
+            "Ekip eğitimi"
+          ],
+          "featured": false
+        },
+        {
+          "code": "C",
+          "name": "Veri & Bulut Mimarisi",
+          "price": "₺ [tutar]",
+          "duration": "12 hafta · 6 atölye · 12 kontrol toplantısı",
+          "body": "Dağınık verinin toplanması, taşınması ve yönetim modelinin kurulması.",
+          "includes": [
+            "Veri envanteri analizi",
+            "Taşıma hazırlık raporu",
+            "Mimari önerileri",
+            "Yönetişim modeli",
+            "Maliyet analizi"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    "short": {
+      "index": "02",
+      "eyebrow": "Kısa format",
+      "title": "Daha küçük başlamak isterseniz.",
+      "items": [
+        { "name": "Strateji Atölyesi", "price": "₺ [tutar]", "duration": "1 gün", "body": "Ekibinizle tek günlük yoğun oturum; çıkışta öncelikli 3 fırsat." },
+        { "name": "Hızlı Teşhis", "price": "₺ [tutar]", "duration": "2 hafta", "body": "Mevcut durumun fotoğrafı ve hızlı kazanım listesi." },
+        { "name": "Mentorluk Aboneliği", "price": "₺ [tutar]/ay", "duration": "En az 3 ay", "body": "Aylık düzenli görüşme; kararları birlikte alıyoruz." }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Fiyatlandırma",
+      "title": "Sabit kapsam, sabit fiyat.",
+      "body": "Danışmanlık tarafında saatlik faturalama yok. Kapsam baştan yazılır, fiyat değişmez. Kapsam değişirse yeni bir kapsam yazarız — sürpriz fatura gelmez."
+    },
+    "faq": {
+      "index": "03",
+      "eyebrow": "Sık sorulanlar",
+      "title": "Merak edilenler",
+      "items": [
+        { "q": "Küçük bir şirketiz, bize uygun mu?", "a": "Kısa format hizmetler (atölye, hızlı teşhis) tam olarak bunun için var. 3 aylık paketler genellikle 20+ kişilik ekipler için anlamlı oluyor." },
+        { "q": "Sonuç garantisi veriyor musunuz?", "a": "Çıktı garantisi veriyoruz: kapsamda yazılı her teslimat elinize geçer. İş sonucu garantisi vermiyoruz — uygulama sizin operasyonunuza bağlı. Uygulamayı da biz üstlenirsek sonuçtan birlikte sorumlu oluruz." },
+        { "q": "Verilerimiz gizli kalır mı?", "a": "Çalışma başlamadan karşılıklı gizlilik sözleşmesi imzalıyoruz. Verileriniz eğitim amacıyla hiçbir modele verilmez." },
+        { "q": "Uygulamayı da siz yapabilir misiniz?", "a": "Evet. Danışmanlık çıktısındaki pilotları Sistemler tarafında kurabiliyoruz. Danışmanlık almak zorunlu değil; doğrudan kurulumla da başlayabilirsiniz." },
+        { "q": "Ödeme koşulları nedir?", "a": "Başlangıçta %40, orta noktada %30, teslimde %30. Aylık abonelikler peşin faturalanır." }
+      ]
+    }
+  },
+
+  "systems": {
+    "hero": {
+      "eyebrow": "Sistemler",
+      "title": "Üretime hazır AI ajanları\nve otomasyon sistemleri.",
+      "lead": "Test edilmiş ajan paketleri ve tamamen özel kurulumlar. 4-10 haftada canlıya alıyoruz, sonrasında aylık operasyon ve bakımını üstleniyoruz. Türkçe hazır ve KVKK uyumlu.",
+      "cta": "Talebinizi iletin",
+      "builtOn": "Kurduğumuz altyapı"
+    },
+    "packages": {
+      "index": "01",
+      "eyebrow": "Paketler",
+      "title": "6 hazır paket,\nartı tamamen özel kurulum.",
+      "description": "Fiyatlar örnek yer tutucudur — kendi fiyatlandırmanızla değiştirin.",
+      "fromLabel": "Başlangıç",
+      "featuresLabel": "İçerik",
+      "items": [
+        {
+          "name": "Müşteri Destek Ajanı",
+          "duration": "4-6 hafta",
+          "price": "₺ [tutar]",
+          "body": "E-posta, canlı sohbet ve WhatsApp üzerinden müşteri mesajlarını 7/24 yanıtlayan AI çalışanı.",
+          "features": ["Web sohbeti / e-posta / WhatsApp", "Kendi dokümanlarınızla RAG", "İnsana devretme", "Çok dilli yanıt", "Duygu analizi", "Panel raporlama"]
+        },
+        {
+          "name": "Satış Erişim Ajanı",
+          "duration": "5-7 hafta",
+          "price": "₺ [tutar]",
+          "body": "Hedef müşteri listesini birlikte tanımlıyoruz; ajan listeyi günlük zenginleştiriyor, kişiselleştirilmiş mesaj yazıyor ve takviminize toplantı koyuyor.",
+          "features": ["Veri zenginleştirme", "ICP analizi", "E-posta serileri", "Takvim entegrasyonu", "CRM senkronizasyonu", "A/B testi"]
+        },
+        {
+          "name": "İçerik Motoru Ajanı",
+          "duration": "4-6 hafta",
+          "price": "₺ [tutar]",
+          "body": "Marka sesiniz ve tonunuzla eğitilmiş içerik ekibi. Blog, sosyal medya, e-posta kampanyası ve video senaryosu üretir; onay akışından sonra otomatik yayınlar.",
+          "features": ["Marka sesi eğitimi", "Çok platformlu format", "Görsel ve video üretimi", "Yayın planlama", "SEO analizi"]
+        },
+        {
+          "name": "Operasyon & Muhasebe Ajanı",
+          "duration": "6-8 hafta",
+          "price": "₺ [tutar]",
+          "body": "Arka ofis işlerini yürüten AI çalışanı: faturalar, siparişler, masraflar, stok.",
+          "features": ["Fatura OCR", "Masraf onay akışı", "Stok senkronizasyonu", "ERP entegrasyonu", "Raporlama", "Denetim izi"]
+        },
+        {
+          "name": "İş Akışı Otomasyon Ajanı",
+          "duration": "4-6 hafta",
+          "price": "₺ [tutar]",
+          "body": "İç araçlarınız arasında akan tekrar eden işleri otomatikleştiriyoruz. Slack, Notion, Airtable, Google Workspace, HubSpot, Shopify — 300+ araç destekleniyor.",
+          "features": ["300+ entegrasyon", "Hazır akış kütüphanesi", "Komutla akış oluşturma", "Onay adımları", "Hata takibi"]
+        },
+        {
+          "name": "Özel AI Kurulumu",
+          "duration": "8-16 hafta",
+          "price": "₺ [tutar]",
+          "body": "Hazır paketlere sığmayan ihtiyaçlar için. Sektöre özel ajanlar, kurumsal sistem entegrasyonu, şirket dokümanları üzerinde RAG, ince ayarlı modeller — sıfırdan kurulur.",
+          "features": ["Sektöre özel çözüm", "Sistem entegrasyonu", "RAG altyapısı", "Model eğitimi", "Özel paneller"],
+          "featured": true
+        }
+      ]
+    },
+    "retainers": {
+      "index": "02",
+      "eyebrow": "Teslim sonrası",
+      "title": "Aylık operasyon ve bakım.",
+      "description": "Sistem canlıya alındıktan sonra yalnız bırakmıyoruz. Üç bakım seviyesi:",
+      "items": [
+        { "name": "Temel", "price": "₺ [tutar]/ay", "features": ["Hata düzeltmeleri", "Çeyreklik sağlık kontrolü", "E-posta desteği"] },
+        { "name": "Standart", "price": "₺ [tutar]/ay", "features": ["Temel paketin tamamı", "Aylık 10 saat geliştirme", "Haftalık kontrol toplantısı", "Prompt güncellemeleri"], "featured": true },
+        { "name": "Öncelikli", "price": "₺ [tutar]/ay", "features": ["Standart paketin tamamı", "4 saat yanıt garantisi (SLA)", "Mimari gözden geçirme", "Öncelikli destek"] }
+      ]
+    },
+    "faq": {
+      "index": "03",
+      "eyebrow": "Sık sorulanlar",
+      "title": "Merak edilenler",
+      "items": [
+        { "q": "Fiyatlar neden aralık olarak veriliyor?", "a": "Fiyat, entegre edilecek sistem sayısına, veri hacmine ve özelleştirme derinliğine göre değişir. Keşif görüşmesinden sonra sabit fiyatlı teklif çıkarıyoruz." },
+        { "q": "Hazır paket mi, özel kurulum mu?", "a": "İhtiyacınızın %80'i hazır paketle karşılanıyorsa oradan başlayın — daha hızlı ve daha ucuz. Süreçleriniz standart dışıysa özel kurulum daha mantıklı." },
+        { "q": "Kod kime ait?", "a": "Size. Teslimde tüm kod, prompt'lar ve altyapı tanımları kendi hesaplarınıza aktarılır. Bize bağımlı kalmazsınız." },
+        { "q": "Altyapı kilidi var mı?", "a": "Hayır. Sistemler kendi bulut hesabınızda çalışır. Bizimle çalışmayı bırakırsanız sistem çalışmaya devam eder." },
+        { "q": "KVKK ve GDPR uyumu?", "a": "Veri işleme sözleşmesi imzalıyoruz, kişisel veriler için Avrupa bölgesinde barındırma ve gerektiğinde maskeleme uyguluyoruz." },
+        { "q": "Teslim sonrası destek ne kadar sürüyor?", "a": "Teslimden sonra 30 gün ücretsiz düzeltme dönemi var. Sonrasında aylık bakım paketlerinden biri devreye girer — zorunlu değil." }
+      ]
+    }
+  },
+
+  "cases": {
+    "hero": {
+      "eyebrow": "Projeler",
+      "title": "Kurduğumuz sistemler.",
+      "lead": "Aşağıdaki projeler örnek yer tutuculardır. Kendi projelerinizi messages/tr.json dosyasından ekleyebilirsiniz."
+    },
+    "sectorLabel": "Sektör",
+    "resultLabel": "Sonuç",
+    "durationLabel": "Süre",
+    "stackLabel": "Kurulum",
+    "items": [
+      {
+        "client": "Örnek Müşteri A",
+        "sector": "E-ticaret",
+        "metric": "%38",
+        "metricLabel": "Sipariş işleme süresinde düşüş",
+        "duration": "6 hafta",
+        "body": "Sipariş, iade ve kargo takibi üç farklı panelde yürüyordu. Üçünü tek akışta topladık ve müşteri bilgilendirmelerini otomatikleştirdik. Destek ekibi günde ortalama 4 saatlik manuel işten kurtuldu.",
+        "stack": ["İş akışı otomasyonu", "Destek ajanı", "Shopify"],
+        "tags": ["İş akışı", "Destek ajanı"]
+      },
+      {
+        "client": "Örnek Müşteri B",
+        "sector": "Üretim",
+        "metric": "3×",
+        "metricLabel": "Teklif hazırlama hızı",
+        "duration": "10 hafta",
+        "body": "Teklif hazırlama süreci ERP'den kopuk yürüyordu; her teklif için manuel maliyet hesabı yapılıyordu. Süreci ERP'ye bağladık, geçmiş verilerle fiyat önerisi üreten bir katman ekledik.",
+        "stack": ["Özel AI kurulumu", "ERP entegrasyonu", "RAG"],
+        "tags": ["ERP entegrasyonu", "Özel AI"]
+      },
+      {
+        "client": "Örnek Müşteri C",
+        "sector": "Hizmet",
+        "metric": "7/24",
+        "metricLabel": "Kesintisiz müşteri yanıtı",
+        "duration": "5 hafta",
+        "body": "Mesai dışı gelen talepler ertesi güne kalıyordu. Kendi dokümanlarıyla eğitilmiş çok dilli bir destek ajanı kurduk. Gelen taleplerin %71'i insana devredilmeden çözülüyor.",
+        "stack": ["Chatbot", "RAG", "WhatsApp"],
+        "tags": ["Chatbot", "RAG"]
+      }
+    ],
+    "cta": {
+      "title": "Sıradaki proje sizinki olsun.",
+      "body": "İlk değerlendirme görüşmesi ücretsiz. 30 dakika.",
+      "cta": "Konuşalım"
+    }
+  },
+
+  "about": {
+    "hero": {
+      "eyebrow": "Kültür",
+      "title": "Küçük ekip,\nbüyük sorumluluk.",
+      "lead": "NextFlow; otomasyon, AI sistemleri ve web kurulumu üzerine çalışan bir uygulama ekibidir. Satan kişi ile yapan kişi aynıdır."
+    },
+    "values": {
+      "index": "01",
+      "eyebrow": "Nasıl çalışıyoruz",
+      "title": "Dört ilke.",
+      "items": [
+        { "title": "Kapsam baştan yazılır", "body": "Ne teslim edeceğimiz, ne zaman ve hangi fiyata — hepsi işe başlamadan önce yazılıdır. Kapsam dışı iş, yeni kapsamdır." },
+        { "title": "Devredilen proje yok", "body": "Görüşmeyi yapan kişi projede kalır. Satıştan sonra tanımadığınız bir ekibe devredilmezsiniz." },
+        { "title": "Kod ve altyapı sizin", "body": "Kurduğumuz her şey sizin hesaplarınızda çalışır. Bizimle çalışmayı bıraktığınızda sistem çalışmaya devam eder." },
+        { "title": "Çalışmayan şeyi söyleriz", "body": "AI'ın çözemeyeceği bir problem varsa bunu baştan söylüyoruz. Satılabilir ama işe yaramayacak proje almıyoruz." }
+      ]
+    },
+    "founder": {
+      "index": "02",
+      "eyebrow": "Kurucu",
+      "name": "[Kurucu Adı]",
+      "role": "Kurucu · NextFlow",
+      "quote": "Her projeyi kendim yürütüyorum — ekibi seçerim, takvimi sahiplenirim, her çalışma seansında bizzat bulunurum.",
+      "bio": "Bu alanı kendi bilgilerinizle doldurun: geçmiş deneyim, teslim edilen proje sayısı, uzmanlık alanları, varsa ödüller ve önceki şirketler.",
+      "highlights": ["[Öne çıkan başarı 1]", "[Öne çıkan başarı 2]", "[Öne çıkan başarı 3]"]
+    },
+    "offices": {
+      "index": "03",
+      "eyebrow": "Nerede",
+      "title": "İki ofis, tek ekip.",
+      "body": "Uzaktan çalışıyoruz ama gerektiğinde masanızın karşısındayız."
+    },
+    "cta": {
+      "title": "Birlikte çalışalım.",
+      "body": "İlk değerlendirme görüşmesi ücretsiz. 30 dakika, satış konuşması değil.",
+      "cta": "İletişime geçin"
+    }
+  },
+
+  "blog": {
+    "hero": {
+      "eyebrow": "Blog",
+      "title": "Ne öğrendiysek\nyazıyoruz.",
+      "lead": "Otomasyon, AI ajanları ve operasyon verimliliği üzerine notlar."
+    },
+    "readTime": "dk okuma",
+    "soon": "Yakında",
+    "items": [
+      {
+        "title": "E-ticarette sipariş otomasyonu: nereden başlamalı?",
+        "excerpt": "Sipariş, iade ve kargo süreçlerini otomatikleştirmenin doğru sırası ve ilk haftada yapılabilecek üç iyileştirme.",
+        "category": "E-ticaret",
+        "readTime": 7,
+        "date": "2026-05-14"
+      },
+      {
+        "title": "AI ajanı mı, klasik otomasyon mu?",
+        "excerpt": "Her problem AI istemiyor. Hangi durumda basit bir iş akışı yeterli, hangi durumda gerçekten bir ajana ihtiyaç var?",
+        "category": "Strateji",
+        "readTime": 6,
+        "date": "2026-04-22"
+      },
+      {
+        "title": "Veri siloları şirketleri neden yavaşlatıyor?",
+        "excerpt": "Dağınık veri, otomasyonun önündeki en büyük engel. Silo kırmanın maliyeti ve getirisi.",
+        "category": "Veri",
+        "readTime": 8,
+        "date": "2026-03-30"
+      }
+    ]
+  },
+
+  "contact": {
+    "hero": {
+      "eyebrow": "İletişim",
+      "title": "İlk görüşme ücretsiz.\n30 dakika.",
+      "lead": "Ne yapmak istediğinizi yazın, 1 iş günü içinde dönüş yapalım. Satış konuşması değil — ne yapılabilir, ne yapılamaz konuşalım."
+    },
+    "form": {
+      "name": "Adınız",
+      "namePlaceholder": "Ad Soyad",
+      "email": "E-posta",
+      "emailPlaceholder": "ad@sirket.com",
+      "company": "Şirket",
+      "companyPlaceholder": "Şirket adı",
+      "budget": "Bütçe aralığı",
+      "budgetPlaceholder": "Seçiniz",
+      "budgetOptions": ["Henüz netleşmedi", "50.000 ₺ altı", "50.000 - 150.000 ₺", "150.000 - 400.000 ₺", "400.000 ₺ üzeri"],
+      "topic": "İlgilendiğiniz alan",
+      "topicOptions": ["Danışmanlık", "AI ajanı kurulumu", "İş akışı otomasyonu", "Web sitesi / e-ticaret", "Diğer"],
+      "message": "Mesajınız",
+      "messagePlaceholder": "Hangi süreci iyileştirmek istiyorsunuz? Bugün nasıl yürüyor?",
+      "submit": "Gönder",
+      "submitting": "Gönderiliyor…",
+      "successTitle": "Mesajınız ulaştı.",
+      "successBody": "1 iş günü içinde dönüş yapacağız. Acele bir konuysa doğrudan arayabilirsiniz.",
+      "errorTitle": "Gönderilemedi.",
+      "errorBody": "Bir sorun oluştu. Lütfen tekrar deneyin ya da doğrudan e-posta gönderin.",
+      "notConfiguredTitle": "Form henüz bağlanmadı.",
+      "notConfiguredBody": "Site sahibi e-posta servisini yapılandırmamış. Lütfen doğrudan e-posta gönderin.",
+      "required": "Bu alan zorunlu",
+      "invalidEmail": "Geçerli bir e-posta adresi girin",
+      "tooShort": "Biraz daha ayrıntı yazın (en az 20 karakter)",
+      "rateLimited": "Çok fazla deneme yaptınız. Birkaç dakika sonra tekrar deneyin."
+    },
+    "direct": {
+      "eyebrow": "Doğrudan",
+      "emailLabel": "E-posta",
+      "phoneLabel": "Telefon",
+      "officesLabel": "Ofisler",
+      "socialLabel": "Sosyal"
+    }
+  },
+
+  "programs": {
+    "hero": {
+      "eyebrow": "Programlar",
+      "title": "Gerçek sistemleri\ncanlıya alan programlar.",
+      "lead": "Slayt izlenen eğitim değil. 4-6 hafta boyunca ekibinizle birlikte çalışıyoruz; program bittiğinde şirketinizde çalışan bir sistem kalıyor.",
+      "cta": "Kontenjan sorun"
+    },
+    "tracks": {
+      "index": "01",
+      "eyebrow": "Üç patika",
+      "title": "Kime hangi program?",
+      "description": "Programlar role göre ayrılıyor. Aynı şirketten birden fazla kişi farklı patikalara katılabilir.",
+      "items": [
+        {
+          "code": "A",
+          "title": "Geliştirici verimliliği",
+          "body": "Yazılım ekibinin AI ile günlük çalışma hızını artırmak. Claude Code programları bu patikada."
+        },
+        {
+          "code": "B",
+          "title": "Satış ve destek operasyonu",
+          "body": "Tekrar eden operasyonel işleri ajanlara devretmek. n8n tabanlı satış ve destek programları."
+        },
+        {
+          "code": "C",
+          "title": "Pazarlama içerik motoru",
+          "body": "İçerik üretimini ve dağıtımını tek akışta toplamak. Çok kanallı içerik programı."
+        }
+      ]
+    },
+    "packages": {
+      "index": "02",
+      "eyebrow": "Açık kohortlar",
+      "title": "Beş program.",
+      "description": "Fiyatlar örnek yer tutucudur — kendi fiyatlandırmanızla değiştirin. Kontenjan kohort başına sınırlıdır.",
+      "featuresLabel": "Program çıktısı",
+      "fromLabel": "Kişi başı",
+      "items": [
+        {
+          "name": "Kurum İçi AI Ajanı",
+          "tool": "Claude Code",
+          "duration": "6 hafta · haftada 2 oturum",
+          "price": "₺ [tutar]",
+          "body": "Ekibinizin her gün kullandığı, üretim seviyesinde bir iç AI ajanı kurulur. Program sonunda ajan sizin altyapınızda çalışır durumda olur.",
+          "features": [
+            "Kullanım senaryosu seçimi",
+            "Şirket dokümanları üzerinde RAG",
+            "Araç ve yetki tanımları",
+            "Üretime alma ve izleme",
+            "Ekip içi devir eğitimi"
+          ],
+          "featured": true
+        },
+        {
+          "name": "3× Hızlı Geliştirme",
+          "tool": "Claude Code",
+          "duration": "4 hafta · haftada 2 oturum",
+          "price": "₺ [tutar]",
+          "body": "Yazılım ekibinin tamamına Claude Code adaptasyonu; kod standartlarını otomatikleştiren kurulumla birlikte.",
+          "features": [
+            "Depo bazlı kurulum",
+            "Otomatik kod standartları",
+            "Test ve inceleme akışları",
+            "Ekip içi kullanım kuralları",
+            "Verimlilik ölçümü"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Satış Pipeline Otomasyonu",
+          "tool": "n8n",
+          "duration": "4 hafta · haftada 2 oturum",
+          "price": "₺ [tutar]",
+          "body": "Lead'leri otomatik zenginleştiren, AI ile kişiselleştirilmiş çıkış mesajları yazan ve CRM'e işleyen bir hat kurulur.",
+          "features": [
+            "Lead kaynakları ve zenginleştirme",
+            "ICP filtreleme",
+            "Kişiselleştirilmiş mesaj üretimi",
+            "CRM senkronizasyonu",
+            "Ölçüm panosu"
+          ],
+          "featured": false
+        },
+        {
+          "name": "AI Müşteri Destek Ajanı",
+          "tool": "n8n",
+          "duration": "4 hafta · haftada 2 oturum",
+          "price": "₺ [tutar]",
+          "body": "Kendi dokümanlarınızla eğitilmiş, seviye seviye yükselen bir destek otomasyonu. Çözemediğini insana devreder.",
+          "features": [
+            "Doküman toplama ve RAG",
+            "Seviye bazlı yanıt akışı",
+            "İnsana devretme kuralları",
+            "Kanal entegrasyonu",
+            "Kalite takibi"
+          ],
+          "featured": false
+        },
+        {
+          "name": "AI İçerik Motoru",
+          "tool": "n8n",
+          "duration": "4 hafta · haftada 2 oturum",
+          "price": "₺ [tutar]",
+          "body": "Tek fikirden blog, LinkedIn, X ve Instagram içeriğine uzanan çok kanallı üretim ve dağıtım akışı.",
+          "features": [
+            "Marka sesi tanımı",
+            "Çok kanallı format üretimi",
+            "Onay akışı",
+            "Yayın planlama",
+            "Performans raporu"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    "format": {
+      "index": "03",
+      "eyebrow": "Nasıl işliyor",
+      "title": "Haftada iki oturum,\naradaki günlerde uygulama.",
+      "description": "Her oturum canlı ve kayıtlı. Aradaki günlerde kendi verinizle çalışıyorsunuz, takıldığınız yerde kanal üzerinden destek alıyorsunuz.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Hazırlık",
+          "body": "Başlamadan önce erişimler, araç hesapları ve kullanım senaryosu netleştirilir.",
+          "meta": "Program öncesi"
+        },
+        {
+          "step": "02",
+          "title": "Canlı oturumlar",
+          "body": "Haftada iki oturum; ekran paylaşımıyla birlikte kurulum yapılır, kayıtlar sizde kalır.",
+          "meta": "Program boyunca"
+        },
+        {
+          "step": "03",
+          "title": "Uygulama günleri",
+          "body": "Oturumlar arasında kendi verinizle ilerlersiniz; sorular ortak kanaldan yanıtlanır.",
+          "meta": "Haftalık"
+        },
+        {
+          "step": "04",
+          "title": "Canlıya alma",
+          "body": "Son hafta sistem üretime alınır ve ekibe devredilir.",
+          "meta": "Son hafta"
+        }
+      ]
+    },
+    "faq": {
+      "index": "04",
+      "eyebrow": "Sık sorulanlar",
+      "title": "Merak edilenler",
+      "items": [
+        {
+          "q": "Teknik bilgi şart mı?",
+          "a": "Claude Code programları için yazılım geliştirme deneyimi gerekiyor. n8n programlarında kod yazmıyorsunuz; iş süreçlerini bilmeniz yeterli."
+        },
+        {
+          "q": "Kaç kişi katılabilir?",
+          "a": "Fiyat kişi başıdır. Aynı şirketten birden fazla kişi katılabilir; 5 kişiden sonrası için özel kohort açıyoruz."
+        },
+        {
+          "q": "Kaçırdığım oturum ne olur?",
+          "a": "Tüm oturumlar kaydediliyor ve kayıtlara süresiz erişiminiz oluyor. Uygulama sorularınız kanal üzerinden yanıtlanır."
+        },
+        {
+          "q": "Program sonunda elimde ne kalıyor?",
+          "a": "Çalışan sistemin kendisi, tüm akış tanımları ve prompt'lar. Hepsi sizin hesaplarınızda çalışır."
+        },
+        {
+          "q": "Araç lisans ücretleri dahil mi?",
+          "a": "Hayır. Claude, n8n ve entegre edilecek servislerin abonelikleri size aittir. Program öncesi hangi hesapların gerektiğini yazılı olarak iletiyoruz."
+        }
+      ]
+    }
+  },
+
+  "kurumIci": {
+    "hero": {
+      "eyebrow": "Kurum İçi",
+      "title": "Ekibinizi yapay zekaya\nadapte ediyoruz.",
+      "lead": "Kurum içi eğitim ve dönüşüm danışmanlığı. Aracı tanıtmakla kalmıyor, ekibin günlük işine oturana kadar takip ediyoruz.",
+      "cta": "Keşif görüşmesi"
+    },
+    "stats": {
+      "eyebrow": "Neden gerekiyor",
+      "items": [
+        { "value": 74, "suffix": "%", "label": "Kurumlarda AI önündeki ilk engel: uzman eksikliği" },
+        { "value": 25, "suffix": " kişi", "label": "Tam gün atölyede grup üst sınırı" },
+        { "value": 7, "suffix": " modül", "label": "Role göre uyarlanan müfredat" },
+        { "value": 2, "suffix": "-3 gün", "label": "Çekirdek ekip kohort süresi" }
+      ]
+    },
+    "flagship": {
+      "index": "01",
+      "eyebrow": "İki ana program",
+      "title": "Önce okur yazarlık,\nsonra dönüşüm.",
+      "description": "Biri ekibin AI'ı güvenle kullanmasını sağlar, diğeri şirketin tamamını dönüştürür. Sırayla ya da birlikte alınabilir.",
+      "items": [
+        {
+          "tag": "Program A",
+          "title": "Yapay Zeka Okur Yazarlığı",
+          "body": "Şube müdüründen çekirdek departmanlara kadar tüm ekip için. Yedi modüllük müfredat, role özel oyun kitapları ve uyum modülü.",
+          "meta": "2-3 günlük kohort",
+          "href": "/kurum-ici/ai-okur-yazarligi",
+          "cta": "Programı inceleyin",
+          "points": ["7 modüllük müfredat", "Role özel oyun kitabı", "Dijital sertifika", "KVKK / EU AI Act modülü"]
+        },
+        {
+          "tag": "Program B",
+          "title": "Şirket Doktoru",
+          "body": "Şirket geneli AI dönüşümü için dört aşamalı danışmanlık: teşhis, reçete, tedavi ve takip.",
+          "meta": "Retainer modeli",
+          "href": "/kurum-ici/sirket-doktoru",
+          "cta": "Programı inceleyin",
+          "points": ["Dönüşüm yol haritası", "Yönetişim politikaları", "Pilot ajan kurulumu", "Aylık KPI panosu"]
+        }
+      ]
+    },
+    "curriculum": {
+      "index": "02",
+      "eyebrow": "Müfredat",
+      "title": "Yedi modül,\nkuruma göre uyarlanır.",
+      "description": "Modüller bağımsız çalışır. Ekibin seviyesine ve sektöre göre seçilir, sıralanır ve örnekleri değiştirilir.",
+      "items": [
+        { "step": "01", "title": "Temeller ve zihniyet", "body": "AI ne yapar, ne yapmaz; hangi işte gerçekten fayda üretir.", "meta": "Tüm ekip" },
+        { "step": "02", "title": "Etkili prompt ve bağlam", "body": "İşe yarayan istem yazma, bağlam verme ve çıktıyı denetleme.", "meta": "Tüm ekip" },
+        { "step": "03", "title": "Günlük iş akışları", "body": "E-posta, doküman, toplantı notu ve raporlamada pratik kullanım.", "meta": "Tüm ekip" },
+        { "step": "04", "title": "Departmana özel uygulamalar", "body": "Satış, pazarlama, finans, İK ve operasyon için ayrı senaryolar.", "meta": "Role göre" },
+        { "step": "05", "title": "Güvenlik, etik ve uyum", "body": "Veri sınıflandırma, KVKK ve EU AI Act yükümlülükleri, kırmızı çizgiler.", "meta": "Zorunlu" },
+        { "step": "06", "title": "Araç panoraması", "body": "Hangi iş için hangi araç; kurum içi araç seçimi kriterleri.", "meta": "Tüm ekip" },
+        { "step": "07", "title": "Uygulama atölyesi", "body": "Kendi işinizden bir süreci canlı olarak otomatikleştiriyoruz.", "meta": "Çıktı üretir" }
+      ]
+    },
+    "formats": {
+      "index": "03",
+      "eyebrow": "Format ve süre",
+      "title": "Nereden başlanacağı\nekibin büyüklüğüne bağlı.",
+      "description": "Fiyatlandırma ihtiyaç analizinden sonra netleşir. Yerinde, çevrimiçi ya da karma yapılabilir.",
+      "formatLabel": "Format",
+      "durationLabel": "Süre",
+      "audienceLabel": "Kime",
+      "presentationsCta": "Sunum destelerine bakın",
+      "items": [
+        { "name": "Keşif görüşmesi", "duration": "45 dakika", "audience": "Ücretsiz ön değerlendirme" },
+        { "name": "C-level brifing", "duration": "2-3 saat", "audience": "Üst yönetim" },
+        { "name": "Okur yazarlık atölyesi", "duration": "1 gün", "audience": "Departmanlar" },
+        { "name": "Okur yazarlık kohortu", "duration": "2-3 gün", "audience": "Çekirdek ekipler" },
+        { "name": "Şirket Doktoru teşhis", "duration": "3-4 hafta", "audience": "Şirket geneli" },
+        { "name": "Şirket Doktoru retainer", "duration": "Aylık", "audience": "Süregelen dönüşüm" }
+      ]
+    },
+    "faq": {
+      "index": "04",
+      "eyebrow": "Sık sorulanlar",
+      "title": "Merak edilenler",
+      "items": [
+        { "q": "Yerinde mi, çevrimiçi mi?", "a": "Üçü de mümkün: yerinde, çevrimiçi veya karma. Tam gün atölyelerde grup büyüklüğünü 25 kişiyle sınırlıyoruz; daha büyük kurumlarda birden fazla gruba bölüyoruz." },
+        { "q": "Verilerimiz güvende mi?", "a": "Eğitimde gerçek şirket verisi kullanılacaksa önce veri sınıflandırması yapıyoruz. KVKK ve EU AI Act yükümlülükleri müfredatın beşinci modülünde ayrıca işleniyor." },
+        { "q": "Eğitim sonrası ne oluyor?", "a": "Tüm materyaller, oyun kitapları ve atölyede kurulan otomasyonlar kurumda kalır. İsterseniz aylık retainer ile takibe devam ediyoruz." },
+        { "q": "Sertifika veriyor musunuz?", "a": "Kohortu tamamlayan katılımcılara dijital sertifika veriliyor. Sertifika katılımı belgeler, yetkinlik sınavı içermez." },
+        { "q": "Fiyat neden sayfada yazmıyor?", "a": "Grup sayısı, format ve süre kuruma göre çok değişiyor. Keşif görüşmesinden sonra sabit fiyatlı yazılı teklif çıkarıyoruz; gizli kalem yok." }
+      ]
+    }
+  },
+
+  "aiLiteracy": {
+    "hero": {
+      "eyebrow": "Kurum İçi · Program A",
+      "title": "Yapay Zeka\nOkur Yazarlığı.",
+      "lead": "Ekibin AI'ı güvenle, verimli ve kurallara uygun kullanmasını sağlayan yedi modüllük program. Çıktısı sunum değil, ekibin kullandığı oyun kitapları ve çalışan otomasyonlar.",
+      "cta": "Kohort tarihlerini sorun",
+      "back": "Kurum İçi"
+    },
+    "outcomes": {
+      "index": "01",
+      "eyebrow": "Çıktılar",
+      "title": "Program bitince\nkurumda ne kalıyor?",
+      "items": [
+        { "title": "Role özel oyun kitapları", "body": "Her departman için, kendi işlerinden örneklerle yazılmış kullanım kılavuzu." },
+        { "title": "Çalışan otomasyonlar", "body": "Uygulama atölyesinde kurulan ve ertesi gün kullanılabilen gerçek akışlar." },
+        { "title": "Kullanım politikası", "body": "Neyin serbest, neyin yasak olduğunu yazan kurum içi AI kullanım metni." },
+        { "title": "Dijital sertifika", "body": "Kohortu tamamlayan her katılımcı için katılım sertifikası." }
+      ]
+    },
+    "modules": {
+      "index": "02",
+      "eyebrow": "Müfredat",
+      "title": "Yedi modül.",
+      "description": "Modüller kurumun seviyesine göre seçilir ve sıralanır. Beşinci modül her kurumda zorunludur.",
+      "items": [
+        { "step": "01", "title": "Temeller ve zihniyet", "body": "Dil modelleri nasıl çalışır, nerede yanılır, hangi işte gerçekten fayda üretir. Beklenti yönetimi.", "meta": "2 saat" },
+        { "step": "02", "title": "Etkili prompt ve bağlam", "body": "İstem yazma kalıpları, bağlam verme, çıktıyı denetleme ve düzeltme döngüsü.", "meta": "3 saat" },
+        { "step": "03", "title": "Günlük iş akışları", "body": "E-posta, doküman özeti, toplantı notu, sunum taslağı ve raporlamada pratik kullanım.", "meta": "3 saat" },
+        { "step": "04", "title": "Departmana özel uygulamalar", "body": "Satış, pazarlama, finans, İK ve operasyon için ayrı senaryo setleri.", "meta": "4 saat" },
+        { "step": "05", "title": "Güvenlik, etik ve uyum", "body": "Veri sınıflandırma, KVKK ve EU AI Act yükümlülükleri, kurumsal kırmızı çizgiler.", "meta": "2 saat · zorunlu" },
+        { "step": "06", "title": "Araç panoraması", "body": "Hangi iş için hangi araç, kurumsal lisans modelleri ve seçim kriterleri.", "meta": "2 saat" },
+        { "step": "07", "title": "Uygulama atölyesi", "body": "Katılımcıların kendi süreçlerinden birini canlı olarak otomatikleştirdiği kapanış oturumu.", "meta": "4 saat" }
+      ]
+    },
+    "compliance": {
+      "eyebrow": "Uyum",
+      "title": "KVKK ve EU AI Act\nmüfredatın parçası.",
+      "body": "Beşinci modül opsiyonel değil. Hangi verinin modele verilebileceği, hangi kullanımın yüksek riskli sayıldığı ve kurumun hangi kayıtları tutması gerektiği yazılı olarak bırakılır. Eğitim sonunda kurum içi AI kullanım politikası taslağı teslim edilir."
+    },
+    "cta": {
+      "title": "Ekibiniz için kohort açalım.",
+      "body": "45 dakikalık keşif görüşmesi ücretsiz. Grup büyüklüğüne göre format öneriyoruz.",
+      "cta": "İletişime geçin"
+    }
+  },
+
+  "companyDoctor": {
+    "hero": {
+      "eyebrow": "Kurum İçi · Program B",
+      "title": "Şirket Doktoru.",
+      "lead": "Şirket geneli AI dönüşümü için dört aşamalı danışmanlık. Teşhis koyar, reçete yazar, tedaviyi birlikte uygular ve sonucu aylık takip ederiz.",
+      "cta": "Teşhis görüşmesi",
+      "back": "Kurum İçi"
+    },
+    "phases": {
+      "index": "01",
+      "eyebrow": "Dört aşama",
+      "title": "Teşhis, reçete,\ntedavi, takip.",
+      "description": "Her aşamanın yazılı bir çıktısı var. Bir sonrakine geçmeden önce çıktıyı onaylıyorsunuz.",
+      "items": [
+        { "step": "01", "title": "Teşhis", "body": "Departman görüşmeleri, süreç envanteri ve veri olgunluk değerlendirmesi. Şirketin AI hazırlık fotoğrafı çıkarılır.", "meta": "3-4 hafta" },
+        { "step": "02", "title": "Reçete", "body": "Önceliklendirilmiş dönüşüm yol haritası, yönetişim ve uyum politikaları, araç seçimi.", "meta": "2-3 hafta" },
+        { "step": "03", "title": "Tedavi", "body": "Yol haritasındaki ilk pilot ajanların kurulması ve ilgili ekiplerin eğitilmesi.", "meta": "4-8 hafta" },
+        { "step": "04", "title": "Takip", "body": "Aylık KPI panosu üzerinden ölçüm, düzeltme ve bir sonraki dalganın planlanması.", "meta": "Süregelen" }
+      ]
+    },
+    "deliverables": {
+      "index": "02",
+      "eyebrow": "Teslimatlar",
+      "title": "Elinize geçenler.",
+      "items": [
+        { "title": "AI dönüşüm yol haritası", "body": "Hangi süreç, hangi sırayla, hangi beklenen kazanımla. Yönetime sunulabilir formatta." },
+        { "title": "Yönetişim ve uyum politikaları", "body": "Kurum içi AI kullanım kuralları, veri sınıflandırması ve KVKK / EU AI Act yükümlülük listesi." },
+        { "title": "Pilot ajan kurulumu", "body": "Yol haritasındaki ilk otomasyon canlıya alınır; kod ve altyapı sizin hesaplarınızda kalır." },
+        { "title": "Aylık KPI panosu", "body": "Otomasyonların ne kadar zaman ve maliyet tasarrufu ürettiğini gösteren canlı pano." }
+      ]
+    },
+    "model": {
+      "eyebrow": "Çalışma modeli",
+      "title": "Retainer,\nproje değil.",
+      "body": "Şirket Doktoru tek seferlik bir rapor işi değil. Teşhis sabit kapsamla başlar; sonrasında aylık retainer ile devam eder. İstediğiniz ayın sonunda bırakabilirsiniz — kurulan sistemler ve yazılı çıktılar sizde kalır."
+    },
+    "cta": {
+      "title": "Teşhisle başlayalım.",
+      "body": "45 dakikalık ilk görüşme ücretsiz. Şirketin hangi aşamada olduğunu birlikte konuşalım.",
+      "cta": "İletişime geçin"
+    }
+  },
+
+  "presentations": {
+    "hero": {
+      "eyebrow": "Kurum İçi · Sunumlar",
+      "title": "Toplantıda göstermeye\nhazır desteler.",
+      "lead": "Tarayıcıda tam ekran açın ya da PDF olarak indirin. Kurum içi karar toplantılarında paylaşmak için hazırlandı.",
+      "back": "Kurum İçi"
+    },
+    "list": {
+      "index": "01",
+      "eyebrow": "Desteler",
+      "title": "Beş sunum.",
+      "description": "Sunum dosyaları henüz yüklenmedi — bağlantılar dosyaları ekledikten sonra aktifleşir.",
+      "slidesLabel": "slayt",
+      "soonLabel": "Yakında",
+      "items": [
+        { "code": "01", "title": "Genel Tanıtım", "body": "Biz kimiz, neden NextFlow, iki hizmet hattı, uygulama alanları ve paket yapısı.", "slides": 13 },
+        { "code": "02", "title": "Dijital Dönüşüm Programı", "body": "Üst segment dönüşüm programı: mentorluk, kurumsal kurgu ve tam prodüksiyon.", "slides": 11 },
+        { "code": "03", "title": "Yapay Zeka Okur Yazarlığı", "body": "Formatlar, yedi modüllük müfredat, çıktılar ve senaryo örnekleri.", "slides": 7 },
+        { "code": "04", "title": "Şirket Doktoru", "body": "Dört aşamalı dönüşüm çerçevesi, kapsam, çıktılar ve eğitmen kadrosu.", "slides": 7 },
+        { "code": "05", "title": "Paketler & Yöntem", "body": "Beş adımlı yöntem, paketler, üst segment çarpanı ve müşteri yolculuğu.", "slides": 6 }
+      ]
+    },
+    "cta": {
+      "title": "Size özel sunum hazırlayalım.",
+      "body": "Sektörünüze ve ekibinize uyarlanmış bir deste isterseniz yazın.",
+      "cta": "İletişime geçin"
+    }
+  },
+
+  "industries": {
+    "hero": {
+      "eyebrow": "Endüstriler",
+      "title": "Her sektörün\ndarboğazı farklı.",
+      "lead": "Otomasyonun nereye kurulacağı sektöre göre değişiyor. Aşağıda dokuz sektörde en sık kurduğumuz sistemler ve tipik başlangıç noktaları var.",
+      "cta": "Sektörünüzü konuşalım"
+    },
+    "list": {
+      "index": "01",
+      "eyebrow": "Dokuz sektör",
+      "title": "Nerede çalışıyoruz.",
+      "description": "Listede olmayan bir sektördeyseniz de konuşabiliriz — süreç benzerliği sektör adından daha belirleyici oluyor.",
+      "automationsLabel": "Tipik otomasyonlar",
+      "items": [
+        {
+          "code": "01",
+          "name": "E-ticaret",
+          "body": "Sipariş, iade ve kargo süreçlerinin tek akışta toplanması; müşteri bilgilendirmelerinin otomatikleşmesi.",
+          "automations": ["Sipariş ve iade akışı", "Kargo takip bildirimi", "Ürün açıklaması üretimi", "Sepet terk kurtarma"]
+        },
+        {
+          "code": "02",
+          "name": "Sağlık",
+          "body": "Randevu yönetimi ve hasta iletişiminin otomatikleşmesi; kayıt işlerinin klinik ekipten alınması.",
+          "automations": ["Randevu alma ve hatırlatma", "Hasta ön değerlendirme formu", "Rapor özetleme", "Çağrı yönlendirme"]
+        },
+        {
+          "code": "03",
+          "name": "Finans",
+          "body": "Belge yoğun süreçlerin okunması ve kontrol adımlarının otomatikleşmesi.",
+          "automations": ["Belge OCR ve doğrulama", "Anomali tespiti", "Müşteri onboarding akışı", "Uyum raporlaması"]
+        },
+        {
+          "code": "04",
+          "name": "Üretim",
+          "body": "Teklif hazırlama ve ERP'ye bağlı süreçlerin hızlandırılması; üretim planlama desteği.",
+          "automations": ["Teklif ve maliyet hesabı", "ERP entegrasyonu", "Tedarikçi iletişimi", "Kalite kaydı dijitalleştirme"]
+        },
+        {
+          "code": "05",
+          "name": "Lojistik",
+          "body": "Sevkiyat takibi, belge akışı ve müşteri bilgilendirmesinin otomatikleşmesi.",
+          "automations": ["Sevkiyat durum bildirimi", "İrsaliye ve fatura eşleştirme", "Rota bilgilendirme", "Talep karşılama botu"]
+        },
+        {
+          "code": "06",
+          "name": "Perakende",
+          "body": "Mağaza ve online kanal arasındaki stok ve kampanya akışının senkronizasyonu.",
+          "automations": ["Stok senkronizasyonu", "Kampanya içeriği üretimi", "Mağaza raporlaması", "Müşteri geri bildirim analizi"]
+        },
+        {
+          "code": "07",
+          "name": "Emlak",
+          "body": "İlan üretimi, talep niteliklendirme ve randevu koordinasyonunun otomatikleşmesi.",
+          "automations": ["İlan metni üretimi", "Talep niteliklendirme", "Randevu koordinasyonu", "Portföy eşleştirme"]
+        },
+        {
+          "code": "08",
+          "name": "Eğitim",
+          "body": "Kayıt süreçleri, içerik hazırlığı ve öğrenci iletişiminin otomatikleşmesi.",
+          "automations": ["Kayıt ve bilgilendirme akışı", "Ders materyali üretimi", "Soru-cevap asistanı", "Devam takibi"]
+        },
+        {
+          "code": "09",
+          "name": "İnsan Kaynakları",
+          "body": "İşe alım hunisinin ve kurum içi bilgi taleplerinin otomatikleşmesi.",
+          "automations": ["CV ön eleme", "Mülakat planlama", "Oryantasyon akışı", "Kurum içi İK asistanı"]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Sizin sektörünüzde ne kurulur?",
+      "body": "İlk değerlendirme görüşmesi ücretsiz. 30 dakika, satış konuşması değil.",
+      "cta": "Konuşalım"
+    }
+  },
+  "footer": {
+    "tagline": "Otomasyon ve AI sistemleri kuruyoruz. Strateji ve uygulama, tek ekipten.",
+    "servicesTitle": "Hizmetler",
+    "industriesTitle": "Endüstriler",
+    "companyTitle": "Şirket",
+    "contactTitle": "İletişim",
+    "socialTitle": "Sosyal",
+    "rights": "Tüm hakları saklıdır.",
+    "privacy": "Gizlilik",
+    "terms": "Koşullar",
+    "backToTop": "Yukarı"
+  },
+
+  "intro": {
+    "label": "NextFlow açılış ekranı",
+    "skip": "Atla"
+  },
+
+  "chat": {
+    "open": "NextFlow'a sorun",
+    "close": "Sohbeti kapat",
+    "title": "NextFlow Asistanı",
+    "subtitle": "Hizmetler ve süreç hakkında sorun",
+    "placeholder": "Sorunuzu yazın…",
+    "send": "Gönder",
+    "greeting": "Merhaba. NextFlow'un hizmetleri, süreci ve fiyatlandırması hakkında sorularınızı yanıtlayabilirim. Ne yapmak istiyorsunuz?",
+    "notConfigured": "Sohbet asistanı henüz yapılandırılmamış. Sorularınız için iletişim formunu kullanabilirsiniz.",
+    "error": "Bir sorun oluştu. Lütfen tekrar deneyin.",
+    "disclaimer": "AI tarafından üretilir. Teklif niteliği taşımaz."
+  },
+
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "body": "Aradığınız sayfa taşınmış ya da hiç var olmamış olabilir.",
+    "cta": "Ana sayfaya dön"
+  }
+}

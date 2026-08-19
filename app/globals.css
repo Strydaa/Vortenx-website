@@ -1,0 +1,464 @@
+@import 'tailwindcss';
+
+/* next-themes <html>'e .dark class'ı ekliyor.
+   Tailwind v4 varsayılanı prefers-color-scheme olduğu için
+   dark: varyantını class'a bağlıyoruz. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ============================================================
+   NextFlow — "Blueprint Terminal"
+   Sıcak kemik kağıt / mürekkep siyahı, sinyal vermilyonu vurgu,
+   kılcal grid çizgileri, mono etiketler, grain dokusu.
+   ============================================================ */
+
+@theme {
+  --font-display: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-mono), ui-monospace, monospace;
+
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-surface: var(--surface);
+  --color-rule: var(--rule);
+  --color-muted: var(--muted);
+  --color-signal: var(--signal);
+  --color-signal-ink: var(--signal-ink);
+  --color-live: var(--live);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root {
+  color-scheme: light;
+  --paper: #f2efe7;
+  --ink: #12100e;
+  --surface: #fbfaf6;
+  --rule: #d8d2c4;
+  --muted: #6b655a;
+  --signal: #e33a12;
+  --signal-ink: #fbfaf6;
+  --live: #1a7f4b;
+  --grain-opacity: 0.05;
+  --shell-alpha: 0.72;
+}
+
+:root.dark {
+  color-scheme: dark;
+  --paper: #0c0b0a;
+  --ink: #f2efe7;
+  --surface: #161412;
+  --rule: #2c2823;
+  --muted: #9a9287;
+  --signal: #ff5426;
+  --signal-ink: #12100e;
+  --live: #35d98a;
+  --grain-opacity: 0.08;
+  --shell-alpha: 0.65;
+}
+
+/* ------------------------------------------------------------
+   Yerel koyu ada — temadan bağımsız olarak koyu kalan bölümler.
+   (SSS bölümü: arkasında tubes animasyonu var, açık zeminde görünmez.)
+
+   Neden iki set değişken yazılıyor:
+   @theme bloğu `--color-ink: var(--ink)` satırını :root üzerinde üretiyor.
+   Özel değişkenler tanımlandıkları elemanda çözülüp aşağıya çözülmüş hâlde
+   inerler; yani burada sadece `--ink` ezilseydi `--color-ink` hâlâ :root'taki
+   açık değeri taşıyacaktı ve `text-ink` değişmezdi. `.dark` bunu yaşamıyor
+   çünkü o da :root üzerinde tanımlı. Bu yüzden hem ham değişkenler
+   (globals.css'teki .label, .card, .bg-dots gibi sınıflar için) hem de
+   --color-* token'ları (Tailwind yardımcı sınıfları için) yazılıyor.
+   ------------------------------------------------------------ */
+.tone-dark {
+  color-scheme: dark;
+
+  /* Renk `body` üzerinde :root'un --ink'iyle çözülüp aşağı iniyor; bu satır
+     olmazsa bölüm içindeki, kendi rengini yazmayan metinler (örn. hero'nun
+     h1'i) açık temada koyu mürekkeple kalır ve koyu zeminde okunmaz. */
+  color: var(--ink);
+
+  --paper: #0c0b0a;
+  --ink: #f2efe7;
+  --surface: #161412;
+  /* Hareketli zeminin üstünde okunsun diye düz renk yerine yarı saydam. */
+  --rule: color-mix(in srgb, #f2efe7 20%, transparent);
+  --muted: #b9b1a5;
+  --signal: #ff5426;
+  --signal-ink: #12100e;
+  --live: #35d98a;
+
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-surface: var(--surface);
+  --color-rule: var(--rule);
+  --color-muted: var(--muted);
+  --color-signal: var(--signal);
+  --color-signal-ink: var(--signal-ink);
+  --color-live: var(--live);
+}
+
+@layer base {
+  * {
+    border-color: var(--rule);
+  }
+
+  html {
+    /* Lenis kendi scroll'unu yönetiyor; native smooth ile çakışmasın. */
+    scroll-behavior: auto;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+    font-feature-settings: 'ss01', 'cv01';
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    line-height: 0.94;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background-color: var(--signal);
+    color: var(--signal-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--signal);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  /* Lenis */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  /* --- Ölçü / kap --- */
+  .shell {
+    width: 100%;
+    max-width: 84rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .shell {
+      padding-inline: 2rem;
+    }
+  }
+
+  /* --- Mono etiket: bölüm numaraları, meta bilgi --- */
+  .label {
+    font-family: var(--font-mono), ui-monospace, monospace;
+    font-size: 0.6875rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* --- Akışkan hero tipografi --- */
+  .display-xl {
+    font-size: clamp(2.75rem, 9vw, 7.5rem);
+    letter-spacing: -0.045em;
+    line-height: 0.88;
+  }
+  .display-lg {
+    font-size: clamp(2.25rem, 6vw, 4.75rem);
+    letter-spacing: -0.04em;
+    line-height: 0.92;
+  }
+  .display-md {
+    font-size: clamp(1.75rem, 3.6vw, 2.75rem);
+    letter-spacing: -0.03em;
+    line-height: 1;
+  }
+
+  /* --- Blueprint arkaplanları --- */
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, var(--rule) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--rule) 1px, transparent 1px);
+    background-size: 72px 72px;
+    opacity: 0.5;
+  }
+
+  .bg-dots {
+    background-image: radial-gradient(var(--rule) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
+  /* Kağıt grain — tüm sayfanın üstünde, tıklamayı engellemez */
+  .grain::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: var(--grain-opacity);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  /* --- Kart --- */
+  .card {
+    background-color: var(--surface);
+    border: 1px solid var(--rule);
+    position: relative;
+  }
+
+  /* Köşe artıları — teknik çizim hissi */
+  .crosshair::before,
+  .crosshair::after {
+    content: '+';
+    position: absolute;
+    font-family: var(--font-mono), monospace;
+    font-size: 0.75rem;
+    line-height: 1;
+    color: var(--rule);
+  }
+  .crosshair::before {
+    top: -0.4rem;
+    left: -0.4rem;
+  }
+  .crosshair::after {
+    bottom: -0.4rem;
+    right: -0.4rem;
+  }
+
+  /* --- Canlı sistem noktası --- */
+  .live-dot {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 9999px;
+    background-color: var(--live);
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--live) 60%, transparent);
+    animation: pulse-dot 2.4s var(--ease-out-expo) infinite;
+  }
+
+  /* ------------------------------------------------------------
+     Spotlight kart (components/ui/spotlight-card.tsx)
+
+     Işık kaynağı ortak: imleç konumu :root üzerinde --glow-x/--glow-y
+     olarak duruyor ve arka planlar `background-attachment: fixed` ile
+     görüntü alanına sabitlendiği için bütün kartlar aynı ışığı paylaşıyor.
+
+     Değerler bilerek burada, satır içi stilde değil: satır içi stil
+     sınıfları ezdiği için `[--size:300]` gibi Tailwind sınıflarıyla
+     kart bazında ayar yapılamazdı.
+     ------------------------------------------------------------ */
+  [data-glow] {
+    --radius: 0;
+    --border: 1;
+    --size: 240;
+    --outer: 1;
+    --saturation: 100;
+    --lightness: 55;
+    --bg-spot-opacity: 0.13;
+    --border-spot-opacity: 0.9;
+    --border-light-opacity: 0.2;
+
+    --border-size: calc(var(--border) * 1px);
+    --spotlight-size: calc(var(--size) * 1px);
+    --hue: calc(var(--base, 14) + (var(--glow-xp, 0.5) * var(--spread, 26)));
+    --backdrop: color-mix(in srgb, var(--surface) 88%, transparent);
+
+    position: relative;
+    border: var(--border-size) solid var(--rule);
+    border-radius: calc(var(--radius) * 1px);
+    background-color: var(--backdrop);
+    background-image: radial-gradient(
+      var(--spotlight-size) var(--spotlight-size) at
+        calc(var(--glow-x, 0) * 1px) calc(var(--glow-y, 0) * 1px),
+      hsl(
+          var(--hue) calc(var(--saturation) * 1%) calc(var(--lightness) * 1%) /
+            var(--bg-spot-opacity)
+        ),
+      transparent
+    );
+    background-attachment: fixed;
+    background-size: calc(100% + (2 * var(--border-size)))
+      calc(100% + (2 * var(--border-size)));
+    background-position: 50% 50%;
+    backdrop-filter: blur(5px);
+  }
+
+  /* Koyu temada hâle daha çok iş yapıyor; açıkta kağıdı kirletmesin. */
+  :root.dark [data-glow] {
+    --bg-spot-opacity: 0.16;
+    --border-spot-opacity: 1;
+    --border-light-opacity: 0.6;
+  }
+
+  [data-glow]::before,
+  [data-glow]::after {
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    inset: calc(var(--border-size) * -1);
+    border: var(--border-size) solid transparent;
+    border-radius: calc(var(--radius) * 1px);
+    background-attachment: fixed;
+    background-size: calc(100% + (2 * var(--border-size)))
+      calc(100% + (2 * var(--border-size)));
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* Boyama sadece kenarlıkta kalsın: iç dörtgen maskeden düşüyor. */
+    mask:
+      linear-gradient(transparent, transparent),
+      linear-gradient(white, white);
+    mask-clip: padding-box, border-box;
+    mask-composite: intersect;
+  }
+
+  /* Kenardaki renkli ışık. */
+  [data-glow]::before {
+    background-image: radial-gradient(
+      calc(var(--spotlight-size) * 0.75) calc(var(--spotlight-size) * 0.75) at
+        calc(var(--glow-x, 0) * 1px) calc(var(--glow-y, 0) * 1px),
+      hsl(
+          var(--hue) calc(var(--saturation) * 1%) calc(var(--lightness) * 1%) /
+            var(--border-spot-opacity)
+        ),
+      transparent 100%
+    );
+    filter: brightness(1.6);
+  }
+
+  /* Işığın tam merkezindeki beyaz çekirdek. */
+  [data-glow]::after {
+    background-image: radial-gradient(
+      calc(var(--spotlight-size) * 0.5) calc(var(--spotlight-size) * 0.5) at
+        calc(var(--glow-x, 0) * 1px) calc(var(--glow-y, 0) * 1px),
+      hsl(0 100% 100% / var(--border-light-opacity)),
+      transparent 100%
+    );
+  }
+
+  /* Kartın içindeki ikinci [data-glow]: dışa taşan bulanık hâle.
+     `background` ve `backdrop-filter` burada sıfırlanmak zorunda: bu katman
+     da [data-glow] seçicisine uyduğu için yukarıdaki temel kuralı alıyor ve
+     mutlak konumlu olduğundan kart metninin üstünde boyanıyor — sıfırlanmazsa
+     kartın bütün içeriğini bulanıklaştırıyor. */
+  [data-glow] [data-glow] {
+    position: absolute;
+    inset: 0;
+    opacity: var(--outer);
+    border: none;
+    border-radius: calc(var(--radius) * 1px);
+    background: none;
+    backdrop-filter: none;
+    filter: blur(calc(var(--border-size) * 10));
+    pointer-events: none;
+    will-change: filter;
+  }
+
+  [data-glow] > [data-glow]::before {
+    inset: -10px;
+    border-width: 10px;
+  }
+
+  /* --- Alt çizgi yürüyen link --- */
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.4s var(--ease-out-expo);
+  }
+  .link-underline:hover {
+    background-size: 100% 1px;
+  }
+}
+
+@keyframes pulse-dot {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--live) 55%, transparent);
+  }
+  70% {
+    box-shadow: 0 0 0 7px color-mix(in srgb, var(--live) 0%, transparent);
+  }
+  100% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--live) 0%, transparent);
+  }
+}
+
+/* ============================================================
+   Açılış ekranı (components/layout/intro-overlay.tsx)
+   ============================================================ */
+
+/* <body> başındaki script bu class'ı ekliyor: oturumda bir kez gösterim. */
+.intro-seen #nf-intro {
+  display: none !important;
+}
+
+.nf-intro-bar {
+  animation: intro-bar 2.5s linear forwards;
+}
+
+@keyframes intro-bar {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes marquee-x {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(2%, -3%, 0) rotate(4deg);
+  }
+}
+
+/* Hareket azaltma tercihi — her şey anında son duruma. */
+@media (prefers-reduced-motion: reduce) {
+  /* Açılış ekranı bu tercihte hiç gösterilmez. */
+  #nf-intro {
+    display: none !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
