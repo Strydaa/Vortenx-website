@@ -11,7 +11,7 @@ import { Reveal } from '@/components/motion/reveal';
 import { ButtonLink } from '@/components/ui/button';
 import { Magnetic } from '@/components/motion/magnetic';
 import { AdvisorySpline } from '@/components/sections/advisory-spline';
-import { LightSpeed } from '@/components/ui/light-speed';
+import { AuraBackground } from '@/components/ui/aura-background';
 import { TubesCursor } from '@/components/ui/tubes-cursor';
 
 export function generateStaticParams() {
@@ -88,7 +88,7 @@ function AdvisoryContent() {
         lead={t('hero.lead')}
         fullScreen
         tone="onDark"
-        background={<LightSpeed className="h-full w-full" />}
+        background={<AuraBackground />}
       >
         <Magnetic>
           <ButtonLink href="/contact" size="lg" arrow>

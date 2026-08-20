@@ -20,7 +20,7 @@ import { ThemeToggle } from './theme-toggle';
  */
 const DARK_HERO_ROUTES = [
   '/', // ay sahnesi
-  '/advisory', // LightSpeed shader
+  '/advisory', // Aura arka planı
   '/systems', // Vortex
   '/programs', // Vortex
   '/kurum-ici', // Vortex
