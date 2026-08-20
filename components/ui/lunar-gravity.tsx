@@ -543,7 +543,10 @@ export function LunarGravity({ className, particleCount }: Props) {
         camera={{ position: [0, 4, 10], fov: 45 }}
         dpr={[1, 1.5]}
         frameloop={running ? 'always' : 'never'}
-        gl={{ antialias: true, alpha: true }}
+        // MSAA kapalı: dpr zaten 1.5x'te çizip küçültüyor (supersampling),
+        // üstüne donanım MSAA eklemek aynı işi ikinci kez, daha maliyetli
+        // yapmak oluyor.
+        gl={{ antialias: false, alpha: true }}
       >
         <ambientLight intensity={0.12} />
         <directionalLight position={[8, 5, 5]} intensity={1.6} />

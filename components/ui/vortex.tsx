@@ -20,9 +20,8 @@ import { cn } from '@/lib/utils';
  *     sonsuza kadar çağırıyor, `resize` dinleyicisi hiç kaldırılmıyordu:
  *     sayfa değiştirildiğinde döngü arkada dönmeye devam ederdi ve her
  *     ziyarette bir tane daha eklenirdi.
- *  4. Ekran dışındayken ve sekme arkadayken çizim duruyor. Bu bileşenin en
- *     pahalı kısmı her karedeki iki tam tuval bulanıklığı; hero yukarı
- *     kayınca bunu ödemenin anlamı yok.
+ *  4. Ekran dışındayken ve sekme arkadayken çizim duruyor. 1100 parçacığın
+ *     her karede güncellenmesi bile hero yukarı kayınca ödemeye değmiyor.
  *  5. Hareket azaltma tercihinde tek kare çizilip duruluyor.
  *  6. Değişkenler (`tick`, `particleProps`, `center`) bileşen gövdesinden
  *     effect'in içine alındı. Render sırasında oluşturulan değerleri sonradan
@@ -174,6 +173,10 @@ export function Vortex({
       center[1] = 0.5 * height;
     };
 
+    // `lineCap` döngü boyunca hiç değişmiyor; parçacık başına save/restore
+    // ile taşımak yerine bir kere set ediliyor.
+    ctx.lineCap = 'round';
+
     const drawParticle = (
       x: number,
       y: number,
@@ -184,16 +187,12 @@ export function Vortex({
       radius: number,
       hue: number,
     ) => {
-      ctx.save();
-      ctx.lineCap = 'round';
       ctx.lineWidth = radius;
       ctx.strokeStyle = `hsla(${hue},100%,60%,${fadeInOut(life, ttl)})`;
       ctx.beginPath();
       ctx.moveTo(x, y);
       ctx.lineTo(x2, y2);
       ctx.stroke();
-      ctx.closePath();
-      ctx.restore();
     };
 
     const updateParticle = (i: number) => {
@@ -229,6 +228,11 @@ export function Vortex({
      * canvas 2D `filter: blur()` CSS blur gibi GPU hızlandırmalı değil,
      * yazılımda çalışıyor. Tek geçiş, iki geçişin yarı maliyetiyle görsel
      * olarak neredeyse ayırt edilemez bir sonuç veriyor.
+     *
+     * Bunu ayrı, düşük çözünürlüklü bir tuvale taşıyıp GPU'ya devretmek
+     * ölçülebilir şekilde daha sönük bir parlama üretiyor: toplamalı
+     * kompozisyon iki tuval arasında bölününce orijinaldeki tek-tuval
+     * toplamıyla eşleşmiyor. Tek tuval bilerek korunuyor.
      */
     const renderGlow = () => {
       ctx.save();

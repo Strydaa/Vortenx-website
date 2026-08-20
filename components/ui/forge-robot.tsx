@@ -826,7 +826,10 @@ export function ForgeRobot({ sectors, className, sparkCount }: Props) {
         camera={{ position: [0, 0.2, 3.0], fov: 50, near: 0.1, far: 100 }}
         dpr={[1, 1.5]}
         frameloop={running ? 'always' : 'never'}
-        gl={{ antialias: true, alpha: true, powerPreference: 'high-performance' }}
+        // MSAA kapalı: dpr zaten 1.5x'te çizip küçültüyor (supersampling),
+        // üstüne donanım MSAA eklemek aynı işi ikinci kez, daha maliyetli
+        // yapmak oluyor.
+        gl={{ antialias: false, alpha: true, powerPreference: 'high-performance' }}
         onCreated={({ gl }) => {
           gl.toneMapping = THREE.ACESFilmicToneMapping;
           gl.toneMappingExposure = 2.2;
