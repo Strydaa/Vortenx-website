@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 
-import Image from 'next/image';
 import { routing } from '@/i18n/routing';
+import { Link } from '@/i18n/navigation';
 import { PageHero } from '@/components/ui/page-hero';
 import { Vortex } from '@/components/ui/vortex';
 import { Section } from '@/components/ui/section';
@@ -43,14 +43,14 @@ export default async function CasesPage({
 }
 
 type CaseItem = {
+  slug: string;
   client: string;
   sector: string;
+  tags: string[];
+  headline: string;
+  summary: string;
   metric: string;
   metricLabel: string;
-  duration: string;
-  body: string;
-  stack: string[];
-  tags: string[];
 };
 
 function CasesContent() {
@@ -72,71 +72,54 @@ function CasesContent() {
 
       <Section rule={false} className="pt-0">
         <div className="shell border-t border-rule">
-          {items.map((item, i) => (
-            <Reveal key={item.client} delay={i * 0.06}>
-              <article className="grid gap-8 border-b border-rule py-12 md:grid-cols-12 md:gap-10 md:py-16">
-                {/* Sol: metrik */}
-                <div className="md:col-span-4">
-                  <span className="label text-rule">
-                    {String(i + 1).padStart(2, '0')}
-                  </span>
-                  <div className="mt-5 font-display text-[clamp(3rem,7vw,4.5rem)] font-extrabold leading-none tracking-[-0.05em] text-signal">
-                    {item.metric}
-                  </div>
-                  <p className="mt-4 max-w-[22ch] text-sm leading-snug">
-                    {item.metricLabel}
-                  </p>
-                </div>
+          <div className="grid gap-5 py-12 md:grid-cols-2 md:py-16">
+            {items.map((item, i) => (
+              <Reveal key={item.slug} delay={i * 0.08}>
+                <Link
+                  href={`/cases/${item.slug}`}
+                  className="card group relative flex h-full flex-col overflow-hidden transition-colors duration-500 hover:border-signal/50"
+                >
+                  <div className="bg-stripes relative aspect-[16/10] overflow-hidden border-b border-rule bg-paper opacity-70 transition-opacity duration-500 group-hover:opacity-100" />
 
-                {/* Sağ: anlatı */}
-                <div className="md:col-span-7 md:col-start-6">
-                  <h2 className="font-display text-2xl font-bold tracking-[-0.03em] md:text-3xl">
-                    {item.client}
-                  </h2>
-
-                  <dl className="mt-5 flex flex-wrap gap-x-10 gap-y-3">
-                    <div>
-                      <dt className="label">{t('sectorLabel')}</dt>
-                      <dd className="mt-1 text-sm">{item.sector}</dd>
-                    </div>
-                    <div>
-                      <dt className="label">{t('durationLabel')}</dt>
-                      <dd className="mt-1 text-sm">{item.duration}</dd>
-                    </div>
-                  </dl>
-
-                  <p className="mt-6 max-w-xl text-base leading-relaxed text-muted">
-                    {item.body}
-                  </p>
-
-                  <div className="mt-8">
-                    <p className="label mb-3">{t('stackLabel')}</p>
-                    <div className="flex flex-wrap gap-2">
-                      {item.stack.map((tech) => (
+                  <div className="flex flex-1 flex-col p-7 md:p-9">
+                    <div className="flex flex-wrap items-center gap-2">
+                      {item.tags.map((tag) => (
                         <span
-                          key={tech}
+                          key={tag}
                           className="border border-rule px-2.5 py-1 font-mono text-[0.62rem] uppercase tracking-[0.1em] text-muted"
                         >
-                          {tech}
+                          {tag}
                         </span>
                       ))}
                     </div>
-                  </div>
 
-                  {/* Kurulumun şematik gösterimi */}
-                  <div className="relative mt-9 aspect-[16/9] overflow-hidden border border-rule bg-surface">
-                    <Image
-                      src={`/images/cases/case-${i + 1}.webp`}
-                      alt=""
-                      fill
-                      sizes="(max-width: 768px) 100vw, 58vw"
-                      className="object-cover dark:opacity-80 dark:invert"
-                    />
+                    <div className="mt-7">
+                      <div className="font-display text-[clamp(2.5rem,5vw,3.5rem)] font-extrabold leading-none tracking-[-0.05em] transition-all duration-600 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-x-1 group-hover:text-signal">
+                        {item.metric}
+                      </div>
+                      <p className="mt-3 max-w-[26ch] text-sm leading-snug">
+                        {item.metricLabel}
+                      </p>
+                    </div>
+
+                    <div className="mt-7 flex-1">
+                      <span className="label">{item.sector}</span>
+                      <h2 className="mt-3 font-display text-xl font-bold tracking-[-0.03em] md:text-2xl">
+                        {item.client} — {item.headline}
+                      </h2>
+                      <p className="mt-3 max-w-lg text-sm leading-relaxed text-muted">
+                        {item.summary}
+                      </p>
+                    </div>
+
+                    <span className="link-underline mt-7 inline-flex w-fit items-center gap-2 border-t border-rule pt-5 font-mono text-[0.72rem] uppercase tracking-[0.14em] transition-colors duration-300 group-hover:text-signal">
+                      {t('detail.readMore')} <span aria-hidden>→</span>
+                    </span>
                   </div>
-                </div>
-              </article>
-            </Reveal>
-          ))}
+                </Link>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </Section>
 

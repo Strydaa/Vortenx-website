@@ -68,13 +68,13 @@ Site şu an gerçekçi ama **uydurma** verilerle dolu. Yayına almadan önce şu
 
 | Ne | Nerede |
 |---|---|
-| `[Kurucu Adı]`, kurucu biyografisi, öne çıkanlar | `messages/*.json` → `home.founder`, `about.founder` |
+| Kurucu biyografisi, öne çıkanlar (isim ve fotoğraflar gerçek: Yusuf İbrahim Demir, Mirhan Karataş) | `messages/*.json` → `home.founder`, `about.founder` |
 | `₺ [tutar]` / `$ [amount]` fiyatlar | `messages/*.json` → `advisory.packages`, `advisory.short`, `systems.packages`, `systems.retainers` |
-| "Örnek Müşteri A/B/C" vakaları ve metrikleri | `messages/*.json` → `home.cases.items`, `cases.items` |
+| RMD Kimya / Alestatrade vakaları gerçek müşteri, ama metrikler ("3 → 1", "Günler → Saatler") yönlü/temsili — gerçek rakam varsa değiştir | `messages/*.json` → `cases.items` |
 | İstatistikler (60+ proje, 12 yıl vb.) | `messages/*.json` → `home.stats.items` |
 | Müşteri logo şeridindeki isimler | `components/sections/logo-marquee.tsx` |
 | E-posta, telefon, sosyal medya, ofisler | `lib/site-config.ts` |
-| Kurucu fotoğrafı (şu an "NF" monogramı) | `app/[locale]/about/page.tsx`, `components/sections/founder-card.tsx` |
+| Vaka kartlarındaki görsel yuvası — şu an soyut çizgi deseni (`bg-stripes`), gerçek fotoğraf/diyagram yok | `components/sections/case-cards.tsx`, `app/[locale]/cases/page.tsx`, `app/[locale]/cases/[slug]/page.tsx` |
 | Danışmanlık sayfasındaki 3B sahne — şu anki değer **Spline'ın public demo robotu**, Vortenxflow'a ait değil | `lib/site-config.ts` → `splineScene` |
 
 Bu rakamlar Vortenxflow adına gerçek olmayan iddialar; kendi verilerinle değiştirilmeden yayına alınmamalı.
@@ -87,7 +87,7 @@ Bu rakamlar Vortenxflow adına gerçek olmayan iddialar; kendi verilerinle deği
 app/
   [locale]/              # /tr ve /en altındaki tüm sayfalar
     page.tsx             # ana sayfa (11 bölüm)
-    advisory/ systems/ cases/ blog/ about/ contact/
+    advisory/ systems/ cases/ cases/[slug]/ blog/ about/ contact/
     layout.tsx           # html, tema, dil, header, footer, sohbet botu
     not-found.tsx
   api/

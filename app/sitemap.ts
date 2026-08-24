@@ -12,6 +12,8 @@ const paths = [
   '/kurum-ici/sirket-doktoru',
   '/kurum-ici/sunumlar',
   '/cases',
+  '/cases/rmd-kimya',
+  '/cases/alestatrade',
   '/industries',
   '/blog',
   '/about',

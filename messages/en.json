@@ -38,7 +38,7 @@
     },
     "cases": {
       "title": "Cases — Vortenxflow",
-      "description": "Systems we shipped and the results we measured."
+      "description": "The automation systems we built for RMD Kimya and Alestatrade, and the results."
     },
     "about": {
       "title": "Culture — Vortenxflow",
@@ -169,34 +169,8 @@
       "index": "03",
       "eyebrow": "Cases",
       "title": "Shipped, measured,\nscaled.",
-      "description": "The numbers below are placeholders — set up to be swapped for your own projects.",
-      "cta": "All cases",
-      "items": [
-        {
-          "client": "Sample Client A",
-          "sector": "E-commerce",
-          "metric": "38%",
-          "metricLabel": "Drop in order handling time",
-          "body": "We merged order, return and shipping tracking into a single flow; the support team stopped doing it by hand.",
-          "tags": ["Workflow", "Support agent"]
-        },
-        {
-          "client": "Sample Client B",
-          "sector": "Manufacturing",
-          "metric": "3×",
-          "metricLabel": "Faster quote preparation",
-          "body": "We wired quoting into the ERP; costing that used to take hours now takes minutes.",
-          "tags": ["ERP integration", "Custom AI"]
-        },
-        {
-          "client": "Sample Client C",
-          "sector": "Services",
-          "metric": "24/7",
-          "metricLabel": "Uninterrupted customer response",
-          "body": "We shipped a multilingual support agent; 71% of after-hours requests resolve without a human handoff.",
-          "tags": ["Chatbot", "RAG"]
-        }
-      ]
+      "description": "The automation systems we built for two chemical companies — and the results.",
+      "cta": "All cases"
     },
 
     "comparison": {
@@ -485,42 +459,44 @@
     "hero": {
       "eyebrow": "Cases",
       "title": "Systems we shipped.",
-      "lead": "The cases below are placeholders. Add your own from messages/en.json."
+      "lead": "Automation we built for two chemical companies — how we simplified order handling, batch tracking and supplier matching."
     },
-    "sectorLabel": "Sector",
-    "resultLabel": "Result",
-    "durationLabel": "Duration",
-    "stackLabel": "Build",
+    "detail": {
+      "challengeLabel": "Challenge",
+      "solutionLabel": "Solution",
+      "resultLabel": "Result",
+      "readMore": "Read more",
+      "moreCasesLabel": "More cases",
+      "ctaTitle": "Want a similar result?",
+      "ctaBody": "The first assessment call is free. 30 minutes.",
+      "ctaButton": "Let's talk"
+    },
     "items": [
       {
-        "client": "Sample Client A",
-        "sector": "E-commerce",
-        "metric": "38%",
-        "metricLabel": "Drop in order handling time",
-        "duration": "6 weeks",
-        "body": "Orders, returns and shipping tracking ran across three separate dashboards. We merged all three into one flow and automated customer notifications. The support team got back roughly 4 hours of manual work a day.",
-        "stack": ["Workflow automation", "Support agent", "Shopify"],
-        "tags": ["Workflow", "Support agent"]
+        "slug": "rmd-kimya",
+        "client": "RMD Kimya",
+        "sector": "Chemical Manufacturing & Distribution",
+        "tags": ["Systems", "Automation"],
+        "headline": "Order & Batch Tracking Automation",
+        "summary": "We moved an order process scattered across phone, WhatsApp and email into a single-panel system.",
+        "metric": "3 → 1",
+        "metricLabel": "Order channels merged into one panel",
+        "challenge": "Orders came in scattered across phone calls, WhatsApp and email; every request meant a quote built by hand, while batch/lot numbers and shipment status lived in separate spreadsheets. With nothing consolidated, the same question got asked to multiple people and tracking an order's status took real time.",
+        "solution": "We built an order management system that turns an incoming request into a quote automatically and keeps batch/lot numbers and shipment status in one panel. Customers get automatic status updates, and past quotes and orders are searchable from a single place.",
+        "result": "Order channels merged into one panel, and the back-and-forth of status questions disappeared. The team spends its time on production and customer relationships instead."
       },
       {
-        "client": "Sample Client B",
-        "sector": "Manufacturing",
-        "metric": "3×",
-        "metricLabel": "Faster quote preparation",
-        "duration": "10 weeks",
-        "body": "Quoting ran disconnected from the ERP, with costing done by hand for every quote. We wired the process into the ERP and added a layer that proposes pricing from historical data.",
-        "stack": ["Custom AI build", "ERP integration", "RAG"],
-        "tags": ["ERP integration", "Custom AI"]
-      },
-      {
-        "client": "Sample Client C",
-        "sector": "Services",
-        "metric": "24/7",
-        "metricLabel": "Uninterrupted customer response",
-        "duration": "5 weeks",
-        "body": "After-hours requests were rolling over to the next day. We shipped a multilingual support agent trained on their own documentation. 71% of incoming requests now resolve without a human handoff.",
-        "stack": ["Chatbot", "RAG", "WhatsApp"],
-        "tags": ["Chatbot", "RAG"]
+        "slug": "alestatrade",
+        "client": "Alestatrade",
+        "sector": "Chemical Trading",
+        "tags": ["Systems", "Automation"],
+        "headline": "Supplier Matching & Quote Automation",
+        "summary": "We built a system that matches incoming purchase requests with the right supplier and drafts a quote.",
+        "metric": "Days → Hours",
+        "metricLabel": "Quote turnaround time",
+        "challenge": "Finding the right supplier and product for an incoming purchase request, researching current prices, and preparing a quote all ran by hand over email and spreadsheets; during busy periods a quote could take days to reach the customer.",
+        "solution": "We built a system that suggests the right supplier/product once a request comes in and drafts a quote automatically from current pricing. Quote status and follow-up are now handled through automatic notifications.",
+        "result": "Quote preparation now runs through a standard flow, and supplier matching no longer needs manual research. The team handles more requests in the same amount of time."
       }
     ],
     "cta": {

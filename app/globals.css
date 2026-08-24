@@ -211,6 +211,17 @@
     background-size: 22px 22px;
   }
 
+  /* Vaka kartlarındaki görsel yuvası için — gerçek fotoğraf yerine soyut desen */
+  .bg-stripes {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      var(--rule) 0,
+      var(--rule) 1px,
+      transparent 1px,
+      transparent 14px
+    );
+  }
+
   /* Kağıt grain — tüm sayfanın üstünde, tıklamayı engellemez */
   .grain::after {
     content: '';

@@ -37,8 +37,8 @@
       "description": "Dokuz sektör için otomasyon uygulamaları: e-ticaret, sağlık, finans, üretim, lojistik ve daha fazlası."
     },
     "cases": {
-      "title": "Projeler — Vortenxflow",
-      "description": "Kurduğumuz sistemler ve ölçülen sonuçlar."
+      "title": "Vakalar — Vortenxflow",
+      "description": "RMD Kimya ve Alestatrade için kurduğumuz otomasyon sistemleri ve sonuçları."
     },
     "about": {
       "title": "Kültür — Vortenxflow",
@@ -59,7 +59,7 @@
     "systems": "Sistemler",
     "programs": "Programlar",
     "kurumIci": "Kurum İçi",
-    "cases": "Projeler",
+    "cases": "Vakalar",
     "industries": "Endüstriler",
     "blog": "Blog",
     "about": "Kültür",
@@ -167,36 +167,10 @@
 
     "cases": {
       "index": "03",
-      "eyebrow": "Projeler",
+      "eyebrow": "Vakalar",
       "title": "Kurduk, ölçtük,\nbüyüttük.",
-      "description": "Aşağıdaki rakamlar örnek yer tutuculardır — kendi projelerinizle değiştirilmek üzere hazırlanmıştır.",
-      "cta": "Tüm projeler",
-      "items": [
-        {
-          "client": "Örnek Müşteri A",
-          "sector": "E-ticaret",
-          "metric": "%38",
-          "metricLabel": "Sipariş işleme süresinde düşüş",
-          "body": "Sipariş, iade ve kargo takibini tek akışta topladık; destek ekibi manuel işten kurtuldu.",
-          "tags": ["İş akışı", "Destek ajanı"]
-        },
-        {
-          "client": "Örnek Müşteri B",
-          "sector": "Üretim",
-          "metric": "3×",
-          "metricLabel": "Teklif hazırlama hızı",
-          "body": "Teklif hazırlama sürecini ERP'ye bağladık; saatler süren hesaplama dakikalara indi.",
-          "tags": ["ERP entegrasyonu", "Özel AI"]
-        },
-        {
-          "client": "Örnek Müşteri C",
-          "sector": "Hizmet",
-          "metric": "7/24",
-          "metricLabel": "Kesintisiz müşteri yanıtı",
-          "body": "Çok dilli destek ajanı kurduk; mesai dışı gelen taleplerin %71'i insana devredilmeden çözülüyor.",
-          "tags": ["Chatbot", "RAG"]
-        }
-      ]
+      "description": "İki kimya şirketi için kurduğumuz otomasyon sistemleri — ölçtüğümüz sonuçlarla.",
+      "cta": "Tüm vakalar"
     },
 
     "comparison": {
@@ -483,44 +457,46 @@
 
   "cases": {
     "hero": {
-      "eyebrow": "Projeler",
+      "eyebrow": "Vakalar",
       "title": "Kurduğumuz sistemler.",
-      "lead": "Aşağıdaki projeler örnek yer tutuculardır. Kendi projelerinizi messages/tr.json dosyasından ekleyebilirsiniz."
+      "lead": "İki kimya şirketi için kurduğumuz otomasyonlar — sipariş, parti takibi ve tedarikçi eşleştirme süreçlerini nasıl basitleştirdiğimiz."
     },
-    "sectorLabel": "Sektör",
-    "resultLabel": "Sonuç",
-    "durationLabel": "Süre",
-    "stackLabel": "Kurulum",
+    "detail": {
+      "challengeLabel": "Problem",
+      "solutionLabel": "Çözüm",
+      "resultLabel": "Sonuç",
+      "readMore": "Devamını oku",
+      "moreCasesLabel": "Diğer vakalar",
+      "ctaTitle": "Benzer bir sonuç ister misiniz?",
+      "ctaBody": "İlk değerlendirme görüşmesi ücretsiz. 30 dakika.",
+      "ctaButton": "Konuşalım"
+    },
     "items": [
       {
-        "client": "Örnek Müşteri A",
-        "sector": "E-ticaret",
-        "metric": "%38",
-        "metricLabel": "Sipariş işleme süresinde düşüş",
-        "duration": "6 hafta",
-        "body": "Sipariş, iade ve kargo takibi üç farklı panelde yürüyordu. Üçünü tek akışta topladık ve müşteri bilgilendirmelerini otomatikleştirdik. Destek ekibi günde ortalama 4 saatlik manuel işten kurtuldu.",
-        "stack": ["İş akışı otomasyonu", "Destek ajanı", "Shopify"],
-        "tags": ["İş akışı", "Destek ajanı"]
+        "slug": "rmd-kimya",
+        "client": "RMD Kimya",
+        "sector": "Kimyasal Üretim & Dağıtım",
+        "tags": ["Sistemler", "Otomasyon"],
+        "headline": "Sipariş ve Parti Takibi Otomasyonu",
+        "summary": "Telefon, WhatsApp ve e-postaya dağılmış sipariş sürecini tek panelde birleşen bir sisteme taşıdık.",
+        "metric": "3 → 1",
+        "metricLabel": "Sipariş kanalı tek panelde birleşti",
+        "challenge": "Siparişler telefon, WhatsApp ve e-posta arasında dağınık yürüyordu; her talep için teklif elle hazırlanıyor, parti (lot) numaraları ve sevkiyat durumu ayrı Excel dosyalarında tutuluyordu. Bilgi tek bir yerde toplanmadığı için aynı soru birden fazla kişiye soruluyor, sipariş durumu takibi zaman alıyordu.",
+        "solution": "Gelen talebi otomatik teklife dönüştüren, parti/lot ve sevkiyat durumunu tek panelde toplayan bir sipariş yönetim sistemi kurduk. Sipariş durumu güncellendiğinde müşteriye otomatik bildirim gidiyor, geçmiş teklif ve sipariş kayıtları tek yerden aranabiliyor.",
+        "result": "Sipariş kanalları tek panelde birleşti, durum takibi için art arda soru-cevap trafiği ortadan kalktı. Ekip zamanını üretim ve müşteri ilişkisine ayırabiliyor."
       },
       {
-        "client": "Örnek Müşteri B",
-        "sector": "Üretim",
-        "metric": "3×",
-        "metricLabel": "Teklif hazırlama hızı",
-        "duration": "10 hafta",
-        "body": "Teklif hazırlama süreci ERP'den kopuk yürüyordu; her teklif için manuel maliyet hesabı yapılıyordu. Süreci ERP'ye bağladık, geçmiş verilerle fiyat önerisi üreten bir katman ekledik.",
-        "stack": ["Özel AI kurulumu", "ERP entegrasyonu", "RAG"],
-        "tags": ["ERP entegrasyonu", "Özel AI"]
-      },
-      {
-        "client": "Örnek Müşteri C",
-        "sector": "Hizmet",
-        "metric": "7/24",
-        "metricLabel": "Kesintisiz müşteri yanıtı",
-        "duration": "5 hafta",
-        "body": "Mesai dışı gelen talepler ertesi güne kalıyordu. Kendi dokümanlarıyla eğitilmiş çok dilli bir destek ajanı kurduk. Gelen taleplerin %71'i insana devredilmeden çözülüyor.",
-        "stack": ["Chatbot", "RAG", "WhatsApp"],
-        "tags": ["Chatbot", "RAG"]
+        "slug": "alestatrade",
+        "client": "Alestatrade",
+        "sector": "Kimyasal Ticaret",
+        "tags": ["Sistemler", "Otomasyon"],
+        "headline": "Tedarikçi Eşleştirme ve Teklif Otomasyonu",
+        "summary": "Gelen alım taleplerini uygun tedarikçi ve ürünle eşleştirip teklif taslağı çıkaran bir sistem kurduk.",
+        "metric": "Günler → Saatler",
+        "metricLabel": "Teklif hazırlama süresi",
+        "challenge": "Gelen alım talepleri için uygun tedarikçi ve ürünün bulunması, güncel fiyatların araştırılması ve teklif hazırlığı elle yürütülüyordu; yoğun dönemlerde bir teklifin müşteriye ulaşması günler sürebiliyordu.",
+        "solution": "Talep girildiğinde uygun tedarikçi/ürünü öneren, güncel fiyat kalemlerinden otomatik teklif taslağı oluşturan bir sistem kurduk. Teklifin durumu ve takibi otomatik bildirimlerle yönetiliyor.",
+        "result": "Teklif hazırlama süreci standart bir akışa oturdu, tedarikçi eşleştirme artık elle araştırma gerektirmiyor. Ekip aynı sürede daha fazla talebe yanıt verebiliyor."
       }
     ],
     "cta": {
