@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 
@@ -43,10 +44,17 @@ export default async function AboutPage({
 }
 
 type Value = { title: string; body: string };
+type TeamMember = { name: string; role: string; initials: string };
+
+const AVATARS: Record<string, string> = {
+  YD: '/founders/yusuf.png',
+  MK: '/founders/mirhan.jpg',
+};
 
 function AboutContent() {
   const t = useTranslations('about');
   const values = t.raw('values.items') as Value[];
+  const team = t.raw('founder.team') as TeamMember[];
   const highlights = t.raw('founder.highlights') as string[];
 
   return (
@@ -103,14 +111,35 @@ function AboutContent() {
                 <span>{t('founder.eyebrow')}</span>
               </div>
 
-              {/* Gerçek portre gelince buradaki blok next/image ile değiştirilir */}
-              <div
-                aria-hidden
-                className="bg-dots crosshair relative flex aspect-[4/5] max-w-sm items-end border border-rule bg-paper p-6"
-              >
-                <span className="font-display text-6xl font-extrabold tracking-[-0.05em] text-rule">
-                  NF
-                </span>
+              <div className="grid max-w-sm grid-cols-2 gap-4">
+                {team.map((person) => (
+                  <div key={person.name}>
+                    {AVATARS[person.initials] ? (
+                      <div className="crosshair relative aspect-[4/5] overflow-hidden border border-rule">
+                        <Image
+                          src={AVATARS[person.initials]}
+                          alt={person.name}
+                          fill
+                          sizes="(min-width: 1024px) 12rem, 40vw"
+                          className="object-cover"
+                        />
+                      </div>
+                    ) : (
+                      <div
+                        aria-hidden
+                        className="bg-dots crosshair relative flex aspect-[4/5] items-end border border-rule bg-paper p-4"
+                      >
+                        <span className="font-display text-4xl font-extrabold tracking-[-0.05em] text-rule">
+                          {person.initials}
+                        </span>
+                      </div>
+                    )}
+                    <p className="mt-3 font-display text-sm font-bold tracking-[-0.02em]">
+                      {person.name}
+                    </p>
+                    <p className="label mt-0.5 text-xs">{person.role}</p>
+                  </div>
+                ))}
               </div>
             </Reveal>
           </div>
@@ -121,14 +150,7 @@ function AboutContent() {
                 &ldquo;{t('founder.quote')}&rdquo;
               </blockquote>
 
-              <div className="mt-8 border-t border-rule pt-6">
-                <p className="font-display text-lg font-bold tracking-[-0.02em]">
-                  {t('founder.name')}
-                </p>
-                <p className="label mt-1">{t('founder.role')}</p>
-              </div>
-
-              <p className="mt-8 max-w-xl text-base leading-relaxed text-muted">
+              <p className="mt-8 max-w-xl border-t border-rule pt-6 text-base leading-relaxed text-muted">
                 {t('founder.bio')}
               </p>
 

@@ -254,10 +254,12 @@
     "founder": {
       "index": "06",
       "eyebrow": "Kim yürütüyor",
-      "title": "Projeyi satan kişi,\nprojeyi yürüten kişi.",
-      "quote": "Her projeyi kendim yürütüyorum — ekibi seçerim, takvimi sahiplenirim, her çalışma seansında bizzat bulunurum. Devredilen proje yok.",
-      "name": "[Kurucu Adı]",
-      "role": "Kurucu · Vortenxflow",
+      "title": "Projeyi satan kişiler,\nprojeyi yürüten kişiler.",
+      "quote": "Her projeyi kendimiz yürütüyoruz — ekibi biz seçeriz, takvimi biz sahipleniriz, her çalışma seansında bizzat biz bulunuruz. Devredilen proje yok.",
+      "team": [
+        { "name": "Yusuf İbrahim Demir", "role": "Kurucu · Vortenxflow", "initials": "YD" },
+        { "name": "Mirhan Karataş", "role": "Kurucu · Vortenxflow", "initials": "MK" }
+      ],
       "bio": "Bu alanı kendi bilgilerinizle doldurun: geçmiş deneyim, teslim edilen proje sayısı, uzmanlık alanları."
     },
 
@@ -547,10 +549,12 @@
     },
     "founder": {
       "index": "02",
-      "eyebrow": "Kurucu",
-      "name": "[Kurucu Adı]",
-      "role": "Kurucu · Vortenxflow",
-      "quote": "Her projeyi kendim yürütüyorum — ekibi seçerim, takvimi sahiplenirim, her çalışma seansında bizzat bulunurum.",
+      "eyebrow": "Kurucular",
+      "team": [
+        { "name": "Yusuf İbrahim Demir", "role": "Kurucu · Vortenxflow", "initials": "YD" },
+        { "name": "Mirhan Karataş", "role": "Kurucu · Vortenxflow", "initials": "MK" }
+      ],
+      "quote": "Her projeyi kendimiz yürütüyoruz — ekibi biz seçeriz, takvimi biz sahipleniriz, her çalışma seansında bizzat biz bulunuruz.",
       "bio": "Bu alanı kendi bilgilerinizle doldurun: geçmiş deneyim, teslim edilen proje sayısı, uzmanlık alanları, varsa ödüller ve önceki şirketler.",
       "highlights": ["[Öne çıkan başarı 1]", "[Öne çıkan başarı 2]", "[Öne çıkan başarı 3]"]
     },

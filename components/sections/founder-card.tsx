@@ -1,12 +1,21 @@
 'use client';
 
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Section } from '@/components/ui/section';
 import { Reveal } from '@/components/motion/reveal';
 import { TextReveal } from '@/components/motion/text-reveal';
 
+type TeamMember = { name: string; role: string; initials: string };
+
+const AVATARS: Record<string, string> = {
+  YD: '/founders/yusuf.png',
+  MK: '/founders/mirhan.jpg',
+};
+
 export function FounderCard() {
   const t = useTranslations('home.founder');
+  const team = t.raw('team') as TeamMember[];
 
   return (
     <Section id="founder" className="bg-surface">
@@ -47,20 +56,35 @@ export function FounderCard() {
                 {t('quote')}
               </blockquote>
 
-              <figcaption className="mt-10 flex items-center gap-4 border-t border-rule pt-6">
-                {/* Portre yerine baş harfler — gerçek fotoğraf gelince next/image ile değiştir */}
-                <span
-                  aria-hidden
-                  className="grid h-12 w-12 shrink-0 place-items-center border border-rule bg-paper font-mono text-sm"
-                >
-                  NF
-                </span>
-                <span>
-                  <span className="block font-display text-base font-bold tracking-[-0.02em]">
-                    {t('name')}
-                  </span>
-                  <span className="label mt-0.5 block">{t('role')}</span>
-                </span>
+              <figcaption className="mt-10 grid gap-6 border-t border-rule pt-6 sm:grid-cols-2">
+                {team.map((person) => (
+                  <div key={person.name} className="flex items-center gap-4">
+                    {AVATARS[person.initials] ? (
+                      <span className="relative h-12 w-12 shrink-0 overflow-hidden border border-rule">
+                        <Image
+                          src={AVATARS[person.initials]}
+                          alt={person.name}
+                          fill
+                          sizes="48px"
+                          className="object-cover"
+                        />
+                      </span>
+                    ) : (
+                      <span
+                        aria-hidden
+                        className="grid h-12 w-12 shrink-0 place-items-center border border-rule bg-paper font-mono text-sm"
+                      >
+                        {person.initials}
+                      </span>
+                    )}
+                    <span>
+                      <span className="block font-display text-base font-bold tracking-[-0.02em]">
+                        {person.name}
+                      </span>
+                      <span className="label mt-0.5 block">{person.role}</span>
+                    </span>
+                  </div>
+                ))}
               </figcaption>
             </figure>
           </Reveal>

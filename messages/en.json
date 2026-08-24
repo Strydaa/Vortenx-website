@@ -254,10 +254,12 @@
     "founder": {
       "index": "06",
       "eyebrow": "Who runs it",
-      "title": "The person who sells it\nis the person who runs it.",
-      "quote": "I run every project myself — I pick the team, own the timeline, and sit in every working session. Nothing gets handed off.",
-      "name": "[Founder Name]",
-      "role": "Founder · Vortenxflow",
+      "title": "The people who sell it\nare the people who run it.",
+      "quote": "We run every project ourselves — we pick the team, own the timeline, and sit in every working session. Nothing gets handed off.",
+      "team": [
+        { "name": "Yusuf İbrahim Demir", "role": "Founder · Vortenxflow", "initials": "YD" },
+        { "name": "Mirhan Karataş", "role": "Founder · Vortenxflow", "initials": "MK" }
+      ],
       "bio": "Fill this in with your own details: past experience, projects delivered, areas of expertise."
     },
 
@@ -547,10 +549,12 @@
     },
     "founder": {
       "index": "02",
-      "eyebrow": "Founder",
-      "name": "[Founder Name]",
-      "role": "Founder · Vortenxflow",
-      "quote": "I run every project myself — I pick the team, own the timeline, and sit in every working session.",
+      "eyebrow": "Founders",
+      "team": [
+        { "name": "Yusuf İbrahim Demir", "role": "Founder · Vortenxflow", "initials": "YD" },
+        { "name": "Mirhan Karataş", "role": "Founder · Vortenxflow", "initials": "MK" }
+      ],
+      "quote": "We run every project ourselves — we pick the team, own the timeline, and sit in every working session.",
       "bio": "Fill this in with your own details: past experience, projects delivered, areas of expertise, awards and previous companies if any.",
       "highlights": ["[Highlight 1]", "[Highlight 2]", "[Highlight 3]"]
     },
