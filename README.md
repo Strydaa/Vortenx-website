@@ -69,13 +69,13 @@ Site şu an gerçekçi ama **uydurma** verilerle dolu. Yayına almadan önce şu
 | Ne | Nerede |
 |---|---|
 | Kurucu biyografisi, öne çıkanlar (isim ve fotoğraflar gerçek: Yusuf İbrahim Demir, Mirhan Karataş) | `messages/*.json` → `home.founder`, `about.founder` |
-| `₺ [tutar]` / `$ [amount]` fiyatlar | `messages/*.json` → `advisory.packages`, `advisory.short`, `systems.packages`, `systems.retainers` |
 | RMD Kimya / Alestatrade vakaları gerçek müşteri, ama metrikler ("3 → 1", "Günler → Saatler") yönlü/temsili — gerçek rakam varsa değiştir | `messages/*.json` → `cases.items` |
 | İstatistikler (60+ proje, 12 yıl vb.) | `messages/*.json` → `home.stats.items` |
 | Müşteri logo şeridindeki isimler | `components/sections/logo-marquee.tsx` |
 | E-posta, telefon, sosyal medya, ofisler | `lib/site-config.ts` |
 | Vaka kartlarındaki görsel yuvası — şu an soyut çizgi deseni (`bg-stripes`), gerçek fotoğraf/diyagram yok | `components/sections/case-cards.tsx`, `app/[locale]/cases/page.tsx`, `app/[locale]/cases/[slug]/page.tsx` |
-| Danışmanlık sayfasındaki 3B sahne — şu anki değer **Spline'ın public demo robotu**, Vortenxflow'a ait değil | `lib/site-config.ts` → `splineScene` |
+| Danışmanlık ve Endüstriler sayfalarındaki 3B robot sahnesi — şu anki değer **Spline'ın public demo robotu**, Vortenxflow'a ait değil, iki sayfada da aynı sahne kullanılıyor | `lib/site-config.ts` → `splineScene` |
+| Danışmanlık/Sistemler paket fiyatları ve süreleri şu an düşük, tanıtım amaçlı tutuldu (ör. $99-$999, 1-3 hafta) — gerçek maliyet yapınıza göre güncellemek isteyebilirsiniz | `messages/*.json` → `advisory.packages`, `advisory.short`, `systems.packages` |
 
 Bu rakamlar Vortenxflow adına gerçek olmayan iddialar; kendi verilerinle değiştirilmeden yayına alınmamalı.
 

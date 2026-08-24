@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 
 import { routing } from '@/i18n/routing';
 import { PageHero } from '@/components/ui/page-hero';
-import { ForgeRobotScene } from '@/components/ui/forge-robot-scene';
+import { IndustriesRobotScene } from '@/components/ui/industries-robot-scene';
 import { Section, SectionHeader } from '@/components/ui/section';
 import { Reveal } from '@/components/motion/reveal';
 import { ButtonLink } from '@/components/ui/button';
@@ -60,10 +60,7 @@ function IndustriesContent() {
         lead={t('hero.lead')}
         tone="onDark"
         fullScreen
-        background={
-          /* Kartlardaki dokuz sektör sahnedeki halkanın da içeriği. */
-          <ForgeRobotScene sectors={items} />
-        }
+        background={<IndustriesRobotScene loadingLabel={t('hero.splineLoading')} />}
       >
         <Magnetic>
           <ButtonLink href="/contact" size="lg" arrow>

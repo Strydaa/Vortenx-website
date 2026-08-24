@@ -2,11 +2,11 @@
   "meta": {
     "home": {
       "title": "Vortenxflow — We build automation and AI systems",
-      "description": "We build the AI agents and automation systems that grow your company. Strategy and execution from one team. Live in 4–10 weeks."
+      "description": "We build the AI agents and automation systems that grow your company. Strategy and execution from one team. Live in 1–3 weeks."
     },
     "advisory": {
       "title": "Advisory — Vortenxflow",
-      "description": "3-month fixed-scope strategy packages. Process inventory, AI value analysis and an actionable roadmap."
+      "description": "1-3 week fixed-scope strategy packages. Process inventory, AI value analysis and an actionable roadmap."
     },
     "systems": {
       "title": "Systems — Vortenxflow",
@@ -87,7 +87,7 @@
       "eyebrow": "By the numbers",
       "items": [
         { "value": 60, "suffix": "+", "label": "Projects delivered" },
-        { "value": 4, "suffix": "–10 weeks", "label": "Typical time to ship" },
+        { "value": 1, "suffix": "–3 weeks", "label": "Typical time to ship" },
         { "value": 1, "suffix": "", "label": "Office · Istanbul" },
         { "value": 12, "suffix": " yrs", "label": "Combined engineering experience" }
       ]
@@ -107,7 +107,7 @@
           "tag": "Advisory",
           "title": "Roadmap, decision support, board-ready deck",
           "body": "We inventory your processes, pinpoint where AI creates real value, and hand over an actionable roadmap.",
-          "meta": "3-month fixed scope",
+          "meta": "1-3 week fixed scope",
           "href": "/advisory",
           "cta": "Explore Advisory",
           "points": ["Process inventory", "AI opportunity map", "Pilot PRDs", "Board presentation"]
@@ -115,8 +115,8 @@
         {
           "tag": "Systems",
           "title": "Live AI agents and shipped systems",
-          "body": "Battle-tested agent packages and custom builds. We go live in 4–10 weeks, then run monthly operations and maintenance.",
-          "meta": "Shipped in 4–10 weeks",
+          "body": "Battle-tested agent packages and custom builds. We go live in 1–3 weeks, then run monthly operations and maintenance.",
+          "meta": "Shipped in 1–3 weeks",
           "href": "/systems",
           "cta": "Explore Systems",
           "points": ["6 ready packages", "Custom AI builds", "GDPR compliant", "Monthly maintenance"]
@@ -183,7 +183,7 @@
         { "criterion": "Access to senior advisors", "values": [true, false, true, false, false] },
         { "criterion": "Implementation team", "values": [true, true, true, true, false] },
         { "criterion": "Fixed scope and price", "values": [true, false, false, false, true] },
-        { "criterion": "Live within 4–10 weeks", "values": [true, true, false, false, false] },
+        { "criterion": "Live within 1–3 weeks", "values": [true, true, false, false, false] },
         { "criterion": "Post-launch maintenance", "values": [true, false, true, true, false] },
         { "criterion": "You own the code and infra", "values": [true, true, false, true, true] },
         { "criterion": "GDPR / KVKK compliance", "values": [true, false, true, true, false] }
@@ -274,7 +274,7 @@
     "hero": {
       "eyebrow": "Advisory",
       "title": "Get clarity on what to do\nbefore you start building.",
-      "lead": "3-month fixed-scope strategy packages. We inventory your processes, identify where AI creates real value, and deliver an actionable roadmap with a board-ready presentation.",
+      "lead": "1-3 week fixed-scope strategy packages. We inventory your processes, identify where AI creates real value, and deliver an actionable roadmap with a board-ready presentation.",
       "cta": "Book a call"
     },
     "spline": {
@@ -294,24 +294,24 @@
         {
           "code": "A",
           "name": "AI Adoption Roadmap",
-          "price": "$8,000+",
-          "duration": "12 weeks · 6 workshops · 12 check-ins",
+          "price": "$999",
+          "duration": "3 weeks · 2 workshops · 4 check-ins",
           "body": "A company-wide programme defining where AI goes live and in what order.",
           "includes": [
             "Current process inventory",
             "AI value analysis",
             "Vendor and tooling recommendations",
-            "3 pilot PRDs",
-            "18-month roadmap",
-            "Board presentation"
+            "1 pilot PRD",
+            "6-month roadmap",
+            "Executive summary presentation"
           ],
           "featured": true
         },
         {
           "code": "B",
           "name": "Automation Strategy",
-          "price": "$6,500+",
-          "duration": "12 weeks · 4 workshops · 10 check-ins",
+          "price": "$799",
+          "duration": "2 weeks · 1 workshop · 3 check-ins",
           "body": "Getting operational processes ready for automation, and prioritising them.",
           "includes": [
             "Process mapping",
@@ -325,8 +325,8 @@
         {
           "code": "C",
           "name": "Data & Cloud Architecture",
-          "price": "$9,000+",
-          "duration": "12 weeks · 6 workshops · 12 check-ins",
+          "price": "$999",
+          "duration": "3 weeks · 2 workshops · 4 check-ins",
           "body": "Consolidating scattered data, planning the migration, and setting up governance.",
           "includes": [
             "Data inventory analysis",
@@ -344,9 +344,9 @@
       "eyebrow": "Short format",
       "title": "If you'd rather start smaller.",
       "items": [
-        { "name": "Strategy Workshop", "price": "$2,000+", "duration": "1 day", "body": "One intensive day with your team; you leave with the top 3 opportunities." },
-        { "name": "Rapid Diagnostic", "price": "$3,500+", "duration": "2 weeks", "body": "A snapshot of where you are, plus a list of quick wins." },
-        { "name": "Mentorship Retainer", "price": "$2,500/mo", "duration": "3-month minimum", "body": "Regular monthly sessions; we make the calls together." }
+        { "name": "Strategy Workshop", "price": "$99", "duration": "1 day", "body": "One intensive day with your team; you leave with the top 3 opportunities." },
+        { "name": "Rapid Diagnostic", "price": "$199", "duration": "1 week", "body": "A snapshot of where you are, plus a list of quick wins." },
+        { "name": "Mentorship Retainer", "price": "$499/mo", "duration": "3-month minimum", "body": "Regular monthly sessions; we make the calls together." }
       ]
     },
     "philosophy": {
@@ -359,7 +359,7 @@
       "eyebrow": "FAQ",
       "title": "Common questions",
       "items": [
-        { "q": "We're a small company — is this for us?", "a": "The short-format services (workshop, rapid diagnostic) exist exactly for that. The 3-month packages usually make sense for teams of 20+." },
+        { "q": "We're a small company — is this for us?", "a": "The short-format services (workshop, rapid diagnostic) exist exactly for that. The core packages usually make sense for teams of 20+." },
         { "q": "Do you guarantee outcomes?", "a": "We guarantee deliverables: everything written into the scope lands in your hands. We don't guarantee business outcomes — execution depends on your operation. If we run the execution too, we share responsibility for the result." },
         { "q": "Will our data stay confidential?", "a": "We sign a mutual NDA before work starts. Your data is never handed to any model for training." },
         { "q": "Can you also do the implementation?", "a": "Yes. We can build the pilots from the advisory output on the Systems side. Advisory isn't a prerequisite — you can start with the build directly." },
@@ -372,7 +372,7 @@
     "hero": {
       "eyebrow": "Systems",
       "title": "Production-ready AI agents\nand automation systems.",
-      "lead": "Battle-tested agent packages plus fully custom builds. We go live in 4–10 weeks, then handle monthly operations and maintenance. Turkish-language ready and KVKK/GDPR compliant.",
+      "lead": "Battle-tested agent packages plus fully custom builds. We go live in 1–3 weeks, then handle monthly operations and maintenance. Turkish-language ready and KVKK/GDPR compliant.",
       "cta": "Send your brief",
       "builtOn": "Built on"
     },
@@ -386,43 +386,43 @@
       "items": [
         {
           "name": "Customer Support Agent",
-          "duration": "4–6 weeks",
-          "price": "$4,500+",
+          "duration": "2–3 weeks",
+          "price": "$499",
           "body": "An AI worker that answers customer messages 24/7 across email, live chat and WhatsApp.",
           "features": ["Web chat / email / WhatsApp", "RAG on your own docs", "Human handoff", "Multi-language replies", "Sentiment analysis", "Dashboard reporting"]
         },
         {
           "name": "Sales Outreach Agent",
-          "duration": "5–7 weeks",
-          "price": "$5,500+",
+          "duration": "2–3 weeks",
+          "price": "$599",
           "body": "We define the target list together; the agent enriches it daily, writes personalised outreach and books meetings on your calendar.",
           "features": ["Data enrichment", "ICP analysis", "Email sequences", "Calendar integration", "CRM sync", "A/B testing"]
         },
         {
           "name": "Content Engine Agent",
-          "duration": "4–6 weeks",
-          "price": "$4,500+",
+          "duration": "2–3 weeks",
+          "price": "$499",
           "body": "A content team trained on your brand voice and tone. Produces blog posts, social content, email campaigns and video scripts; auto-publishes after an approval flow.",
           "features": ["Brand voice training", "Multi-platform formats", "Visual and video generation", "Scheduling", "SEO analysis"]
         },
         {
           "name": "Operations & Accounting Agent",
-          "duration": "6–8 weeks",
-          "price": "$6,000+",
+          "duration": "3 weeks",
+          "price": "$699",
           "body": "An AI worker that handles back-office operations: invoices, orders, expenses, inventory.",
           "features": ["Invoice OCR", "Expense approval flow", "Inventory sync", "ERP integration", "Reporting", "Audit trail"]
         },
         {
           "name": "Workflow Automation Agent",
-          "duration": "4–6 weeks",
-          "price": "$4,000+",
+          "duration": "1–2 weeks",
+          "price": "$399",
           "body": "We automate the repetitive work flowing between your internal tools. Slack, Notion, Airtable, Google Workspace, HubSpot, Shopify — 300+ tools supported.",
           "features": ["300+ integrations", "Flow library", "Prompt-based flow creation", "Approval steps", "Error tracking"]
         },
         {
           "name": "Custom AI Build",
-          "duration": "8–16 weeks",
-          "price": "$8,000+",
+          "duration": "3 weeks",
+          "price": "$999",
           "body": "For needs that don't fit the ready-made packages. Industry-specific agents, enterprise system integration, RAG on company documents, fine-tuned models — built from scratch.",
           "features": ["Industry-specific solution", "System integration", "RAG infrastructure", "Model training", "Custom dashboards"],
           "featured": true
@@ -1010,7 +1010,8 @@
       "eyebrow": "Industries",
       "title": "Every industry\njams somewhere else.",
       "lead": "Where automation belongs depends on the industry. Below are the systems we build most often across nine sectors and the usual starting points.",
-      "cta": "Let's talk about yours"
+      "cta": "Let's talk about yours",
+      "splineLoading": "Loading scene"
     },
     "list": {
       "index": "01",
