@@ -12,6 +12,7 @@
     "@parcel/watcher": "file:./patches/parcel-watcher-stub"
   },
   "dependencies": {
+    "@calcom/embed-react": "^1.5.3",
     "@google/genai": "^2.17.1",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.6.1",

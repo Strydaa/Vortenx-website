@@ -83,16 +83,6 @@
       "scroll": "Scroll"
     },
 
-    "stats": {
-      "eyebrow": "By the numbers",
-      "items": [
-        { "value": 60, "suffix": "+", "label": "Projects delivered" },
-        { "value": 1, "suffix": "–3 weeks", "label": "Typical time to ship" },
-        { "value": 1, "suffix": "", "label": "Office · Istanbul" },
-        { "value": 12, "suffix": " yrs", "label": "Combined engineering experience" }
-      ]
-    },
-
     "logos": {
       "eyebrow": "Teams we work with"
     },
@@ -234,7 +224,7 @@
         { "name": "Yusuf İbrahim Demir", "role": "Founder · Vortenxflow", "initials": "YD" },
         { "name": "Mirhan Karataş", "role": "Founder · Vortenxflow", "initials": "MK" }
       ],
-      "bio": "Fill this in with your own details: past experience, projects delivered, areas of expertise."
+      "bio": "Yusuf talks to the client and scopes the process; Mirhan builds the automation with n8n and Claude Code. The same two people stay on the project from the first call to delivery."
     },
 
     "blog": {
@@ -527,17 +517,17 @@
       "index": "02",
       "eyebrow": "Founders",
       "team": [
-        { "name": "Yusuf İbrahim Demir", "role": "Founder · Vortenxflow", "initials": "YD" },
-        { "name": "Mirhan Karataş", "role": "Founder · Vortenxflow", "initials": "MK" }
+        { "name": "Yusuf İbrahim Demir", "role": "Founder · Sales & Client Relations", "initials": "YD" },
+        { "name": "Mirhan Karataş", "role": "Founder · Technical Build & Automation", "initials": "MK" }
       ],
       "quote": "We run every project ourselves — we pick the team, own the timeline, and sit in every working session.",
-      "bio": "Fill this in with your own details: past experience, projects delivered, areas of expertise, awards and previous companies if any.",
-      "highlights": ["[Highlight 1]", "[Highlight 2]", "[Highlight 3]"]
+      "bio": "The split is simple: Yusuf runs client conversations and process analysis, Mirhan builds the automations with n8n and Claude Code. The team on the call is the team writing the code — no handoff to a third party.",
+      "highlights": ["End-to-end workflow automation with n8n", "Custom AI agent development with Claude Code", "One team from first call to delivery"]
     },
     "offices": {
       "index": "03",
       "eyebrow": "Where",
-      "title": "Two offices, one team.",
+      "title": "One team.",
       "body": "We work remotely, but we're across the table when it matters."
     },
     "cta": {
@@ -585,6 +575,12 @@
       "eyebrow": "Contact",
       "title": "First call is free.\n30 minutes.",
       "lead": "Tell us what you want to do and we'll reply within one business day. Not a sales pitch — let's talk about what's possible and what isn't."
+    },
+    "calendar": {
+      "eyebrow": "Calendar",
+      "title": "Pick a time that works.",
+      "body": "If you'd rather skip the form, book a 30-minute call directly on the calendar below.",
+      "loading": "Loading calendar"
     },
     "form": {
       "name": "Your name",

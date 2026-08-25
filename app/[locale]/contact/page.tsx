@@ -9,6 +9,7 @@ import { AuraBackground } from '@/components/ui/aura-background';
 import { Section } from '@/components/ui/section';
 import { Reveal } from '@/components/motion/reveal';
 import { ContactForm } from '@/components/contact/contact-form';
+import { CalBooking } from '@/components/ui/cal-booking';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -59,6 +60,25 @@ function ContactContent() {
         tone="onDark"
         background={<AuraBackground />}
       />
+
+      {siteConfig.calCom && (
+        <Section rule={false} className="pt-0">
+          <div className="shell border-t border-rule pt-14 lg:pt-20">
+            <Reveal>
+              <p className="label mb-4">{t('calendar.eyebrow')}</p>
+              <h2 className="display-md font-display font-extrabold">
+                {t('calendar.title')}
+              </h2>
+              <p className="mt-4 max-w-xl text-base leading-relaxed text-muted">
+                {t('calendar.body')}
+              </p>
+            </Reveal>
+            <div className="mt-10">
+              <CalBooking loadingLabel={t('calendar.loading')} />
+            </div>
+          </div>
+        </Section>
+      )}
 
       <Section rule={false} className="pt-0">
         <div className="shell grid gap-14 border-t border-rule pt-14 lg:grid-cols-12 lg:gap-16 lg:pt-20">

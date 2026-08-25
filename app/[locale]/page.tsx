@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { Hero } from '@/components/sections/hero';
-import { StatsBar } from '@/components/sections/stats-bar';
 import { LogoMarquee } from '@/components/sections/logo-marquee';
 import { TwoTracks } from '@/components/sections/two-tracks';
 import { ServicesGrid } from '@/components/sections/services-grid';
@@ -42,7 +41,6 @@ export default async function HomePage({
   return (
     <>
       <Hero />
-      <StatsBar />
       <LogoMarquee />
       <TwoTracks />
       <ServicesGrid />

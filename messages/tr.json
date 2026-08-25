@@ -83,16 +83,6 @@
       "scroll": "Kaydırın"
     },
 
-    "stats": {
-      "eyebrow": "Rakamlarla",
-      "items": [
-        { "value": 60, "suffix": "+", "label": "Tamamlanmış proje" },
-        { "value": 1, "suffix": "–3 hafta", "label": "Ortalama teslim süresi" },
-        { "value": 1, "suffix": "", "label": "Ofis · İstanbul" },
-        { "value": 12, "suffix": " yıl", "label": "Birikmiş mühendislik deneyimi" }
-      ]
-    },
-
     "logos": {
       "eyebrow": "Birlikte çalıştığımız ekipler"
     },
@@ -234,7 +224,7 @@
         { "name": "Yusuf İbrahim Demir", "role": "Kurucu · Vortenxflow", "initials": "YD" },
         { "name": "Mirhan Karataş", "role": "Kurucu · Vortenxflow", "initials": "MK" }
       ],
-      "bio": "Bu alanı kendi bilgilerinizle doldurun: geçmiş deneyim, teslim edilen proje sayısı, uzmanlık alanları."
+      "bio": "Yusuf müşteriyle konuşur, süreci netleştirir; Mirhan otomasyonu n8n ve Claude Code ile kurar. Aynı iki kişi görüşmeden teslimata kadar projede kalır."
     },
 
     "blog": {
@@ -527,17 +517,17 @@
       "index": "02",
       "eyebrow": "Kurucular",
       "team": [
-        { "name": "Yusuf İbrahim Demir", "role": "Kurucu · Vortenxflow", "initials": "YD" },
-        { "name": "Mirhan Karataş", "role": "Kurucu · Vortenxflow", "initials": "MK" }
+        { "name": "Yusuf İbrahim Demir", "role": "Kurucu · Satış & Müşteri İlişkileri", "initials": "YD" },
+        { "name": "Mirhan Karataş", "role": "Kurucu · Teknik Kurulum & Otomasyon", "initials": "MK" }
       ],
       "quote": "Her projeyi kendimiz yürütüyoruz — ekibi biz seçeriz, takvimi biz sahipleniriz, her çalışma seansında bizzat biz bulunuruz.",
-      "bio": "Bu alanı kendi bilgilerinizle doldurun: geçmiş deneyim, teslim edilen proje sayısı, uzmanlık alanları, varsa ödüller ve önceki şirketler.",
-      "highlights": ["[Öne çıkan başarı 1]", "[Öne çıkan başarı 2]", "[Öne çıkan başarı 3]"]
+      "bio": "İş bölümümüz net: Yusuf müşteri görüşmelerini ve süreç analizini yürütür, Mirhan otomasyonları n8n ve Claude Code ile kurar. Görüşmeyi yapan ekiple kodu yazan ekip aynı — aradan üçüncü bir kişi geçmez.",
+      "highlights": ["n8n ile uçtan uca iş akışı otomasyonu", "Claude Code ile özel AI ajanı geliştirme", "İlk görüşmeden teslimata tek ekip"]
     },
     "offices": {
       "index": "03",
       "eyebrow": "Nerede",
-      "title": "İki ofis, tek ekip.",
+      "title": "Tek ekip.",
       "body": "Uzaktan çalışıyoruz ama gerektiğinde masanızın karşısındayız."
     },
     "cta": {
@@ -585,6 +575,12 @@
       "eyebrow": "İletişim",
       "title": "İlk görüşme ücretsiz.\n30 dakika.",
       "lead": "Ne yapmak istediğinizi yazın, 1 iş günü içinde dönüş yapalım. Satış konuşması değil — ne yapılabilir, ne yapılamaz konuşalım."
+    },
+    "calendar": {
+      "eyebrow": "Takvim",
+      "title": "Uygun bir saat seçin.",
+      "body": "Form doldurmak istemiyorsanız doğrudan takvimden 30 dakikalık bir görüşme ayarlayabilirsiniz.",
+      "loading": "Takvim yükleniyor"
     },
     "form": {
       "name": "Adınız",

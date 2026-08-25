@@ -11,8 +11,12 @@ export const siteConfig = {
   phone: '+90 501 048 80 80',
   whatsapp: '+905010488080',
 
-  // Görüşme takvimi. Calendly linkin varsa buraya yapıştır, buton otomatik aktifleşir.
-  calendly: '',
+  /**
+   * Görüşme takvimi. Cal.com kullanıcı adın/etkinlik linkin (ör. "yusuf-vortenxflow/30dk").
+   * cal.com'da ücretsiz hesap açıp bir etkinlik türü oluşturduktan sonra buraya yapıştır.
+   * Boş bırakırsan /contact sayfasında takvim widget'ı hiç çizilmez, sadece form görünür.
+   */
+  calCom: '',
 
   /**
    * Danışmanlık sayfasındaki 3B panelin Spline sahnesi.

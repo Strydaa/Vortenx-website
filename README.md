@@ -68,7 +68,6 @@ Site şu an gerçekçi ama **uydurma** verilerle dolu. Yayına almadan önce şu
 
 | Ne | Nerede |
 |---|---|
-| Kurucu biyografisi, öne çıkanlar (isim ve fotoğraflar gerçek: Yusuf İbrahim Demir, Mirhan Karataş) | `messages/*.json` → `home.founder`, `about.founder` |
 | RMD Kimya / Alestatrade vakaları gerçek müşteri, ama metrikler ("3 → 1", "Günler → Saatler") yönlü/temsili — gerçek rakam varsa değiştir | `messages/*.json` → `cases.items` |
 | İstatistikler (60+ proje, 12 yıl vb.) | `messages/*.json` → `home.stats.items` |
 | Müşteri logo şeridindeki isimler | `components/sections/logo-marquee.tsx` |
@@ -76,6 +75,7 @@ Site şu an gerçekçi ama **uydurma** verilerle dolu. Yayına almadan önce şu
 | Vaka kartlarındaki görsel yuvası — şu an soyut çizgi deseni (`bg-stripes`), gerçek fotoğraf/diyagram yok | `components/sections/case-cards.tsx`, `app/[locale]/cases/page.tsx`, `app/[locale]/cases/[slug]/page.tsx` |
 | Danışmanlık ve Endüstriler sayfalarındaki 3B robot sahnesi — şu anki değer **Spline'ın public demo robotu**, Vortenxflow'a ait değil, iki sayfada da aynı sahne kullanılıyor | `lib/site-config.ts` → `splineScene` |
 | Danışmanlık/Sistemler paket fiyatları ve süreleri şu an düşük, tanıtım amaçlı tutuldu (ör. $99-$999, 1-3 hafta) — gerçek maliyet yapınıza göre güncellemek isteyebilirsiniz | `messages/*.json` → `advisory.packages`, `advisory.short`, `systems.packages` |
+| `/contact` sayfasındaki takvim rezervasyonu — boş bırakılırsa hiç görünmez, sadece form kalır. [cal.com](https://cal.com)'da ücretsiz hesap açıp bir etkinlik türü oluşturun, event linkini (ör. `kullaniciadi/30dk`) buraya yapıştırın | `lib/site-config.ts` → `calCom` |
 
 Bu rakamlar Vortenxflow adına gerçek olmayan iddialar; kendi verilerinle değiştirilmeden yayına alınmamalı.
 
