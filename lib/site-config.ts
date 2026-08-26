@@ -16,7 +16,7 @@ export const siteConfig = {
    * cal.com'da ücretsiz hesap açıp bir etkinlik türü oluşturduktan sonra buraya yapıştır.
    * Boş bırakırsan /contact sayfasında takvim widget'ı hiç çizilmez, sadece form görünür.
    */
-  calCom: '',
+  calCom: 'yusuf-ibrahim-demir-ilkygg/30min',
 
   /**
    * Danışmanlık sayfasındaki 3B panelin Spline sahnesi.
