@@ -101,6 +101,9 @@ export function Footer() {
             >
               {siteConfig.email}
             </a>
+            <Link href="/policy" className="transition-colors duration-300 hover:text-signal">
+              {t('policyLink')}
+            </Link>
             <button
               type="button"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}

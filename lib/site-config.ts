@@ -7,7 +7,7 @@ export const siteConfig = {
   domain: 'vortenxflow.ai',
   url: process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000',
 
-  email: 'merhaba@vortenxflow.ai',
+  email: 'yusuf@vortenx.com',
   phone: '+90 501 048 80 80',
   whatsapp: '+905010488080',
 

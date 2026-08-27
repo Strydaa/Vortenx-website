@@ -40,6 +40,10 @@
       "title": "Cases — Vortenxflow",
       "description": "The automation systems we built for RMD Kimya and Alestatrade, and the results."
     },
+    "policy": {
+      "title": "Anti-Spam Policy — Vortenxflow",
+      "description": "vortenx.com's policy against unsolicited bulk or unsolicited commercial email, and its opt-out process."
+    },
     "about": {
       "title": "Culture — Vortenxflow",
       "description": "How we work, what we believe and who we work with."
@@ -535,6 +539,21 @@
       "body": "The first assessment call is free. 30 minutes, and it isn't a sales pitch.",
       "cta": "Get in touch"
     }
+  },
+
+  "policy": {
+    "hero": {
+      "eyebrow": "Policy",
+      "title": "We don't send unsolicited messages.",
+      "lead": "Vortenxflow does not permit advertising vortenx.com via unsolicited bulk or unsolicited commercial email. This page explains the rules we follow in our outbound communication."
+    },
+    "body": "Vortenxflow does not permit advertising of vortenx.com via unsolicited bulk or unsolicited commercial email (UCE) by our own team, affiliates, or any third party.",
+    "points": [
+      "Every outbound message referencing vortenx.com includes a clear opt-out / unsubscribe instruction.",
+      "Any recipient request to stop contact is honored immediately, and that address is not contacted again.",
+      "We do not buy or rent address lists; people we contact are identified through public business information or their own opt-in."
+    ],
+    "contactLabel": "If a message from us bothered you, or you'd like to opt out, write to the address below — your request is handled immediately."
   },
 
   "blog": {
@@ -1088,6 +1107,7 @@
     "rights": "All rights reserved.",
     "privacy": "Privacy",
     "terms": "Terms",
+    "policyLink": "Policy",
     "backToTop": "Top"
   },
 

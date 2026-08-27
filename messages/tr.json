@@ -44,6 +44,10 @@
       "title": "Kültür — Vortenxflow",
       "description": "Nasıl çalıştığımız, neye inandığımız ve kimlerle çalıştığımız."
     },
+    "policy": {
+      "title": "İstenmeyen Mesaj Politikası — Vortenxflow",
+      "description": "vortenx.com'un izinsiz toplu veya izinsiz ticari e-posta göndermeme politikası ve opt-out süreci."
+    },
     "blog": {
       "title": "Blog — Vortenxflow",
       "description": "Otomasyon, AI ajanları ve operasyon verimliliği üzerine yazılar."
@@ -535,6 +539,21 @@
       "body": "İlk değerlendirme görüşmesi ücretsiz. 30 dakika, satış konuşması değil.",
       "cta": "İletişime geçin"
     }
+  },
+
+  "policy": {
+    "hero": {
+      "eyebrow": "Politika",
+      "title": "İstenmeyen mesaj göndermiyoruz.",
+      "lead": "Vortenxflow, vortenx.com'un reklamının izinsiz toplu veya izinsiz ticari e-posta ile yapılmasına izin vermez. Bu sayfa, giden iletişimimizde uyduğumuz kuralları açıklar."
+    },
+    "body": "Vortenxflow; vortenx.com'un kendi ekibimiz, iş ortaklarımız veya herhangi bir üçüncü taraf aracılığıyla izinsiz toplu ya da izinsiz ticari e-posta (UCE) ile reklamının yapılmasına izin vermez.",
+    "points": [
+      "vortenx.com'a atıfta bulunan her giden mesajda net bir opt-out / abonelikten çıkma talimatı bulunur.",
+      "Bir alıcının iletişimi durdurma talebi derhal uygulanır ve o adres bir daha aranmaz.",
+      "Adres listeleri satın alınmaz veya kiralanmaz; iletişim kurduğumuz kişiler kamuya açık iş bilgileri veya kendi izinleriyle belirlenir."
+    ],
+    "contactLabel": "Bir mesajdan rahatsız olduysanız veya listeden çıkmak istiyorsanız aşağıdaki adrese yazın — talebiniz derhal işleme alınır."
   },
 
   "blog": {
@@ -1088,6 +1107,7 @@
     "rights": "Tüm hakları saklıdır.",
     "privacy": "Gizlilik",
     "terms": "Koşullar",
+    "policyLink": "Politika",
     "backToTop": "Yukarı"
   },
 
