@@ -3,7 +3,7 @@
  * Sitedeki metinler için messages/tr.json ve messages/en.json dosyalarına bak.
  */
 export const siteConfig = {
-  name: 'Vortenxflow',
+  name: 'Vortenx',
   domain: 'vortenxflow.ai',
   url: process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000',
 
@@ -20,7 +20,7 @@ export const siteConfig = {
 
   /**
    * Danışmanlık sayfasındaki 3B panelin Spline sahnesi.
-   * DİKKAT: Şu anki değer Spline'ın herkese açık demo sahnesi — Vortenxflow'a ait değil.
+   * DİKKAT: Şu anki değer Spline'ın herkese açık demo sahnesi — Vortenx'e ait değil.
    * spline.design'da kendi sahneni yapıp "Export → Code Export" ile aldığın
    * .splinecode URL'sini buraya yapıştır. Boş bırakırsan panel hiç çizilmez.
    */
@@ -28,13 +28,39 @@ export const siteConfig = {
 
   offices: [{ city: 'İstanbul', coords: '41.0082° N, 28.9784° E' }],
 
+  /**
+   * Yasal/iletişim posta adresi (footer, privacy, terms, cold-email opt-out
+   * uyumluluğu için gerekli). Bina no ve posta kodu henüz eksik — kullanıcı
+   * sağladığında `building` ve `postalCode` alanlarını doldur.
+   */
+  address: {
+    street: 'Beyaz Yelken Sokak',
+    building: '',
+    district: 'Üsküdar',
+    city: 'İstanbul',
+    postalCode: '',
+    country: 'Türkiye',
+  },
+
   social: {
-    linkedin: 'https://linkedin.com/company/vortenxflow',
-    x: 'https://x.com/vortenxflow',
-    github: 'https://github.com/vortenxflow',
-    instagram: 'https://instagram.com/vortenxflow',
+    linkedin: 'https://linkedin.com/company/vortenx',
+    x: 'https://x.com/vortenx',
+    github: 'https://github.com/vortenx',
+    instagram: 'https://instagram.com/vortenx',
   },
 } as const;
+
+/** Adresi tek satırlık gösterim metnine çevirir, doldurulmamış alanları atlar. */
+export function formatAddress(address: typeof siteConfig.address): string {
+  const { street, building, district, city, postalCode, country } = address;
+  return [
+    [street, building].filter(Boolean).join(' '),
+    [postalCode, district].filter(Boolean).join(' '),
+    [city, country].filter(Boolean).join(', '),
+  ]
+    .filter(Boolean)
+    .join(', ');
+}
 
 /** Header ve footer navigasyonu. href'ler locale önekini next-intl'den alır. */
 export const navLinks = [

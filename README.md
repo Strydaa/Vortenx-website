@@ -1,4 +1,4 @@
-# Vortenxflow — Çift Dilli Funnel Web Sitesi
+# Vortenx — Çift Dilli Funnel Web Sitesi
 
 Otomasyon, AI sistemleri ve web kurulumu satan bir ajans sitesi. Türkçe ve İngilizce tek sitede, header'daki `TR / EN` butonuyla geçiş yapılır.
 
@@ -33,7 +33,7 @@ npm run dev                    # http://localhost:3000
 |---|---|---|
 | `RESEND_API_KEY` | İletişim formunun mail göndermesi | [resend.com](https://resend.com) → API Keys (ücretsiz 3.000 mail/ay) |
 | `CONTACT_TO_EMAIL` | Form taleplerinin düşeceği adres | Kendi e-postan |
-| `CONTACT_FROM_EMAIL` | Gönderen adresi | Domain doğrulayana kadar `Vortenxflow <onboarding@resend.dev>` |
+| `CONTACT_FROM_EMAIL` | Gönderen adresi | Domain doğrulayana kadar `Vortenx <onboarding@resend.dev>` |
 | `GEMINI_API_KEY` | Sitedeki AI sohbet botu (ücretsiz kota) | [aistudio.google.com/apikey](https://aistudio.google.com/apikey) |
 | `NEXT_PUBLIC_SITE_URL` | Canonical / sitemap / OG adresleri | Canlıda `https://alanadin.com` |
 
@@ -73,11 +73,11 @@ Site şu an gerçekçi ama **uydurma** verilerle dolu. Yayına almadan önce şu
 | Müşteri logo şeridindeki isimler | `components/sections/logo-marquee.tsx` |
 | E-posta, telefon, sosyal medya, ofisler | `lib/site-config.ts` |
 | Vaka kartlarındaki görsel yuvası — şu an soyut çizgi deseni (`bg-stripes`), gerçek fotoğraf/diyagram yok | `components/sections/case-cards.tsx`, `app/[locale]/cases/page.tsx`, `app/[locale]/cases/[slug]/page.tsx` |
-| Danışmanlık ve Endüstriler sayfalarındaki 3B robot sahnesi — şu anki değer **Spline'ın public demo robotu**, Vortenxflow'a ait değil, iki sayfada da aynı sahne kullanılıyor | `lib/site-config.ts` → `splineScene` |
+| Danışmanlık ve Endüstriler sayfalarındaki 3B robot sahnesi — şu anki değer **Spline'ın public demo robotu**, Vortenx'e ait değil, iki sayfada da aynı sahne kullanılıyor | `lib/site-config.ts` → `splineScene` |
 | Danışmanlık/Sistemler paket fiyatları ve süreleri şu an düşük, tanıtım amaçlı tutuldu (ör. $99-$999, 1-3 hafta) — gerçek maliyet yapınıza göre güncellemek isteyebilirsiniz | `messages/*.json` → `advisory.packages`, `advisory.short`, `systems.packages` |
 | `/contact` sayfasındaki takvim rezervasyonu — boş bırakılırsa hiç görünmez, sadece form kalır. [cal.com](https://cal.com)'da ücretsiz hesap açıp bir etkinlik türü oluşturun, event linkini (ör. `kullaniciadi/30dk`) buraya yapıştırın | `lib/site-config.ts` → `calCom` |
 
-Bu rakamlar Vortenxflow adına gerçek olmayan iddialar; kendi verilerinle değiştirilmeden yayına alınmamalı.
+Bu rakamlar Vortenx adına gerçek olmayan iddialar; kendi verilerinle değiştirilmeden yayına alınmamalı.
 
 ---
 
@@ -133,7 +133,7 @@ Renkler, tipografi ölçeği ve animasyon zamanlaması `app/globals.css` içinde
 
 ## Sohbet Botu
 
-`app/api/chat/route.ts` — Gemini ile streaming yanıt. System prompt içinde Vortenxflow'un hizmetleri, süreci ve kuralları var: fiyat vermez, uydurma müşteri/vaka anlatmaz, konu dışına çıkmaz.
+`app/api/chat/route.ts` — Gemini ile streaming yanıt. System prompt içinde Vortenx'in hizmetleri, süreci ve kuralları var: fiyat vermez, uydurma müşteri/vaka anlatmaz, konu dışına çıkmaz.
 
 **Modeli değiştirmek** (maliyet için): dosyanın başındaki tek satır —
 
@@ -153,7 +153,7 @@ Koruma: IP başına dakikada 8 istek, mesaj başına 2000 karakter, konuşma ba�
 4. `NEXT_PUBLIC_SITE_URL`'i gerçek alan adın yap
 5. Deploy
 
-Resend'de kendi alan adını doğrulayıp `CONTACT_FROM_EMAIL`'i `Vortenxflow <merhaba@alanadin.com>` yapmayı unutma — `onboarding@resend.dev` sadece test içindir.
+Resend'de kendi alan adını doğrulayıp `CONTACT_FROM_EMAIL`'i `Vortenx <merhaba@alanadin.com>` yapmayı unutma — `onboarding@resend.dev` sadece test içindir.
 
 ---
 

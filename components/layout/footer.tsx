@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { siteConfig } from '@/lib/site-config';
+import { siteConfig, formatAddress } from '@/lib/site-config';
 import { Marquee } from '@/components/motion/marquee';
 
 export function Footer() {
@@ -38,7 +38,7 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-4">
             <div className="font-display text-xl font-extrabold tracking-[-0.04em]">
-              Vortenxflow
+              Vortenx
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
               {t('tagline')}
@@ -47,6 +47,9 @@ export function Footer() {
               <span className="live-dot" aria-hidden />
               <span>{siteConfig.offices.map((o) => o.city).join(' · ')}</span>
             </div>
+            <p className="mt-3 max-w-xs text-xs leading-relaxed text-muted/70">
+              {formatAddress(siteConfig.address)}
+            </p>
           </div>
 
           <div className="md:col-span-8 grid grid-cols-2 gap-8 lg:grid-cols-4">
@@ -92,7 +95,7 @@ export function Footer() {
 
         <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-rule pt-8 sm:flex-row sm:items-center">
           <p className="label">
-            © {year} Vortenxflow. {t('rights')}
+            © {year} Vortenx. {t('rights')}
           </p>
           <div className="label flex items-center gap-6">
             <a
@@ -101,6 +104,12 @@ export function Footer() {
             >
               {siteConfig.email}
             </a>
+            <Link href="/privacy" className="transition-colors duration-300 hover:text-signal">
+              {t('privacy')}
+            </Link>
+            <Link href="/terms" className="transition-colors duration-300 hover:text-signal">
+              {t('terms')}
+            </Link>
             <Link href="/policy" className="transition-colors duration-300 hover:text-signal">
               {t('policyLink')}
             </Link>

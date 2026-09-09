@@ -2,15 +2,17 @@
 
 import { useLocale, useTranslations } from 'next-intl';
 import { useState } from 'react';
+import { useRouter } from '@/i18n/navigation';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
-type Status = 'idle' | 'sending' | 'success' | 'error' | 'notConfigured';
+type Status = 'idle' | 'sending' | 'error' | 'notConfigured';
 type Errors = Partial<Record<'name' | 'email' | 'message', string>>;
 
 export function ContactForm() {
   const t = useTranslations('contact.form');
   const locale = useLocale() as 'tr' | 'en';
+  const router = useRouter();
 
   const [status, setStatus] = useState<Status>('idle');
   const [errors, setErrors] = useState<Errors>({});
@@ -60,24 +62,10 @@ export function ContactForm() {
       if (!res.ok) return setStatus('error');
 
       form.reset();
-      setStatus('success');
+      router.push('/thank-you');
     } catch {
       setStatus('error');
     }
-  }
-
-  if (status === 'success') {
-    return (
-      <div className="card crosshair p-8 md:p-10">
-        <span className="live-dot" aria-hidden />
-        <h2 className="mt-5 font-display text-2xl font-bold tracking-[-0.03em]">
-          {t('successTitle')}
-        </h2>
-        <p className="mt-3 max-w-md text-sm leading-relaxed text-muted">
-          {t('successBody')}
-        </p>
-      </div>
-    );
   }
 
   return (

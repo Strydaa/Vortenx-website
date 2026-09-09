@@ -1,60 +1,72 @@
 {
   "meta": {
     "home": {
-      "title": "Vortenxflow — Otomasyon ve AI sistemleri kuruyoruz",
+      "title": "Vortenx — Otomasyon ve AI sistemleri kuruyoruz",
       "description": "Şirketinizi büyüten AI ajanlarını ve otomasyon sistemlerini kuruyoruz. Strateji ve uygulama, tek ekipten. 1-3 haftada canlıya."
     },
     "advisory": {
-      "title": "Danışmanlık — Vortenxflow",
+      "title": "Danışmanlık — Vortenx",
       "description": "1-3 haftalık sabit kapsamlı strateji paketleri. Süreç envanteri, AI değer analizi ve uygulanabilir yol haritası."
     },
     "systems": {
-      "title": "Sistemler — Vortenxflow",
+      "title": "Sistemler — Vortenx",
       "description": "Üretime hazır AI ajanları ve otomasyon sistemleri. 6 hazır paket ve tamamen özel kurulumlar."
     },
     "programs": {
-      "title": "Programlar — Vortenxflow",
+      "title": "Programlar — Vortenx",
       "description": "Gerçek sistemleri canlıya alan kohort programları. 4-6 hafta, ekibinizle birlikte."
     },
     "kurumIci": {
-      "title": "Kurum İçi — Vortenxflow",
+      "title": "Kurum İçi — Vortenx",
       "description": "Kurum içi yapay zeka eğitimleri ve dönüşüm danışmanlığı. AI Okur Yazarlığı ve Şirket Doktoru."
     },
     "aiLiteracy": {
-      "title": "Yapay Zeka Okur Yazarlığı — Vortenxflow",
+      "title": "Yapay Zeka Okur Yazarlığı — Vortenx",
       "description": "Yedi modüllük müfredat, role özel oyun kitapları ve KVKK / EU AI Act uyum bloğu."
     },
     "companyDoctor": {
-      "title": "Şirket Doktoru — Vortenxflow",
+      "title": "Şirket Doktoru — Vortenx",
       "description": "Teşhis, reçete, tedavi, takip. Şirket geneli AI dönüşümü için dört aşamalı program."
     },
     "presentations": {
-      "title": "Sunumlar — Vortenxflow",
+      "title": "Sunumlar — Vortenx",
       "description": "Toplantıda göstermek ve paylaşmak için hazır sunum desteleri."
     },
     "industries": {
-      "title": "Endüstriler — Vortenxflow",
+      "title": "Endüstriler — Vortenx",
       "description": "Dokuz sektör için otomasyon uygulamaları: e-ticaret, sağlık, finans, üretim, lojistik ve daha fazlası."
     },
     "cases": {
-      "title": "Vakalar — Vortenxflow",
+      "title": "Vakalar — Vortenx",
       "description": "RMD Kimya ve Alestatrade için kurduğumuz otomasyon sistemleri ve sonuçları."
     },
     "about": {
-      "title": "Kültür — Vortenxflow",
+      "title": "Kültür — Vortenx",
       "description": "Nasıl çalıştığımız, neye inandığımız ve kimlerle çalıştığımız."
     },
     "policy": {
-      "title": "İstenmeyen Mesaj Politikası — Vortenxflow",
+      "title": "İstenmeyen Mesaj Politikası — Vortenx",
       "description": "vortenx.com'un izinsiz toplu veya izinsiz ticari e-posta göndermeme politikası ve opt-out süreci."
     },
     "blog": {
-      "title": "Blog — Vortenxflow",
+      "title": "Blog — Vortenx",
       "description": "Otomasyon, AI ajanları ve operasyon verimliliği üzerine yazılar."
     },
     "contact": {
-      "title": "İletişim — Vortenxflow",
+      "title": "İletişim — Vortenx",
       "description": "İlk değerlendirme görüşmesi ücretsiz. 30 dakika."
+    },
+    "thankYou": {
+      "title": "Teşekkürler — Vortenx",
+      "description": "Mesajınız ulaştı, en kısa sürede dönüş yapacağız."
+    },
+    "privacy": {
+      "title": "Gizlilik Politikası — Vortenx",
+      "description": "Hangi verileri topladığımız, neden topladığımız ve haklarınız."
+    },
+    "terms": {
+      "title": "Kullanım Koşulları — Vortenx",
+      "description": "vortenx.com'u ve Vortenx hizmetlerini kullanım şartları."
     }
   },
 
@@ -170,9 +182,9 @@
     "comparison": {
       "index": "04",
       "eyebrow": "Karşılaştırma",
-      "title": "Neden Vortenxflow?",
+      "title": "Neden Vortenx?",
       "description": "Aynı işi başka şekillerde de çözebilirsiniz. Farkın nerede olduğunu açıkça yazalım.",
-      "columns": ["Vortenxflow", "Freelancer", "Büyük ajans", "İç ekip", "Kendin yap"],
+      "columns": ["Vortenx", "Freelancer", "Büyük ajans", "İç ekip", "Kendin yap"],
       "rows": [
         { "criterion": "Kıdemli danışman erişimi", "values": [true, false, true, false, false] },
         { "criterion": "Uygulama ekibi", "values": [true, true, true, true, false] },
@@ -225,8 +237,8 @@
       "title": "Projeyi satan kişiler,\nprojeyi yürüten kişiler.",
       "quote": "Her projeyi kendimiz yürütüyoruz — ekibi biz seçeriz, takvimi biz sahipleniriz, her çalışma seansında bizzat biz bulunuruz. Devredilen proje yok.",
       "team": [
-        { "name": "Yusuf İbrahim Demir", "role": "Kurucu · Vortenxflow", "initials": "YD" },
-        { "name": "Mirhan Karataş", "role": "Kurucu · Vortenxflow", "initials": "MK" }
+        { "name": "Yusuf İbrahim Demir", "role": "Kurucu · Vortenx", "initials": "YD" },
+        { "name": "Mirhan Karataş", "role": "Kurucu · Vortenx", "initials": "MK" }
       ],
       "bio": "Yusuf müşteriyle konuşur, süreci netleştirir; Mirhan otomasyonu n8n ve Claude Code ile kurar. Aynı iki kişi görüşmeden teslimata kadar projede kalır."
     },
@@ -504,7 +516,7 @@
     "hero": {
       "eyebrow": "Kültür",
       "title": "Küçük ekip,\nbüyük sorumluluk.",
-      "lead": "Vortenxflow; otomasyon, AI sistemleri ve web kurulumu üzerine çalışan bir uygulama ekibidir. Satan kişi ile yapan kişi aynıdır."
+      "lead": "Vortenx; otomasyon, AI sistemleri ve web kurulumu üzerine çalışan bir uygulama ekibidir. Satan kişi ile yapan kişi aynıdır."
     },
     "values": {
       "index": "01",
@@ -545,15 +557,111 @@
     "hero": {
       "eyebrow": "Politika",
       "title": "İstenmeyen mesaj göndermiyoruz.",
-      "lead": "Vortenxflow, vortenx.com'un reklamının izinsiz toplu veya izinsiz ticari e-posta ile yapılmasına izin vermez. Bu sayfa, giden iletişimimizde uyduğumuz kuralları açıklar."
+      "lead": "Vortenx, vortenx.com'un reklamının izinsiz toplu veya izinsiz ticari e-posta ile yapılmasına izin vermez. Bu sayfa, giden iletişimimizde uyduğumuz kuralları açıklar."
     },
-    "body": "Vortenxflow; vortenx.com'un kendi ekibimiz, iş ortaklarımız veya herhangi bir üçüncü taraf aracılığıyla izinsiz toplu ya da izinsiz ticari e-posta (UCE) ile reklamının yapılmasına izin vermez.",
+    "body": "Vortenx; vortenx.com'un kendi ekibimiz, iş ortaklarımız veya herhangi bir üçüncü taraf aracılığıyla izinsiz toplu ya da izinsiz ticari e-posta (UCE) ile reklamının yapılmasına izin vermez.",
     "points": [
       "vortenx.com'a atıfta bulunan her giden mesajda net bir opt-out / abonelikten çıkma talimatı bulunur.",
       "Bir alıcının iletişimi durdurma talebi derhal uygulanır ve o adres bir daha aranmaz.",
       "Adres listeleri satın alınmaz veya kiralanmaz; iletişim kurduğumuz kişiler kamuya açık iş bilgileri veya kendi izinleriyle belirlenir."
     ],
     "contactLabel": "Bir mesajdan rahatsız olduysanız veya listeden çıkmak istiyorsanız aşağıdaki adrese yazın — talebiniz derhal işleme alınır."
+  },
+
+  "thankYou": {
+    "title": "Mesajınız ulaştı.",
+    "body": "1 iş günü içinde dönüş yapacağız. Acele bir konuysa doğrudan arayabilirsiniz.",
+    "cta": "Ana sayfaya dön"
+  },
+
+  "privacy": {
+    "hero": {
+      "eyebrow": "Gizlilik",
+      "title": "Verilerinizi nasıl işliyoruz.",
+      "lead": "Bu sayfa, vortenx.com üzerinden bizimle iletişime geçtiğinizde hangi verileri topladığımızı, neden topladığımızı ve haklarınızı açıklar."
+    },
+    "sections": [
+      {
+        "title": "Topladığımız veriler",
+        "body": "İletişim formunu doldurduğunuzda sadece kendi paylaştığınız bilgileri alıyoruz:",
+        "points": [
+          "Ad soyad, e-posta adresi",
+          "Şirket adı (isteğe bağlı)",
+          "Bütçe ve konu seçimi (isteğe bağlı)",
+          "Yazdığınız mesaj"
+        ]
+      },
+      {
+        "title": "Site trafiği verisi",
+        "body": "Siteyi kimlerin ziyaret ettiğini anlamak için Vercel Web Analytics kullanıyoruz. Bu servis çerez kullanmaz, kişileri tek tek takip etmez — sadece toplu/anonim sayfa görüntüleme istatistikleri üretir."
+      },
+      {
+        "title": "Verileri nasıl kullanıyoruz",
+        "body": "İletişim formuyla gönderdiğiniz bilgileri yalnızca talebinize dönüş yapmak için kullanırız. Pazarlama listesine otomatik eklenmezsiniz."
+      },
+      {
+        "title": "Üçüncü taraflarla paylaşım",
+        "body": "Verileriniz satılmaz veya kiralanmaz. Sitenin çalışması için sınırlı sayıda alt yüklenici kullanıyoruz: barındırma için Vercel, e-posta iletimi için Resend/Amazon SES. Bu sağlayıcılar veriyi yalnızca bize hizmet sağlamak için işler."
+      },
+      {
+        "title": "Çerezler",
+        "body": "Site, dil tercihinizi hatırlamak için tek bir teknik/zorunlu çerez (NEXT_LOCALE) kullanır. Reklam veya takip amaçlı çerez kullanılmaz."
+      },
+      {
+        "title": "Saklama süresi",
+        "body": "İletişim formu üzerinden gönderdiğiniz mesajlar, talebiniz sonuçlanana kadar ve makul bir süre boyunca (yasal/operasyonel ihtiyaç kalmayana dek) saklanır; sonrasında silinir."
+      },
+      {
+        "title": "Haklarınız",
+        "body": "KVKK (Türkiye) ve GDPR (AB) kapsamında verilerinize erişme, düzeltme, silme ve işlemeye itiraz etme hakkınız var. Bu haklarınızı kullanmak için aşağıdaki adrese yazmanız yeterli.",
+        "points": [
+          "Hangi verilerin işlendiğini öğrenme",
+          "Yanlış verilerin düzeltilmesini isteme",
+          "Verilerin silinmesini talep etme",
+          "İşlemeye itiraz etme"
+        ]
+      }
+    ],
+    "contactLabel": "Verilerinizle ilgili bir soru ya da talebiniz varsa aşağıdaki adrese yazın."
+  },
+
+  "terms": {
+    "hero": {
+      "eyebrow": "Koşullar",
+      "title": "Kullanım koşulları.",
+      "lead": "vortenx.com'u ve Vortenx hizmetlerini kullanarak aşağıdaki şartları kabul etmiş olursunuz."
+    },
+    "sections": [
+      {
+        "title": "Hizmet tanımı",
+        "body": "Vortenx; işletmelere danışmanlık, otomasyon ve yapay zeka destekli sistem kurulumu hizmeti sunan bir marka/şahıs girişimidir. Bu site, hizmetleri tanıtmak ve iletişim kurmak için hazırlanmıştır."
+      },
+      {
+        "title": "Sözleşme ve ödeme",
+        "body": "Sitedeki bilgiler bağlayıcı bir teklif değildir. Kapsam, teslim tarihi ve ödeme şartları, her proje için ayrıca yapılan yazılı anlaşmayla belirlenir."
+      },
+      {
+        "title": "Fikri mülkiyet",
+        "body": "Bu sitenin tasarımı, metinleri ve görselleri Vortenx'e aittir; izinsiz kopyalanamaz veya yeniden yayınlanamaz. Müşteriler için üretilen proje teslimatlarının mülkiyeti, ilgili proje sözleşmesinde ayrıca belirlenir."
+      },
+      {
+        "title": "Sorumluluk sınırlaması",
+        "body": "Site içeriği bilgilendirme amaçlıdır; sonuç garantisi teşkil etmez. Vortenx, sitenin kullanımından doğabilecek dolaylı zararlardan sorumlu tutulamaz."
+      },
+      {
+        "title": "Kabul edilebilir kullanım",
+        "body": "Siteyi veya sohbet asistanını kötüye kullanmak, otomatik veri toplamak (scraping) ya da sistemleri aşırı yüklemek amacıyla kullanmak yasaktır."
+      },
+      {
+        "title": "Yetkili hukuk",
+        "body": "Bu koşullar Türkiye Cumhuriyeti hukukuna tabidir; uyuşmazlıklarda İstanbul (Üsküdar) mahkemeleri ve icra daireleri yetkilidir."
+      },
+      {
+        "title": "Değişiklikler",
+        "body": "Bu koşullar zaman zaman güncellenebilir. Güncel sürüm her zaman bu sayfada yayınlanır."
+      }
+    ],
+    "contactLabel": "Bu koşullarla ilgili sorularınız için aşağıdaki adrese yazabilirsiniz."
   },
 
   "blog": {
@@ -617,8 +725,6 @@
       "messagePlaceholder": "Hangi süreci iyileştirmek istiyorsunuz? Bugün nasıl yürüyor?",
       "submit": "Gönder",
       "submitting": "Gönderiliyor…",
-      "successTitle": "Mesajınız ulaştı.",
-      "successBody": "1 iş günü içinde dönüş yapacağız. Acele bir konuysa doğrudan arayabilirsiniz.",
       "errorTitle": "Gönderilemedi.",
       "errorBody": "Bir sorun oluştu. Lütfen tekrar deneyin ya da doğrudan e-posta gönderin.",
       "notConfiguredTitle": "Form henüz bağlanmadı.",
@@ -1006,7 +1112,7 @@
       "slidesLabel": "slayt",
       "soonLabel": "Yakında",
       "items": [
-        { "code": "01", "title": "Genel Tanıtım", "body": "Biz kimiz, neden Vortenxflow, iki hizmet hattı, uygulama alanları ve paket yapısı.", "slides": 13 },
+        { "code": "01", "title": "Genel Tanıtım", "body": "Biz kimiz, neden Vortenx, iki hizmet hattı, uygulama alanları ve paket yapısı.", "slides": 13 },
         { "code": "02", "title": "Dijital Dönüşüm Programı", "body": "Üst segment dönüşüm programı: mentorluk, kurumsal kurgu ve tam prodüksiyon.", "slides": 11 },
         { "code": "03", "title": "Yapay Zeka Okur Yazarlığı", "body": "Formatlar, yedi modüllük müfredat, çıktılar ve senaryo örnekleri.", "slides": 7 },
         { "code": "04", "title": "Şirket Doktoru", "body": "Dört aşamalı dönüşüm çerçevesi, kapsam, çıktılar ve eğitmen kadrosu.", "slides": 7 },
@@ -1112,18 +1218,18 @@
   },
 
   "intro": {
-    "label": "Vortenxflow açılış ekranı",
+    "label": "Vortenx açılış ekranı",
     "skip": "Atla"
   },
 
   "chat": {
-    "open": "Vortenxflow'a sorun",
+    "open": "Vortenx'e sorun",
     "close": "Sohbeti kapat",
-    "title": "Vortenxflow Asistanı",
+    "title": "Vortenx Asistanı",
     "subtitle": "Hizmetler ve süreç hakkında sorun",
     "placeholder": "Sorunuzu yazın…",
     "send": "Gönder",
-    "greeting": "Merhaba. Vortenxflow'un hizmetleri, süreci ve fiyatlandırması hakkında sorularınızı yanıtlayabilirim. Ne yapmak istiyorsunuz?",
+    "greeting": "Merhaba. Vortenx'in hizmetleri, süreci ve fiyatlandırması hakkında sorularınızı yanıtlayabilirim. Ne yapmak istiyorsunuz?",
     "notConfigured": "Sohbet asistanı henüz yapılandırılmamış. Sorularınız için iletişim formunu kullanabilirsiniz.",
     "error": "Bir sorun oluştu. Lütfen tekrar deneyin.",
     "disclaimer": "AI tarafından üretilir. Teklif niteliği taşımaz."
@@ -1133,5 +1239,16 @@
     "title": "Sayfa bulunamadı",
     "body": "Aradığınız sayfa taşınmış ya da hiç var olmamış olabilir.",
     "cta": "Ana sayfaya dön"
+  },
+
+  "error": {
+    "title": "Bir şeyler ters gitti",
+    "body": "Beklenmedik bir hata oluştu. Sayfayı yeniden yüklemeyi deneyin, sorun devam ederse bize ulaşın.",
+    "retry": "Tekrar dene",
+    "home": "Ana sayfaya dön"
+  },
+
+  "a11y": {
+    "skipToContent": "İçeriğe geç"
   }
 }

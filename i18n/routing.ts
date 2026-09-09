@@ -9,4 +9,5 @@ export const routing = defineRouting({
   // Her zaman /tr veya /en öneki kullan — leftflow.ai ile aynı URL yapısı.
   localePrefix: 'always',
   localeDetection: true,
+  localeCookie: { sameSite: 'lax', secure: true },
 });

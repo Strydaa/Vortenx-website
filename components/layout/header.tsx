@@ -78,10 +78,10 @@ export function Header() {
             scrolled ? 'h-14' : 'h-20',
           )}
         >
-          <Link href="/" className="group flex items-center gap-2.5" aria-label="Vortenxflow">
+          <Link href="/" className="group flex items-center gap-2.5" aria-label="Vortenx">
             <Logomark />
             <span className="font-display text-[1.05rem] font-extrabold tracking-[-0.04em]">
-              Vortenxflow
+              Vortenx
             </span>
           </Link>
 
@@ -196,6 +196,22 @@ export function Header() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Sabit alt CTA. Masaüstü CTA'sı xl altında gizlendiği ve mobil menü
+          kapalıyken erişilemez olduğu için — scroll sırasında her zaman görünür kalır. */}
+      {!open && (
+        <div
+          className="fixed inset-x-0 bottom-0 z-[60] border-t border-rule bg-ink xl:hidden"
+          style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
+        >
+          <Link
+            href="/contact"
+            className="flex h-14 items-center justify-center gap-2 font-mono text-[0.72rem] uppercase tracking-[0.13em] text-paper transition-colors duration-300 active:bg-signal active:text-[color:var(--signal-ink)]"
+          >
+            {t('cta')} →
+          </Link>
+        </div>
+      )}
     </>
   );
 }

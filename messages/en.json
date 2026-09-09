@@ -1,60 +1,72 @@
 {
   "meta": {
     "home": {
-      "title": "Vortenxflow — We build automation and AI systems",
+      "title": "Vortenx — We build automation and AI systems",
       "description": "We build the AI agents and automation systems that grow your company. Strategy and execution from one team. Live in 1–3 weeks."
     },
     "advisory": {
-      "title": "Advisory — Vortenxflow",
+      "title": "Advisory — Vortenx",
       "description": "1-3 week fixed-scope strategy packages. Process inventory, AI value analysis and an actionable roadmap."
     },
     "systems": {
-      "title": "Systems — Vortenxflow",
+      "title": "Systems — Vortenx",
       "description": "Production-ready AI agents and automation systems. Six ready-made packages plus fully custom builds."
     },
     "programs": {
-      "title": "Programs — Vortenxflow",
+      "title": "Programs — Vortenx",
       "description": "Cohort programs that ship real systems. Four to six weeks, working alongside your team."
     },
     "kurumIci": {
-      "title": "In-House — Vortenxflow",
+      "title": "In-House — Vortenx",
       "description": "In-house AI training and transformation consulting. AI Literacy and Company Doctor."
     },
     "aiLiteracy": {
-      "title": "AI Literacy — Vortenxflow",
+      "title": "AI Literacy — Vortenx",
       "description": "A seven-module curriculum, role-specific playbooks and a GDPR / EU AI Act compliance module."
     },
     "companyDoctor": {
-      "title": "Company Doctor — Vortenxflow",
+      "title": "Company Doctor — Vortenx",
       "description": "Diagnosis, prescription, treatment, follow-up. A four-stage program for company-wide AI transformation."
     },
     "presentations": {
-      "title": "Presentations — Vortenxflow",
+      "title": "Presentations — Vortenx",
       "description": "Slide decks ready to present in a meeting and share afterwards."
     },
     "industries": {
-      "title": "Industries — Vortenxflow",
+      "title": "Industries — Vortenx",
       "description": "Automation applied across nine industries: e-commerce, healthcare, finance, manufacturing, logistics and more."
     },
     "cases": {
-      "title": "Cases — Vortenxflow",
+      "title": "Cases — Vortenx",
       "description": "The automation systems we built for RMD Kimya and Alestatrade, and the results."
     },
     "policy": {
-      "title": "Anti-Spam Policy — Vortenxflow",
+      "title": "Anti-Spam Policy — Vortenx",
       "description": "vortenx.com's policy against unsolicited bulk or unsolicited commercial email, and its opt-out process."
     },
     "about": {
-      "title": "Culture — Vortenxflow",
+      "title": "Culture — Vortenx",
       "description": "How we work, what we believe and who we work with."
     },
     "blog": {
-      "title": "Blog — Vortenxflow",
+      "title": "Blog — Vortenx",
       "description": "Notes on automation, AI agents and operational efficiency."
     },
     "contact": {
-      "title": "Contact — Vortenxflow",
+      "title": "Contact — Vortenx",
       "description": "The first assessment call is free. 30 minutes."
+    },
+    "thankYou": {
+      "title": "Thank you — Vortenx",
+      "description": "Your message landed, we'll get back to you shortly."
+    },
+    "privacy": {
+      "title": "Privacy Policy — Vortenx",
+      "description": "What data we collect, why we collect it, and your rights."
+    },
+    "terms": {
+      "title": "Terms of Use — Vortenx",
+      "description": "Terms for using vortenx.com and Vortenx services."
     }
   },
 
@@ -170,9 +182,9 @@
     "comparison": {
       "index": "04",
       "eyebrow": "Comparison",
-      "title": "Why Vortenxflow?",
+      "title": "Why Vortenx?",
       "description": "There are other ways to solve this. Here is exactly where the difference sits.",
-      "columns": ["Vortenxflow", "Freelancer", "Large agency", "In-house", "DIY"],
+      "columns": ["Vortenx", "Freelancer", "Large agency", "In-house", "DIY"],
       "rows": [
         { "criterion": "Access to senior advisors", "values": [true, false, true, false, false] },
         { "criterion": "Implementation team", "values": [true, true, true, true, false] },
@@ -225,8 +237,8 @@
       "title": "The people who sell it\nare the people who run it.",
       "quote": "We run every project ourselves — we pick the team, own the timeline, and sit in every working session. Nothing gets handed off.",
       "team": [
-        { "name": "Yusuf İbrahim Demir", "role": "Founder · Vortenxflow", "initials": "YD" },
-        { "name": "Mirhan Karataş", "role": "Founder · Vortenxflow", "initials": "MK" }
+        { "name": "Yusuf İbrahim Demir", "role": "Founder · Vortenx", "initials": "YD" },
+        { "name": "Mirhan Karataş", "role": "Founder · Vortenx", "initials": "MK" }
       ],
       "bio": "Yusuf talks to the client and scopes the process; Mirhan builds the automation with n8n and Claude Code. The same two people stay on the project from the first call to delivery."
     },
@@ -504,7 +516,7 @@
     "hero": {
       "eyebrow": "Culture",
       "title": "Small team,\nlarge responsibility.",
-      "lead": "Vortenxflow is an implementation team working on automation, AI systems and web builds. The person who sells it is the person who builds it."
+      "lead": "Vortenx is an implementation team working on automation, AI systems and web builds. The person who sells it is the person who builds it."
     },
     "values": {
       "index": "01",
@@ -545,15 +557,111 @@
     "hero": {
       "eyebrow": "Policy",
       "title": "We don't send unsolicited messages.",
-      "lead": "Vortenxflow does not permit advertising vortenx.com via unsolicited bulk or unsolicited commercial email. This page explains the rules we follow in our outbound communication."
+      "lead": "Vortenx does not permit advertising vortenx.com via unsolicited bulk or unsolicited commercial email. This page explains the rules we follow in our outbound communication."
     },
-    "body": "Vortenxflow does not permit advertising of vortenx.com via unsolicited bulk or unsolicited commercial email (UCE) by our own team, affiliates, or any third party.",
+    "body": "Vortenx does not permit advertising of vortenx.com via unsolicited bulk or unsolicited commercial email (UCE) by our own team, affiliates, or any third party.",
     "points": [
       "Every outbound message referencing vortenx.com includes a clear opt-out / unsubscribe instruction.",
       "Any recipient request to stop contact is honored immediately, and that address is not contacted again.",
       "We do not buy or rent address lists; people we contact are identified through public business information or their own opt-in."
     ],
     "contactLabel": "If a message from us bothered you, or you'd like to opt out, write to the address below — your request is handled immediately."
+  },
+
+  "thankYou": {
+    "title": "Your message landed.",
+    "body": "We'll get back to you within one business day. If it's urgent, feel free to call.",
+    "cta": "Back to homepage"
+  },
+
+  "privacy": {
+    "hero": {
+      "eyebrow": "Privacy",
+      "title": "How we handle your data.",
+      "lead": "This page explains what data we collect when you contact us through vortenx.com, why we collect it, and your rights."
+    },
+    "sections": [
+      {
+        "title": "Data we collect",
+        "body": "When you fill out our contact form, we only receive what you choose to share:",
+        "points": [
+          "Full name, email address",
+          "Company name (optional)",
+          "Budget and topic selection (optional)",
+          "The message you write"
+        ]
+      },
+      {
+        "title": "Site traffic data",
+        "body": "We use Vercel Web Analytics to understand who visits the site. This service is cookie-free and doesn't track individuals — it only produces aggregate, anonymous pageview statistics."
+      },
+      {
+        "title": "How we use your data",
+        "body": "Information submitted through the contact form is used only to respond to your inquiry. You are not automatically added to a marketing list."
+      },
+      {
+        "title": "Sharing with third parties",
+        "body": "Your data is never sold or rented. We use a small number of subprocessors to run the site: Vercel for hosting, Resend/Amazon SES for email delivery. These providers process data only to deliver services to us."
+      },
+      {
+        "title": "Cookies",
+        "body": "The site uses a single technical/strictly-necessary cookie (NEXT_LOCALE) to remember your language preference. No advertising or tracking cookies are used."
+      },
+      {
+        "title": "Retention",
+        "body": "Messages submitted through the contact form are kept until your inquiry is resolved and for a reasonable period after (as long as there's a legal or operational need), then deleted."
+      },
+      {
+        "title": "Your rights",
+        "body": "Under KVKK (Türkiye) and GDPR (EU) you have the right to access, correct, delete, and object to the processing of your data. Write to the address below to exercise these rights.",
+        "points": [
+          "Learn what data is being processed",
+          "Request correction of inaccurate data",
+          "Request deletion of your data",
+          "Object to processing"
+        ]
+      }
+    ],
+    "contactLabel": "If you have a question or request about your data, write to the address below."
+  },
+
+  "terms": {
+    "hero": {
+      "eyebrow": "Terms",
+      "title": "Terms of use.",
+      "lead": "By using vortenx.com and Vortenx services, you agree to the terms below."
+    },
+    "sections": [
+      {
+        "title": "Service description",
+        "body": "Vortenx is a brand/sole proprietorship offering advisory, automation, and AI-powered systems for businesses. This site exists to present the services and enable contact."
+      },
+      {
+        "title": "Agreement and payment",
+        "body": "Information on this site is not a binding offer. Scope, timeline, and payment terms are set out separately in a written agreement for each project."
+      },
+      {
+        "title": "Intellectual property",
+        "body": "This site's design, copy, and visuals belong to Vortenx and may not be copied or republished without permission. Ownership of project deliverables built for clients is set out separately in the relevant project agreement."
+      },
+      {
+        "title": "Limitation of liability",
+        "body": "Site content is for informational purposes and does not constitute a guarantee of results. Vortenx is not liable for indirect damages arising from use of the site."
+      },
+      {
+        "title": "Acceptable use",
+        "body": "Misusing the site or chat assistant, automated scraping, or attempting to overload our systems is prohibited."
+      },
+      {
+        "title": "Governing law",
+        "body": "These terms are governed by the laws of the Republic of Türkiye; the courts and enforcement offices of Istanbul (Üsküdar) have jurisdiction over any dispute."
+      },
+      {
+        "title": "Changes",
+        "body": "These terms may be updated from time to time. The current version is always published on this page."
+      }
+    ],
+    "contactLabel": "For questions about these terms, write to the address below."
   },
 
   "blog": {
@@ -617,8 +725,6 @@
       "messagePlaceholder": "Which process do you want to improve? How does it run today?",
       "submit": "Send",
       "submitting": "Sending…",
-      "successTitle": "Your message landed.",
-      "successBody": "We'll get back to you within one business day. If it's urgent, feel free to call.",
       "errorTitle": "Couldn't send.",
       "errorBody": "Something went wrong. Please try again or email us directly.",
       "notConfiguredTitle": "The form isn't connected yet.",
@@ -1006,7 +1112,7 @@
       "slidesLabel": "slides",
       "soonLabel": "Soon",
       "items": [
-        { "code": "01", "title": "General Introduction", "body": "Who we are, why Vortenxflow, the two service lines, applications and package structure.", "slides": 13 },
+        { "code": "01", "title": "General Introduction", "body": "Who we are, why Vortenx, the two service lines, applications and package structure.", "slides": 13 },
         { "code": "02", "title": "Digital Transformation Program", "body": "The premium transformation program: mentoring, corporate setup and full production.", "slides": 11 },
         { "code": "03", "title": "AI Literacy", "body": "Formats, the seven-module curriculum, outputs and scenario examples.", "slides": 7 },
         { "code": "04", "title": "Company Doctor", "body": "The four-stage transformation framework, scope, outputs and the trainer pair.", "slides": 7 },
@@ -1112,18 +1218,18 @@
   },
 
   "intro": {
-    "label": "Vortenxflow intro screen",
+    "label": "Vortenx intro screen",
     "skip": "Skip"
   },
 
   "chat": {
-    "open": "Ask Vortenxflow",
+    "open": "Ask Vortenx",
     "close": "Close chat",
-    "title": "Vortenxflow Assistant",
+    "title": "Vortenx Assistant",
     "subtitle": "Ask about services and process",
     "placeholder": "Type your question…",
     "send": "Send",
-    "greeting": "Hi. I can answer questions about Vortenxflow's services, process and pricing. What are you trying to do?",
+    "greeting": "Hi. I can answer questions about Vortenx's services, process and pricing. What are you trying to do?",
     "notConfigured": "The chat assistant isn't configured yet. Please use the contact form for your questions.",
     "error": "Something went wrong. Please try again.",
     "disclaimer": "AI-generated. Not a binding quote."
@@ -1133,5 +1239,16 @@
     "title": "Page not found",
     "body": "The page you're looking for may have moved, or may never have existed.",
     "cta": "Back to home"
+  },
+
+  "error": {
+    "title": "Something went wrong",
+    "body": "An unexpected error occurred. Try reloading the page, and reach out if the problem persists.",
+    "retry": "Try again",
+    "home": "Back to home"
+  },
+
+  "a11y": {
+    "skipToContent": "Skip to content"
   }
 }

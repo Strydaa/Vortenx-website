@@ -18,6 +18,8 @@ const paths = [
   '/blog',
   '/about',
   '/contact',
+  '/privacy',
+  '/terms',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

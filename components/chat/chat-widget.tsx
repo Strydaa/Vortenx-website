@@ -103,7 +103,7 @@ export function ChatWidget() {
         aria-expanded={open}
         aria-label={open ? t('close') : t('open')}
         className={cn(
-          'fixed bottom-5 right-5 z-[70] flex h-12 items-center gap-2.5 border border-ink/15 bg-ink px-4 font-mono text-[0.68rem] uppercase tracking-[0.13em] text-paper shadow-lg transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:bg-signal hover:text-[color:var(--signal-ink)] md:bottom-7 md:right-7',
+          'fixed bottom-20 right-5 z-[70] flex h-12 items-center gap-2.5 border border-ink/15 bg-ink px-4 font-mono text-[0.68rem] uppercase tracking-[0.13em] text-paper shadow-lg transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:bg-signal hover:text-[color:var(--signal-ink)] xl:bottom-7 xl:right-7',
           open && 'pointer-events-none opacity-0',
         )}
       >
@@ -120,7 +120,7 @@ export function ChatWidget() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={reduced ? { opacity: 0 } : { opacity: 0, y: 16, scale: 0.98 }}
             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-            className="fixed inset-x-3 bottom-3 z-[70] flex max-h-[min(34rem,80vh)] flex-col border border-rule bg-surface shadow-2xl sm:inset-x-auto sm:right-7 sm:bottom-7 sm:w-[24rem]"
+            className="fixed inset-x-3 bottom-20 z-[70] flex max-h-[min(34rem,80vh)] flex-col border border-rule bg-surface shadow-2xl sm:inset-x-auto sm:right-7 sm:bottom-20 sm:w-[24rem] xl:bottom-7"
           >
             {/* Başlık */}
             <div className="flex items-start justify-between border-b border-rule px-4 py-3.5">

@@ -4,7 +4,9 @@ import { notFound } from 'next/navigation';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/next';
 import { AuraBackground } from '@/components/ui/aura-background';
+import { OrganizationSchema } from '@/components/seo/organization-schema';
 
 import { routing } from '@/i18n/routing';
 import { fontVariables } from '@/lib/fonts';
@@ -73,7 +75,14 @@ export async function generateMetadata({
       description: t('description'),
       images: ['/images/og.jpg'],
     },
-    icons: { icon: '/favicon.svg' },
+    icons: {
+      icon: [
+        { url: '/favicon.svg', type: 'image/svg+xml' },
+        { url: '/icon.png', sizes: '512x512', type: 'image/png' },
+      ],
+      apple: '/apple-icon.png',
+    },
+    manifest: '/site.webmanifest',
   };
 }
 
@@ -89,9 +98,18 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
 
+  const t = await getTranslations({ locale, namespace: 'a11y' });
+
   return (
     <html lang={locale} suppressHydrationWarning className={fontVariables}>
       <body className="grain antialiased">
+        <a
+          href="#content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[10001] focus:bg-ink focus:px-5 focus:py-3 focus:text-sm focus:text-paper"
+        >
+          {t('skipToContent')}
+        </a>
+        <OrganizationSchema />
         {/* Site geneli düşük yoğunluklu atmosfer katmanı. Animasyonlu hero'ların
             arkasında (-z-10, opak) kaybolur; sadece düz içerik bölümlerinde görünür. */}
         <AuraBackground ambient className="fixed inset-0 -z-20" />
@@ -110,6 +128,7 @@ export default async function LocaleLayout({
           </NextIntlClientProvider>
         </ThemeProvider>
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );

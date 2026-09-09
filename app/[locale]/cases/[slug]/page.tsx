@@ -49,7 +49,7 @@ export async function generateMetadata({
   if (!item) return {};
 
   return {
-    title: `${item.client} — ${item.headline} | Vortenxflow`,
+    title: `${item.client} — ${item.headline} | Vortenx`,
     description: item.summary,
     alternates: {
       canonical: `/${locale}/cases/${slug}`,
