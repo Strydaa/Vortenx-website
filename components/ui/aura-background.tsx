@@ -3,8 +3,7 @@ import { cn } from '@/lib/utils';
 /*
  * "Crimson Veil" aura — katmanlı mix-blend-mode gradyanlarıyla atmosferik
  * arka plan. Statik (canvas/WebGL yok, requestAnimationFrame yok) — bu
- * yüzden "animasyonlu olmayan yerler" için uygun, GPU/CPU maliyeti sıfıra
- * yakın.
+ * yüzden "animasyonlu olmayan yerler" için uygun.
  *
  * Taban rengi ayrı bir global `body` kuralı yerine bileşenin kendi ilk
  * katmanı: sitenin `--paper` token'ı zaten koyu temada spesifikasyondaki
@@ -12,10 +11,17 @@ import { cn } from '@/lib/utils';
  * modu temaya göre değişiyor — spesifikasyonun kendi dönüşüm tablosu:
  * koyu temada hard-light/soft-light, açık temada ikisi de multiply
  * (aksi halde açık zeminde renk "yıkanıp" kayboluyor).
+ *
+ * İki gradyan katmanı (`public/images/aura-layer-1/2.webp`), aynı sabit
+ * renk geçişinin `sharp` ile önceden blur uygulanmış (sigma 45/63, CSS'teki
+ * eski blur-[90px]/blur-[126px] karşılığı) WebP çıktısı — canlı
+ * `filter: blur(...)` her sayfada tam ekran boyutunda, her boyama turunda
+ * yeniden hesaplanan pahalı bir işlemdi (Lighthouse'ta mobilde Style &
+ * Layout/Rendering'in büyük kısmı buradan geliyordu). Sabit bir gradyanı
+ * her ziyaretçinin cihazında yeniden bulanıklaştırmak yerine bir kere
+ * üretip statik görsel olarak sunuyoruz; mix-blend-mode + opacity
+ * (tema/ambient mantığı) aynen çalışmaya devam ediyor.
  */
-
-const GRADIENT =
-  'linear-gradient(rgba(0,0,0,0) 0%, rgba(220,38,38,0.9) 40%, rgb(255,255,255) 70%, rgb(251,146,60) 82%, rgb(250,204,21) 100%)';
 
 type Props = {
   className?: string;
@@ -32,18 +38,24 @@ export function AuraBackground({ className, ambient = false }: Props) {
       <div
         className={cn(
           'absolute inset-0 mix-blend-multiply dark:mix-blend-hard-light',
-          'blur-[63px] md:blur-[90px]',
           'pointer-events-none [transform:translateZ(0)] [will-change:transform]',
         )}
-        style={{ background: GRADIENT, opacity: ambient ? 0.15 : 0.6 }}
+        style={{
+          backgroundImage: "url('/images/aura-layer-1.webp')",
+          backgroundSize: '100% 100%',
+          opacity: ambient ? 0.15 : 0.6,
+        }}
       />
       <div
         className={cn(
           'absolute inset-0 mix-blend-multiply dark:mix-blend-soft-light',
-          'blur-[88px] md:blur-[126px]',
           'pointer-events-none [transform:translateZ(0)] [will-change:transform]',
         )}
-        style={{ background: GRADIENT, opacity: ambient ? 0.22 : 0.9 }}
+        style={{
+          backgroundImage: "url('/images/aura-layer-2.webp')",
+          backgroundSize: '100% 100%',
+          opacity: ambient ? 0.22 : 0.9,
+        }}
       />
     </div>
   );

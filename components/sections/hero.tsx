@@ -2,23 +2,12 @@
 
 import { useTranslations } from 'next-intl';
 import { motion, useReducedMotion, useScroll, useTransform } from 'motion/react';
-import dynamic from 'next/dynamic';
 import { useRef } from 'react';
 import { TextReveal } from '@/components/motion/text-reveal';
 import { Reveal } from '@/components/motion/reveal';
 import { Magnetic } from '@/components/motion/magnetic';
 import { ButtonLink } from '@/components/ui/button';
 import { siteConfig } from '@/lib/site-config';
-
-/*
- * three + @react-three/fiber + drei toplamda ~700 KB. Hero sayfanın ilk
- * ekranı olduğu için sunucuda hiç render edilmiyor (WebGL zaten tarayıcı
- * API'si) ve ana paketten ayrı bir chunk olarak, hidrasyondan sonra iniyor.
- */
-const LunarGravity = dynamic(
-  () => import('@/components/ui/lunar-gravity').then((m) => m.LunarGravity),
-  { ssr: false },
-);
 
 export function Hero() {
   const t = useTranslations('home.hero');
@@ -48,14 +37,26 @@ export function Hero() {
       <div className="bg-grid absolute inset-0" aria-hidden />
 
       {/*
-        Ay sahnesi. Sürüklenebilmesi gerektiği için `pointer-events-none`
-        YOK — üstündeki metin katmanı geçirgen, tıklamalar buraya iniyor.
-        Dokunmatikte devre dışı: OrbitControls tek parmak sürüklemeyi
-        yakalıyor, o da hero'da sayfayı kaydırmayı imkânsız kılardı.
+        Ay sahnesi — önceden Three.js/WebGL ile canlı render ediliyordu
+        (~700 KB kütüphane + throttled mobilde saniyeler süren ana thread
+        bloğu, bkz. Lighthouse ölçümleri). Sahne artık sabit bir video loop;
+        video decode donanım hızlandırmalı olduğu için ana thread'e neredeyse
+        hiç yük bindirmiyor — hem mobilde hem masaüstünde gösterilebiliyor.
+        Artık interaktif olmadığı için pointer-events-none: tıklamalar
+        üstündeki metin katmanına geçiyor.
       */}
       {!reduced && (
-        <div className="absolute inset-y-0 right-0 w-full opacity-65 lg:w-[72%] lg:opacity-100 [@media(pointer:coarse)]:pointer-events-none">
-          <LunarGravity className="h-full w-full" />
+        <div className="absolute inset-y-0 right-0 w-full opacity-65 lg:w-[72%] lg:opacity-100 pointer-events-none">
+          <video
+            className="h-full w-full object-cover"
+            src="/videos/lunar-loop.mp4"
+            poster="/images/lunar-poster.jpg"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+          />
         </div>
       )}
 
