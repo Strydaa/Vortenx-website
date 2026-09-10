@@ -38,7 +38,7 @@ export function ComparisonTable() {
                     scope="col"
                     className={cn(
                       'pb-4 pr-4 font-mono text-[0.7rem] uppercase tracking-[0.12em]',
-                      i === 0 ? 'text-signal' : 'font-normal text-muted',
+                      i === 0 ? 'text-ink' : 'font-normal text-muted',
                     )}
                   >
                     {col}

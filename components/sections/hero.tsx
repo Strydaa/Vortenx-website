@@ -46,7 +46,10 @@ export function Hero() {
         üstündeki metin katmanına geçiyor.
       */}
       {!reduced && (
-        <div className="absolute inset-y-0 right-0 w-full opacity-65 lg:w-[72%] lg:opacity-100 pointer-events-none">
+        <div
+          aria-hidden
+          className="absolute inset-y-0 right-0 w-full opacity-65 lg:w-[72%] lg:opacity-100 pointer-events-none"
+        >
           <video
             className="h-full w-full object-cover"
             src="/videos/lunar-loop.mp4"

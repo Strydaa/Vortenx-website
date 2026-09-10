@@ -29,7 +29,7 @@ export function Footer() {
             className="font-display text-[clamp(2.5rem,7vw,5.5rem)] font-extrabold tracking-[-0.05em] text-ink/[0.07]"
             aria-hidden
           >
-            VORTENXFLOW · OTOMASYON · AI SYSTEMS · WEB · VORTENXFLOW · AUTOMATION ·&nbsp;
+            VORTENX · OTOMASYON · AI SYSTEMS · WEB · VORTENX · AUTOMATION ·&nbsp;
           </span>
         </Marquee>
       </div>
@@ -47,7 +47,7 @@ export function Footer() {
               <span className="live-dot" aria-hidden />
               <span>{siteConfig.offices.map((o) => o.city).join(' · ')}</span>
             </div>
-            <p className="mt-3 max-w-xs text-xs leading-relaxed text-muted/70">
+            <p className="mt-3 max-w-xs text-xs leading-relaxed text-muted">
               {formatAddress(siteConfig.address)}
             </p>
           </div>

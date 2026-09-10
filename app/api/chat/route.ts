@@ -34,7 +34,7 @@ function systemPrompt(locale: 'tr' | 'en') {
 
 ${language}
 
-WHAT VORTENXFLOW OFFERS
+WHAT VORTENX OFFERS
 
 Two service lines:
 1. Advisory — 3-month fixed-scope strategy packages. Process inventory, AI opportunity mapping, an actionable roadmap and a board-ready presentation. Fixed scope, fixed price, no hourly billing.
