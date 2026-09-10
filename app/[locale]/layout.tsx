@@ -16,9 +16,8 @@ import { ThemeProvider } from '@/components/layout/theme-provider';
 import { LenisProvider } from '@/components/layout/lenis-provider';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
-import { ScrollProgress } from '@/components/motion/scroll-progress';
-import { ChatWidget } from '@/components/chat/chat-widget';
 import { IntroOverlay } from '@/components/layout/intro-overlay';
+import { DeferredWidgets } from '@/components/layout/deferred-widgets';
 
 /**
  * Açılış ekranını oturumda bir kez göstermek için. Boyamadan önce çalışır,
@@ -119,11 +118,10 @@ export default async function LocaleLayout({
             <LenisProvider>
               {/* Açılış ekranı. Kaldırmak için bu satırı silmek yeterli. */}
               <IntroOverlay />
-              <ScrollProgress />
               <Header />
               <main id="content">{children}</main>
               <Footer />
-              <ChatWidget />
+              <DeferredWidgets />
             </LenisProvider>
           </NextIntlClientProvider>
         </ThemeProvider>
